@@ -1,0 +1,1556 @@
+/* ==========================================================================
+   CSS Resets
+   ========================================================================== */
+	
+	/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+	
+	/* General Styles */
+	
+	*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+	body, html { font-size: 100%; padding: 0; margin: 0;}
+	
+	/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+	.clearfix:before, .clearfix:after { content: " "; display: table; }
+	.clearfix:after { clear: both; }
+
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+   
+	$pink: #FF3296;
+	$black: #302C2B;
+	$white: #fff;
+	$gray: #666;
+	$lightgray: #f8f8f8;
+	
+	//$caslon: "adobe-caslon-pro", Baskerville, "Times New Roman", Times, serif;
+	//$brandon: "Brandon Grotesque", Futura, Helvetica, sans-serif;
+	
+	$anglecia: "anglecia_pro_dspitalic", Baskerville, "Times New Roman", Times, serif;
+	$brandon: "Brandon Grotesque", Futura, Helvetica, sans-serif;
+	
+	
+/* ==========================================================================
+   Main Body Styles
+   ========================================================================== */
+
+   /* Selection */
+   ::selection { background: #add036; /* Safari */}
+   ::-moz-selection { background: #add036; /* Firefox */}
+
+	body {
+		font-family: $anglecia;
+		 letter-spacing: 1px;
+		 font-weight: 500;
+			 &:before, &:after {
+			 position: fixed;
+			 height: 15px;
+			 width: 100%;
+			 background: $teal;
+			 content: "\00a0";
+			 z-index: 999999;
+			 pointer-events: none;
+		 }
+		 &:before {
+			 top: 0;
+		 }
+		 &:after {
+			 bottom: 0;
+		 }
+	}
+	
+	* {
+		transition: all .3s;
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'anglecia_pro_dspitalic';
+	}
+	
+	h1{
+		color: $white;
+		font-size: 1.9em; /* 24px */
+		letter-spacing: 2px;
+	}
+	
+	h2{
+		 font-weight: 300;
+		 margin: 20px 0;
+		letter-spacing: 2px;
+		font-size: 1.1em;
+	}
+	
+	p{
+	
+		font-size: 1.1em; /* 18px */
+		line-height: 1.4em;
+		color: $white;
+		font-weight: 100;
+	}
+	
+	a {
+		color: $teal;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		color: $black;
+	}
+	
+	hr{
+		color: $white;
+		background-color: $white;
+		height: 4px;
+		padding: 0;
+		 border: none;
+	}
+	
+	/*Statement*/
+	
+	.statement{
+		background: $white;
+		color: $black;
+		padding: 50px 0 90px 0;
+		margin-bottom: 0;
+	}
+	
+	.statement h1{
+		color: $black;
+		padding-bottom: 15px;
+		border-bottom: 2px solid $black;
+	}
+	
+	.statement p{
+		color: $black;
+		padding: 15px 30px;
+	}
+	
+	.cursive{
+	  	font-family: "bistro-script-web",cursive;
+		font-size: 1.8em; /* 36px */
+		color: white;
+		margin: 0 0 0 0;
+	}
+	
+	.cursiveb{
+	  	font-family: "bistro-script-web",cursive;
+		font-size: 2.25em; /* 36px */
+		color: $teal;
+	}
+	
+	/*container*/
+	
+	.container > header {
+		padding: 2.875em 1.875em 1.875em;
+		position: fixed;
+		z-index: 1000;
+		width: 60%;
+		left: 20%;
+	}
+	
+	.container > header h1 {
+		font-size: 2.125em;
+		line-height: 1.3;
+		margin: 0;
+		float: left;
+		font-weight: 400;
+	}
+	
+	.container > header span {
+		display: block;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.5em;
+		padding: 0 0 0.6em 0.1em;
+	}
+	
+	.container > header nav {
+		float: right;
+	}
+	
+	.container > header nav a {
+		display: block;
+		float: left;
+		position: relative;
+		width: 2.5em;
+		height: 2.5em;
+		background: $white;
+		border-radius: 50%;
+		color: transparent;
+		margin: 0 0.1em;
+		border: 4px solid $white;
+		text-indent: -8000px;
+	}
+	
+	.container > header nav a:after {
+		content: attr(data-info);
+		color: $white;
+		position: absolute;
+		width: 600%;
+		top: 120%;
+		text-align: right;
+		right: 0;
+		opacity: 0;
+		pointer-events: none;
+	}
+	
+	.container > header nav a:hover:after {
+		opacity: 1;
+	}
+	
+	.container > header nav a:hover {
+		background: #47a3da;
+	}
+	
+	.arrowleft{
+		display: inline;
+		margin: 45px 10px -10px -5px;
+		
+	}
+	
+	/*//FLYOUT MENUS////*/
+	 
+	.infobtn {
+		z-index: 1004;
+		right: -7px;
+		top: 50%;
+		width: 38px;
+		float: right;
+		position: relative;
+		button:focus {
+			outline: none;
+		}
+	}
+	
+	
+	.infobtn button {
+		border: 5px solid $teal;
+		background: white;
+		color: black;
+		display: block;
+		width: 120px;
+		height: 54px;
+		cursor: pointer;
+		font-size: 12px;
+		-webkit-transform: rotate(-270deg); 
+		-moz-transform: rotate(-270deg);
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);	
+	}
+	
+	.infobtn button:hover {
+		background: $teal;
+		color:white;
+	}
+	
+	.infobtn button.active {
+		background: $teal;
+		border: 5px solid $teal;
+		color:white;
+	}
+	
+	.infobtn button.disabled {
+		background: $white;
+		pointer-events: none;
+	}
+	
+	.eventinfo{
+		padding: 4em 4em;
+		margin: 0 auto;
+		position: relative;
+		height: 100%;
+	}
+	
+	.eventSpace{
+		height: 100%;
+	}
+	
+	.eventSpace a{
+		color:$gray;
+		font-weight: 400;
+	}
+	
+	
+	.eventSpace h1{
+		font-size: 1.6em;
+		float: left;
+		display: inline-block;
+		margin: 0px 0px 0 0;
+		line-height: 2em;
+	}
+	
+	
+	.unionlogo{
+		z-index: 1004;
+		display: inline-block;
+		margin: 0 0 10px 0;
+		float:left;
+		border:none;
+	}
+	
+	.unionlogoMobile{
+		display: none;
+		}
+	
+	.unionphoto{
+		background-image: url('../img/unionpine.jpg');
+		background-size: cover;
+		clear: both;
+		height: 60%;
+		width: 100%;
+		z-index: 1006;
+		display: inline-block;
+		float: left;
+		border:none;
+		margin-left: 0;
+	}
+	
+	.eventData{
+		position: relative;
+		top: -30%;
+		margin: 0;
+		}
+	
+	.eventData h2{
+		font-size: 1.6em;
+		float: left;
+		display: inline-block;
+		line-height: 1.5em;
+	}
+	
+	.eventData p{
+		clear: both;
+		float: left;
+		max-width: 570px;
+	
+	}
+	
+	
+	
+	.unionmap{
+		position: relative;
+		top: 2%;
+		right: 5px;
+		 -moz-transition:all 0.14s ease 0s; 
+		-webkit-transition:all 0.14s ease 0s;	
+		-o-transition:all 0.14s ease 0s; 
+	}
+	
+	.unionmap:hover{
+		opacity: .7;
+		filter: alpha(opacity=70);
+	}	
+	
+	.gradbtn {
+		z-index: 1004;
+		left: -88px;
+		top: 50%;
+		width: 38px;
+		float: left;
+		position: relative;
+		button:focus {
+			outline: none;
+		}
+	}
+	
+	
+	.gradbtn button {
+		border: 5px solid $teal;
+		background: white;
+		color: black;
+		display: block;
+		width: 120px;
+		height: 54px;
+		cursor: pointer;
+		font-size: 12px;
+		-webkit-transform: rotate(-90deg); 
+		-moz-transform: rotate(-90deg);
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);	
+	}
+	
+	.gradbtn button:hover {
+		background: $teal;
+		color:white;
+	}
+	
+	.gradbtn button.active {
+		background: $teal;
+		border: 5px solid $teal;
+		color:white;
+	}
+	
+	.gradbtn button.disabled {
+		background: $white;
+		pointer-events: none;
+	}
+	
+	.faceblock{
+		float:left;
+		display:inline-block;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	
+	.faceblock h4{
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	
+	.profile_pic img{
+		width: 100%;
+		height: 100%;
+	}
+	
+	.profile_pic {
+		position: relative;
+		display: inline-block;
+		width: 200px;
+		height: 200px;
+		margin: 1.6em 1.6em;
+		-webkit-border-radius: 99em;
+		-moz-border-radius: 99em;
+		border-radius: 99em;
+		border: 12px solid $teal;
+		overflow: hidden;
+		float:left;
+		-moz-transition:all 0.14s ease 0s; 
+		-webkit-transition:all 0.14s ease 0s;	
+		-o-transition:all 0.14s ease 0s; 
+	
+	}
+	
+	.profilescroll{
+		overflow-y: scroll;
+		height: 93%;
+	}
+	
+	::-webkit-scrollbar-track {
+			background-color: #b46868;
+	} /* the new scrollbar will have a flat appearance with the set background color */
+	::-webkit-scrollbar-thumb {
+			background-color: rgba(0, 0, 0, 0.2);
+	} /* this will style the thumb, ignoring the track */
+	::-webkit-scrollbar-button {
+			background-color: #7c2929;
+	} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+	::-webkit-scrollbar-corner {
+			background-color: black;
+	} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+	
+	/*//TEXT LAYOUTS////*/
+	
+	.centercontent{
+		margin: 0px auto;
+		width: 50%;
+		display: block;
+		top:35%;
+		position:relative;
+	}
+	
+	.logomain{
+		display: block;
+		margin: 0 auto;
+		width: 560px;
+	}
+	
+	.slidetext1{
+		text-align: center;
+		font-size: 1.4em;
+	  	font-family: "brandon-grotesque",sans-serif;
+		display: block;
+		margin: 0 auto;
+	
+	
+	}
+	
+	.slidetext2{
+		text-align: center;
+		font-size: 1.4em;
+	  	font-family: "brandon-grotesque",sans-serif;
+		display: block;
+		margin: 0 auto;
+		text-shadow: 1px 1px 3px $teal;
+		filter: dropshadow(color=$teal, offx=1, offy=1);
+	
+	}
+	
+	.slidetext3{
+		text-align: center;
+		font-size: 1.4em;
+	  	font-family: "brandon-grotesque",sans-serif;
+		display: block;
+		margin: 0 auto;
+		text-shadow: 1px 1px 3px $teal;
+		filter: dropshadow(color=$teal, offx=1, offy=1);
+	}
+	
+	.slidetext4{
+		text-align: center;
+		font-size: 1.4em;
+	  	font-family: "brandon-grotesque",sans-serif;
+		display: block;
+		margin: 0 auto;
+		text-shadow: 1px 1px 3px $teal;
+		filter: dropshadow(color=$teal, offx=1, offy=1);
+	}
+	
+	/* PHOTO GRID STYLES */
+	
+	.thumbnailGrid{
+		position: relative;
+		background-color: $gray;
+	
+	}
+	
+	
+	.photoGrid{
+		background-color: #302C2B;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		position: relative;
+		width: 100%;
+	}
+	
+	.photoGrid li {
+		position: relative;
+		float: left;
+		overflow: hidden;
+		width: 25%;
+		opacity: 0.75;
+		overflow: hidden;
+	}
+	.photoGrid li:hover {
+		opacity: 1;
+		transition: 0.5s;
+	}
+	
+	.photoGrid a{
+		position: absolute;
+		top: 0;
+		display: block;
+		width: 100%;
+		height: 100%;
+		border: 8px solid rgba(255,0,0,0);
+		transition: all .5s;
+	}
+	
+	.photoGrid a:hover{ 
+		border: 8px solid $teal;
+	}
+	
+	.photoGrid li a div {
+		position: absolute;
+		bottom: -80px;
+		width: 100%;
+		height: 52px;
+		display: table-cell;
+		vertical-align: middle;
+		background: rgba(0,0,0,0.5);
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: flex;
+		-webkit-align-items: center;
+		-moz-align-items: center;
+		-ms-align-items: center;
+		 align-items: center;
+		 text-align: center;
+		 transition: all .3s;
+	}
+	
+	.photoGrid li a:hover div {
+		background: black; /* fallback */
+		background: rgba(0,0,0,0.8);
+		bottom: 0;
+		transition: all .3s;
+	}
+	
+	
+	.photoGrid li a div h3 {
+		width: 100%;
+		color: $white;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		padding: 10px;
+		}
+	
+	.photoGrid img{
+		max-height: 100%;
+		width: 100%;
+	}
+	
+	.photoGrid .photo{
+		width: 100%;
+		max-height: 100%;
+//		filter: grayscale(80%);
+//		-webkit-filter: grayscale(80%);
+//		-moz-filter: grayscale(80%);
+//		filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+		-webkit-transition: all 1s ease;
+		 -moz-transition: all 1s ease;
+		 -o-transition: all 1s ease;
+		 transition: all 1s ease;
+	
+	}
+	
+	.color{
+		filter: grayscale(0) !important;
+		-webkit-filter: grayscale(0) !important;
+		-moz-filter: grayscale(0) !important;
+		filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale") !important;
+	}
+	
+	.arrow_dn{
+		margin: 0 auto;
+		display: block;
+		border: 0px;
+	}
+	
+	/* PROFILE PAGES */
+	
+	.biobg{
+		background-color: $white;
+	}
+	
+	.topbar {
+		background-color: $white;
+		padding: 6px 0 0 0;
+		top: 15px;
+		z-index: 997;
+		height: 60px;
+		padding-top: 60px;
+		margin-left: 15px;
+	}
+	
+	.biosection{
+		margin: 60px 0 60px 0;
+	}
+	
+	.bio {
+		margin-top: 60px;
+		padding-bottom: 40px;
+		float: left;
+		max-width:800px;
+		color: #1A1A1A;
+	}
+	
+	.bio h1{
+		color: #1A1A1A;
+		padding-bottom: 20px;
+		letter-spacing: 10px;
+		font-weight: 900;
+	}
+	
+	.bio p{
+		color: #1A1A1A;
+		text-shadow: 0 0 10px $white;
+	}
+	
+	.logobar{
+		display: block;
+		margin: 0 auto;
+		min-width: 190px;
+	}
+	
+	.bioleft{
+		margin-top: 60px;
+		min-width: 260px;
+	}
+	
+	.bio_pic img{
+		width: 100%;
+		height: 100%;
+	}
+	
+	.bio_pic {
+		display: block;
+		  width: 220px;
+		  height: 220px;
+		  margin: 0 auto;
+		  -webkit-border-radius: 99em;
+		  -moz-border-radius: 99em;
+		  border-radius: 99em;
+		  border: 12px solid $teal;
+		  overflow: hidden;
+	}
+	
+	.website_btn{
+		font-family: $brandon;
+		height: 50px;
+		width: 175px;
+		background: $teal  13px 12px;
+		display: block;
+		margin: 1em auto;
+		padding: 18px 10px 10px 10px;
+		color:black;
+		text-align: center;
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		-moz-transition:all 0.14s ease 0s; 
+		-webkit-transition:all 0.14s ease 0s;	
+		-o-transition:all 0.14s ease 0s;
+	}
+	
+	.website_btn a{
+	
+		text-decoration: none;
+		color: white;
+	}
+	
+	.website_btn:hover{
+		background: gray;
+	
+	}
+	
+	.artwork {
+		padding: 20px 0px 0px 0px;
+		float: left;
+		width: 100%;
+		max-width:800px;
+	}
+	
+	
+	/* FOOTER STYLES */
+	
+	.footerBand{
+		background-color: $white;
+		margin: 0;
+		padding: 15px 0px 25px 0;
+	}
+	
+	.footerBand p{
+		font-size: 14px;
+		color: $black;
+		}
+	
+	.footerBand p a{
+		color: $gray;
+	}
+	
+	.footerBand p a:hover{
+		color: $teal;
+	}
+	
+	.footerBand p a:active{
+		color: $teal;
+	}
+	
+	.footer{
+		background: $white;
+		padding: 25px 0;
+		margin-bottom: 0;
+	}
+	
+	.footerBlurb{
+		font-size: 14px;
+		line-height: 150%;
+		color: $black;
+	}
+	
+	.footer a{
+		color: $teal;
+	}
+	
+	.footer a:hover{
+		color: $teal;
+	}
+	
+	.footer a:active{
+		color: $teal;
+	}
+	
+	.footerLogo{
+		border-right: 4px solid $teal;
+		margin-right: -2%;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	
+	.footer p{
+		line-height: 150%;
+		font-size: 14px;
+		/* margin-top: 10%; */
+	}
+	
+	.footer p img {
+		float: left;
+		margin-top: -8px;
+	}
+	
+	
+	.schoolLogos{
+		float: left;
+		margin-right: 5%;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	
+	.schoolLogos a.icon {
+		float: left;
+		margin-right: 1em;
+		margin-bottom: 1em;
+		min-height: 3em;
+	}
+	
+	.schoolLogos a img {
+		width: auto;
+	}
+	
+	.sponsors {
+		overflow: hidden;
+		padding-bottom: 25px;
+		text-align: center;
+		background: green;
+		text-transform: uppercase;
+	}
+	
+	.sponsors p {
+		color: $white;
+		font-family: $brandon;
+		font-weight: 500;
+		letter-spacing: 2px;
+	}
+	
+	.sponsors a {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 2em 1em 1em 0;
+	}
+	
+	
+	.fogd{
+		 -moz-transition:all 0.14s ease 0s; 
+		-webkit-transition:all 0.14s ease 0s;	
+		-o-transition:all 0.14s ease 0s; 
+	}
+	
+	.fogd:hover{
+		opacity: .5;
+		filter: alpha(opacity=50);
+	}
+	
+	.psugd{
+		 -moz-transition:all 0.14s ease 0s; 
+		-webkit-transition:all 0.14s ease 0s;	
+		-o-transition:all 0.14s ease 0s; 
+	}
+	
+	.psugd:hover{
+		opacity: .5;
+		filter: alpha(opacity=50);
+	}
+	
+	
+	
+	.ad{
+		 -moz-transition:all 0.14s ease 0s; 
+		-webkit-transition:all 0.14s ease 0s;	
+		-o-transition:all 0.14s ease 0s; 
+	}
+	
+	.ad:hover{
+		opacity: .5;
+		filter: alpha(opacity=50);
+	}
+	
+	.psu{
+		 -moz-transition:all 0.14s ease 0s; 
+		-webkit-transition:all 0.14s ease 0s;	
+		-o-transition:all 0.14s ease 0s; 
+	}
+	
+	.psu:hover{
+		opacity: .5;
+		filter: alpha(opacity=50);
+	}
+	
+	
+	
+	/* Common Classes */
+	
+	.clearfix:before, .clearfix:after {
+		 content: " "; 
+		 display: table;
+	}
+	.clearfix:after {
+		 clear: both;
+	}
+	.clearfix {
+		 *zoom: 1;
+	}
+	
+	
+	.clear {
+		clear: both;
+	}
+	
+	.left {
+		float: left;
+	}
+	
+	.right {
+		float: right;
+	}
+	
+	
+	.infofoot{
+		display:none;
+	}
+	
+	/***************************************** MEDIA QUERIES *******************************************/
+	
+	/*TABLET HORIZONTAL*/
+	@media screen and (max-width: 1190px) {
+		.photoGrid li {
+			width: 25%;
+		}
+		
+		
+		.photoGrid li a div{
+			opacity: 1;
+		}
+		
+		
+		.photoGrid li a div h3 {
+		width: 100%;
+		color: $white;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		padding: 10px;
+		background-color: rgba(145, 212, 217, 0.8);
+		}
+	
+		
+		
+		.photoGrid li a{
+		border: 8px solid $teal;
+		}
+		
+		
+		.unionphoto{
+		display: none;
+		}
+		
+		
+	
+	
+		.centercontent {
+			z-index: 1099;
+			top: 6%;
+			position: relative;
+			text-align: center;
+		}
+		
+	
+	
+	}
+	
+	
+	/*TABLET VERTICAL*/
+	@media screen and (max-width: 945px) {
+		.photoGrid li {
+			width: 33.3333333%;
+		}
+		
+		
+		.photoGrid li a div{
+			opacity: 1;
+		}
+		
+		
+		.photoGrid li a div h3 {
+		width: 100%;
+		color: $white;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		padding: 10px;
+		background-color: rgba(145, 212, 217, 0.8);
+		}
+	
+		
+		
+		.photoGrid li a{
+		border: 8px solid $teal;
+		}
+		
+		
+		.unionphoto{
+		display: none;
+		}
+	
+		
+		.centercontent {
+			z-index: 1099;
+			top: 5%;
+			position: relative;
+			text-align: center;
+		}
+		
+	
+		.infofoot{
+		display:block;
+		background-color: $teal;
+		}
+		
+		.eventinfo h1 {
+		font-size: 1.6em;
+		float: left;
+		display: inline-block;
+		margin: 0px 0px 0 0;
+		line-height: 2em;
+		}
+		
+		.eventinfo h2 {
+		font-size: 1.4em;
+		display: inline-block;
+		margin: -40px 20px 0 0;
+		line-height: 2em;
+		}
+		
+		.eventinfo p {
+			margin: 28px;
+		}
+		.eventinfo{
+			padding:5em 1em;
+			background-color: $teal;
+		}
+	
+	
+		#cbp-fbscroller nav{
+			display: none;
+		}
+		
+		#cbp-spmenu-s1{
+			display: none;
+		}
+		
+		#cbp-spmenu-s2{
+			display: none;
+		}
+	
+		
+		.slidetext1 h2{
+			font-size: 1em;
+		}
+		
+		.navButtonEvent{
+			display: block;
+		}
+		
+		.navButtonGrad{
+			display: block;
+		}
+	
+	}
+	
+	/*PHONE HORIZONTAL*/
+	@media screen and (max-width: 660px) {
+		.photoGrid li {
+			width: 33.3333333%;
+		}
+		
+		
+		.photoGrid li a div{
+			opacity: 1;
+		}
+		
+		
+		.photoGrid li a div h3 {
+		width: 100%;
+		color: $white;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		padding: 10px;
+		background-color: rgba(145, 212, 217, 0.8);
+		}
+	
+		
+		
+		.photoGrid li a{
+		border: 8px solid $teal;
+		}
+	
+		
+		.unionphoto{
+		display: none;
+		}
+		
+		.centercontent{
+			z-index: 1099;
+			top: 1%;
+			position: relative;
+			text-align: center;
+		}
+		
+		.centercontent h1{
+			font-size: 1.4em;
+		}
+		
+		.centercontent h2{
+			font-size: .9em;
+		}
+		
+		#cbp-fbscroller nav{
+			display: none;
+		}
+		
+	
+		.navButtonEvent{
+			display: block;
+		}
+		
+		.navButtonGrad{
+			display: block;
+		}
+		
+		
+		.infofoot{
+		display:block;
+		background-color: $teal;
+		}
+		
+		.eventinfo h1 {
+		font-size: 1.6em;
+		float: left;
+		display: inline-block;
+		margin: 0px 0px 0 0;
+		line-height: 2em;
+		}
+		
+		.eventinfo h2 {
+		font-size: 1.4em;
+		display: inline-block;
+		margin: -40px 20px 0 0;
+		line-height: 2em;
+		}
+		
+		.eventinfo p {
+			margin: 28px;
+		}
+		.eventinfo{
+			padding:5em 1em;
+		}
+	}
+	
+	
+	/*PHONE VERTICAL*/
+	@media screen and (max-width: 400px) {
+		.photoGrid li {
+			width: 50%;
+		}
+		
+		
+		.photoGrid li a div{
+			opacity: 1;
+		}
+		
+		
+		.photoGrid li a div h3 {
+		width: 100%;
+		color: $white;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		padding: 10px;
+		background-color: rgba(145, 212, 217, 0.8);
+		}
+	
+		
+		
+		.photoGrid li a{
+		border: 8px solid 91D4D9;
+		}
+		
+		
+		
+		.unionphoto{
+		display: none;
+		}
+		
+		.centercontent {
+			z-index: 1099;
+			top: 2%;
+			position: relative;
+			text-align: center;
+		}
+		
+		.centercontent h1{
+			font-size: 1.2em;
+		}
+		
+		.centercontent h2{
+			font-size: .9em;
+		}
+		
+		#cbp-fbscroller nav{
+			display: none;
+		}
+		
+		#cbp-spmenu-s1{
+			display: none;
+		}
+		
+		#cbp-spmenu-s2{
+			display: none;
+		}
+	
+		
+		.navButtonEvent{
+			display: block;
+		}
+		
+		.navButtonGrad{
+			display: block;
+		}
+		
+		
+		.infofoot{
+		display:block;
+		background-color: $teal;
+		}
+		
+		.eventinfo h1 {
+		font-size: 1.3em;
+		float: left;
+		display: inline-block;
+		margin: 0px 0px 0 0;
+		line-height: 2em;
+		}
+		
+		.eventinfo h2 {
+		font-size: 1.4em;
+		display: inline-block;
+		margin: -40px 20px 0 0;
+		line-height: 2em;
+		}
+		
+		.eventinfo p {
+			margin: 28px;
+		}
+		
+		.eventinfo{
+			padding:5em 1em;
+		}
+	}
+	
+	
+	/* Set all parents to full height */
+	html, body, 
+	.container,
+	.cbp-fbscroller,
+	.cbp-fbscroller section { 
+		height: 100%; 
+	}
+	
+	
+	/* The nav is fixed on the right side  and we center it by translating it 50% 
+	(we don't know it's height so we can't use the negative margin trick) */
+	.cbp-fbscroller > nav {
+		/*
+		position: fixed;
+		z-index: 999;
+		right: 100px;
+		top: 53%;
+		width: 26px;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		*/
+		display: none;
+	}
+	
+	.cbp-fbscroller > nav a {
+		display: block;
+		position: relative;
+		z-index: 9999;
+		color: transparent;
+		width: 22px;
+		height: 22px;
+		outline: none;
+		margin: 25px 10px;
+		border-radius: 50%;
+		border: 4px solid $teal;
+		background: $black;
+	}
+	
+	.no-touch .cbp-fbscroller > nav a:hover {
+		background: rgba(255,255,255,0.6);
+	}
+	
+	.cbp-fbscroller > nav a.cbp-fbcurrent {
+		background: $white;
+	}
+	
+	/* background-attachment does the trick */
+	.cbp-fbscroller section {
+		position: relative;
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	.no-touch .cbp-fbscroller section {
+		background-attachment: fixed;
+	}
+	
+	#fbsection1 {
+		border-bottom: 0px;
+		pointer-events: none;
+	}
+	
+	#fbsection2 {
+		background: $teal;
+		color: $white;
+		padding: 15px;
+		height: auto;
+		background-attachment: scroll;
+	}
+	
+	#fbsection3 {
+		background: $lightgray;
+		height: auto;
+		background-attachment: scroll;
+	}
+	
+	
+	/* General styles for all menus */
+	.cbp-spmenu {
+		position: fixed;
+		border:15px solid $teal;
+		background: $white;
+		font-family: $brandon;
+		transition: all 2px;
+		box-shadow: 0 0 0 rgb(255,255,255);
+		p {
+			font-family: $anglecia;
+			a {
+				color: $white;
+				text-decoration: underline;
+			}
+		}
+		h2 {
+			color: $white;
+		}
+	}
+	#cbp-spmenu-s1 {
+		background: $teal;
+		&.cbp-spmenu-open {
+			box-shadow: 0 15px 15px rgba(6,112,30,1);
+		}
+	}
+	#cbp-spmenu-s2 {
+		&.cbp-spmenu-open {
+			box-shadow: 0 -15px 15px rgba(6,112,30,1);
+		}
+	}
+	
+	.cbp-spmenu h3 {
+		font-size: 1.9em;
+		padding: 30px 0 0 60px;
+		margin: 0;
+		font-weight: 500;
+		color: $teal;
+	}
+	
+	
+	.cbp-spmenu a:hover {
+		background: $teal;
+	}
+	
+	.cbp-spmenu a:active {
+		background: gray;
+		color: $teal;
+	}
+	
+	/* Orientation-dependent styles for the content of the menu */
+	
+	.cbp-spmenu-vertical {
+		width: 66%;
+		height: 100%;
+		top: 0;
+		z-index: 1000;
+	}
+	
+	
+	.cbp-spmenu-horizontal {
+		width: 100%;
+		height: 150px;
+		left: 0;
+		z-index: 1000;
+		overflow: hidden;
+	}
+	
+	.cbp-spmenu-horizontal h3 {
+		height: 100%;
+		width: 20%;
+		float: left;
+		text-align: center;
+	}
+	
+	
+	/* Vertical menu that slides from the left or right */
+	
+	.cbp-spmenu-left {
+		left: -65%;
+	}
+	
+	.cbp-spmenu-right {
+		right: -65%;
+	}
+	
+	.cbp-spmenu-left.cbp-spmenu-open {
+		left: 0px;
+	}
+	
+	.cbp-spmenu-right.cbp-spmenu-open {
+		right: 0px;
+	}
+	
+	/* Horizontal menu that slides from the top or bottom */
+	
+	.cbp-spmenu-top {
+		top: -150px;
+	}
+	
+	.cbp-spmenu-bottom {
+		bottom: -150px;
+	}
+	
+	.cbp-spmenu-top.cbp-spmenu-open {
+		top: 0px;
+	}
+	
+	.cbp-spmenu-bottom.cbp-spmenu-open {
+		bottom: 0px;
+	}
+	
+	/* Push classes applied to the body */
+	
+	.cbp-spmenu-push {
+		overflow-x: hidden;
+		position: relative;
+		left: 0;
+	}
+	
+	.cbp-spmenu-push-toright {
+		left: 240px;
+	}
+	
+	.cbp-spmenu-push-toleft {
+		left: -240px;
+	}
+	
+	/* Transitions */
+	
+	.cbp-spmenu,
+	.cbp-spmenu-push {
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	
+	/* MEDIA QUERIES */
+	
+	/*TABLET HORIZONTAL*/
+	@media screen and (max-width: 1190px) {
+		}
+	
+	
+	/*TABLET VERTICAL*/
+	@media screen and (max-width: 945px) {
+			
+		}
+	
+	/*PHONE HORIZONTAL*/
+	@media screen and (max-width: 660px) {
+		#fbsection1{
+			border: 8px solid $teal;
+			border-bottom: 0px;		
+		}
+		
+		#fbsection2{
+			border: 8px solid $teal;
+			border-bottom: 0px;			
+		}
+		
+		#fbsection3{
+			border: 8px solid $teal;
+			border-bottom: 0px;			
+		}
+		
+		#fbsection4{
+			border: 8px solid $teal;
+			border-bottom: 0px;			
+		}
+		
+		#fbsection5{
+			border: 8px solid $teal;		
+		}
+	}
+	
+	
+	/*PHONE VERTICAL*/
+	@media screen and (max-width: 400px) {
+		}
+	
+	/* SUPER SKINNY DEVICE? */
+	@media screen and (max-width: 300px) {
+		
+		}
+		
+/* ==========================================================================
+   SVG ANIMATIONS
+   ========================================================================== */
+	
+	@-moz-keyframes spin {
+		from { -moz-transform: rotate(0deg); }
+		to { -moz-transform: rotate(360deg); }
+	}
+	@-webkit-keyframes spin {
+		from { -webkit-transform: rotate(0deg); }
+		to { -webkit-transform: rotate(360deg); }
+	}
+	@keyframes spin {
+		from {transform:rotate(0deg);}
+		to {transform:rotate(360deg);}
+	}
+	@-moz-keyframes spin2 {
+		from { -moz-transform: rotate(360deg); }
+		to { -moz-transform: rotate(0deg); }
+	}
+	@-webkit-keyframes spin2 {
+		from { -webkit-transform: rotate(360deg); }
+		to { -webkit-transform: rotate(0deg); }
+	}
+	@keyframes spin2 {
+		from {transform:rotate(360deg);}
+		to {transform:rotate(0deg);}
+	}
+	
+	.svgAnimate1, .svgAnimate2, .svgAnimate3 {
+		transition: all 100s ease !important;
+		transform: rotate(0deg);
+		&:hover {
+			transition: all 5s ease !important;
+		}
+	}
+	
+	.svgAnimate1 {
+		-webkit-animation: spin 32s linear infinite;
+		-moz-animation: spin 32s linear infinite;
+		animation: spin 32s linear infinite;
+	}
+	
+	.svgAnimate2 {
+		-webkit-animation: spin2 60s linear infinite;
+		-moz-animation: spin2 60s linear infinite;
+		animation: spin2 60s linear infinite;
+	}
+	
+	.svgAnimate3 {
+		-webkit-animation: spin 48s linear infinite;
+		-moz-animation: spin 48s linear infinite;
+		animation: spin 48s linear infinite;
+	}
