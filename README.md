@@ -18,7 +18,7 @@ There is not much to change here but it's important to update all term-specific 
 
 
 #### header.php
-Header has become a weird file that basically just holds meta tags and links to CSS/JS. I'm not sure why it was done this way. ¯\_(ツ)_/¯
+Header has become a weird file that basically just holds meta tags and links to CSS/JS. I'm not sure why it was done this way. ¯\\_(ツ)_/¯
 
 
 #### footer.php
