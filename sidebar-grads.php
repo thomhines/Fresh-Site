@@ -2,19 +2,15 @@
 	<div class="gradbtn">
 		<button id="showRight">FRESH?</button>
 	</div>
-	
-
 	<div class="profilescroll">
-        <video width="400" height="400" autoplay loop style="margin: 20px auto; display: block;">
-          <source src="img/images/fresh-sp17_animation.mp4" type="video/mp4">
+        <video width="760" height="340" autoplay loop style="margin: 20px auto; display: block;">
+          <source src="src/video/fresh-motion-promo-final.mp4" type="video/mp4">
+          <source src="src/video/fresh-motion-promo-final.ogg" type="video/ogg">
         Your browser does not support the video tag.
         </video>
-        
 		<div class="previous_grads">
 			<p>Nearly every term, students graduate from the Portland State Graphic Design program and throw an awesome event that we call FRESH. This is an opportunity for recent grads to meet professionals working in the field, show off their work, and make connections with the community.</p>
- 
-            <p>Our Spring 2017 graduating class decided on a science fair theme because, for us, it feels like we’ve come full circle. As designers, we are united by our passion for experimentation, discovery, and progress. We’ve done the research, met every challenge, cultivated curiosity, and now we’re taking off. Basically, we’re geniuses and we can prove it. Come join us as we celebrate the end of one phase and the beginning of another. 
-</p>
-		</div>	
+            <p>This term’s designers are all about seeing and being seen. We are strong, sophisticated, and on our way to the top of our game. Countless hours of planning, iteration, and fabrication has led to this moment. There’s no hiding anymore&mdash;it’s time for us to strut our stuff!</p>
+		</div>
 	</div>
 </nav>
