@@ -3,7 +3,7 @@
         <img src="students/sm17/johnnie_jefferson/portraits/johnnie.jpg" alt="Johnnie Jefferson" />
     </div>
     <div class="website_btn">
-        <a target="_blank" href="http://kylebaconcreative.com">VIEW WEBSITE</a>
+        <a target="_blank" href="http://johnniejefferson.com">VIEW WEBSITE</a>
     </div>
 </div>
 <div class="c6 bio">
