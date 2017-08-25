@@ -1,0 +1,38 @@
+{
+  "name": "fresh-site",
+  "version": "1.0.0",
+  "description": "Site for every term psu.gd/fresh site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomhines/Fresh-Site.git"
+  },
+  "author": "Thom Hines and lovely students",
+  "dependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.11",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-minify": "0.0.14",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.3.0",
+    "gulp-uglify": "^2.0.0",
+    "run-sequence": "^1.2.2"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-svgo": "^1.0.3"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomhines/Fresh-Site/issues"
+  },
+  "homepage": "https://github.com/thomhines/Fresh-Site#readme"
+}

@@ -1,0 +1,23 @@
+<!-- NEED -->
+<div class="s2 c2 bioleft">
+    <div class="bio_pic">
+        <img src="students/sm17/wendell_barton/portraits/wendell.jpg" alt="Wendell Barton" />
+    </div>
+    <div class="website_btn">
+        <a target="_blank" href="http://wendellbarton.com">VIEW WEBSITE</a>
+    </div>
+</div>
+<div class="c6 bio">
+    <h1>Wendell <span>Barton</span></h1>
+    <p>People often tell me I have way too much going on and they are not wrong. My main professional interests include apparel design and related graphic design solutions, social media marketing, and photography retouching. In my free time you can catch me skateboarding, blowing all of my money on travel tickets, reading books on authority marketing, and intentionally ripping holes in my jeans to make them more edgy.</p>
+    <p><strong>If you were to run into me at NY Fashion Week, I would most likely be</strong>: <br />Showing off my new F/W clothing line</p>
+    <p><strong>My favorite article of clothing is</strong>: <br />Black Levi’s denim and a white shirt combo</p>
+    <p><strong>The song playing as I strut down the runway would be</strong>: <br />Tonight - Black Atlass</p>
+    <!-- <img class="artwork" src="students/sm17/wendell_barton/" alt="img"> -->
+    <!-- <img class="artwork" src="students/sm17/wendell_barton/" alt="img"> -->
+    <!-- <img class="artwork" src="students/sm17/wendell_barton/" alt="img"> -->
+    <!-- <img class="artwork" src="students/sm17/wendell_barton/" alt="img"> -->
+</div>
+<!--FOOTER -->
+<?php include 'footer.php'; ?>
+<!--end FOOTER-->

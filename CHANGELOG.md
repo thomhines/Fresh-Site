@@ -1,10 +1,12 @@
 **FRESH SUMMER 2017**
-**Editors: **
+**Editors: Kyle Bacon**
 
-
-
-
-
+## 08-10-2017
+Added Gulp build automation into the mix
+* Compiles styles
+* Dev and production environments
+* Image minification
+* JS minify and concat
 
 **FRESH 2016 Website**
 **Editors: Jared Peters, Cameron Behbahany, Bill Phan**
@@ -18,7 +20,7 @@ All notable changes to this project will be documented in this file.
 Created a Fall16 directory -JP
 Created individual directories for each student -JP
 Added an IMG directory and individual index.php files to each student directory. -JP
- 
+
 ### Fixed
 
 ### Changed
@@ -30,7 +32,7 @@ Edited index.php informational statement -JP
 ### Added
 Swapped out the previous header slideshow with Duc’s GIF banner. Running at 100% width. Added a border (for aesthetic). -BP
 Added @font-face to the css file with Korolev font family. -CB
- 
+
 ### Fixed
 
 ### Changed
@@ -55,7 +57,7 @@ Changed the fresh logo on profile pages to our current logo. -CB
 ## 11-21-2016
 
 ### Added
- 
+
 ### Fixed
 
 ### Changed
