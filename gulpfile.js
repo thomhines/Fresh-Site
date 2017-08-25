@@ -104,7 +104,7 @@ gulp.task('dev', function() {
         proxy: "http://fresh-site.dev:8888/"
     })
 
-    runSequence('sass', 'devHeaderReplace', 'devScriptsReplace', 'devImagesReplace');
+    runSequence('sass', 'devHeaderReplace', 'devScriptsReplace');
 
     gulp.watch(config.scripts.src, ['scripts'])
     gulp.watch(config.sass.src, ['sass'])
