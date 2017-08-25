@@ -1,6 +1,6 @@
 <div class="s2 c2 bioleft">
     <div class="bio_pic">
-        <img src="students/sm17/jarrett_matthews/portraits/jarrett.jpg" alt="Jarrett Matthews" />
+        <img src="students/sm17/jarrett_eachon_matthews/portraits/jarrett.jpg" alt="Jarrett Matthews" />
     </div>
     <div class="website_btn">
         <a target="_blank" href="http://jminc.co/">VIEW WEBSITE</a>
