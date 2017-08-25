@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
-		<title>FRESH - PSU.GD Senior Showcase - SPRING 2017</title>
+		<title>FRESH - PSU.GD Senior Showcase - SUMMER 2017</title>
 		<?php include 'header.php' ?>
 		<link rel="shortcut icon" href="favicon.ico">
 	</head>
