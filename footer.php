@@ -55,6 +55,7 @@
     <!-- ***************************** -->
 	<p class="footerBlurb clear">Thanks for taking a look at FRESH! Check out FRESH's cousin, <a href="http://www.psu.gd/be-honest" target="_blank">Be Honest</a>, an open portfolio party that happens every spring.</p>
 	<p>FRESH requires registration. If you are interested in working with one of our grads, please contact ethanallensmith (at) pdx.edu for information. Also, take a peek at our graduate <a href="archive.php">archive.</a></p>
+	<p class="credits">Project Management by Christina Ping</p>
     <p class="credits">Creative Direction by Tippy Jackson, Shannon Dunlop, and Matt Peraza</p>
     <p class="credits">Design by Lydia Wojack-West, Wendell Barton, Gaby Cooley, Stefan Perkins, Haley Mills, and, well a lot of people</p>
     <p class="credits">Motion Graphics by Eric Shull</p>
