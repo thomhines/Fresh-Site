@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
 	<head>
 		<?php // Spit out the requested name ?>
-		<title>Fresh Spring 2017 - PSU.GD Senior Showcase - <?php echo ( $_GET["name"] ? ucfirst($_GET["name"]) : "Not Found" ); ?></title>
+		<title>Fresh Summer 2017 - PSU.GD Senior Showcase - <?php echo ( $_GET["name"] ? ucfirst($_GET["name"]) : "Not Found" ); ?></title>
 		<?php include 'header.php' ?>
 	</head>
 	<body class="grid wfull biobg">
