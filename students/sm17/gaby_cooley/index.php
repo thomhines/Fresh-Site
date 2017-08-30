@@ -3,7 +3,7 @@
         <img src="students/sm17/gaby_cooley/portraits/gaby.jpg" alt="Gaby Cooley" />
     </div>
     <div class="website_btn">
-        <a target="_blank" href="https://crazyskatesillustration.myportfolio.com/">VIEW WEBSITE</a>
+        <a target="_blank" href="https://gabycooley.myportfolio.com/">VIEW WEBSITE</a>
     </div>
 </div>
 <div class="c6 bio">
