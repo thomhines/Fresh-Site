@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
-		<title>FRESH - PSU.GD Senior Showcase - SUMMER 2017</title>
+		<title>FRESH - PSU.GD Senior Showcase - FALL 2017</title>
 		<?php include 'header.php' ?>
 		<link rel="shortcut icon" href="favicon.ico">
 	</head>
@@ -39,7 +39,7 @@
 								</svg>
 							</a>
 						</div>
-						<h3 class="sm17--term">Summer 17</h3>
+						<h3 class="sm17--term">Fall 17</h3>
 						<h1 class="sm17--showcase">PSUGD SENIOR PORTFOLIO SHOWCASE</h1>
 					</div>
 				</section>
@@ -48,11 +48,11 @@
 					<!--STATEMENT-->
 					<div class="row statement">
 						<div class="s3 c6" style="text-align:center;">
-							<p>The <a target="_blank" href="http://psu.gd/">The Portland State Graphic Design</a> program invites you to meet 22 FRESH graduates at <a target="_blank" href="https://www.halfcourtstudio.com/">Half Court Studio</a> &amp; <a target="_blank" href="https://www.outletpdx.com/">Outlet</a> on Wednesday, August 30th from 5:30&ndash;9:00 pm. FRESH requires registration. If you are interested in working with one of our grads, please contact ethanallensmith (at) pdx.edu for information.</p>
+							<p>The <a target="_blank" href="http://psu.gd/">Portland State Graphic Design</a> program invites you to meet 20 FRESH graduates at <a target="_blank" href="http://guerrilladev.co/the-fair-haired-dumbbell/">Fair-Haired Dumbbell</a> on Wednesday, December 6th from 5:30&ndash;8:30 pm. FRESH requires registration. If you are interested in working with one of our grads, please contact kateb (at) pdx.edu for information.</p>
 						</div>
 					</div>
 					<!--end STATEMENT-->
-					<?php include 'students/sm17/grad-tiles.php'; ?>
+					<?php include 'students/fall17/grad-tiles.php'; ?>
 					<!--end THUMBNAIL GRID-->
 					<!--FOOTER -->
 					<?php include 'footer.php'; ?>
