@@ -14,6 +14,6 @@
 <!-- JS is located scripts.php -->
 
 <!-- LOCAL TYPEKIT -->
-<script src="https://use.typekit.net/lqs2xel.js"></script>
+<script src="https://use.typekit.net/mzr0rfd.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 <!-- END LOCAL TYPEKIT -->
