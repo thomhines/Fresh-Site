@@ -18,7 +18,7 @@
                     <img class="photo" src="'. $photofile .'" alt="'. 'A photo of '.$nameUppercase .'" />
                     <a href="grad.php?name='. $dirname .'">
                         <div>
-                            <h3>'. '<span class="sm17--firstname">'. $firstName .'</span>'.'<span class="sm17--lastname">'. $lastName . $thirdName .'</span>' .'</h3>
+                            <h3>'. $firstName .' '. $lastName . ' '. $thirdName .'</h3>
                         </div>
                     </a>
                 </li>';

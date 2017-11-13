@@ -15,12 +15,12 @@
                 $photofile = 'students/fall17/'.$dirname.'/portraits/homepage.png';
 
                 echo '<li class="studentBlock">
-                    <img class="photo" src="'. $photofile .'" alt="'. 'A photo of '.$nameUppercase .'" />
-                    <a href="grad.php?name='. $dirname .'">
-                        <div>
-                            <h3>'. '<span class="fall17--studentname">'. $firstName . ' '. $lastName . $thirdName .'</span>' .'</h3>
-                        </div>
-                    </a>
+                  <img class="photo" src="'. $photofile .'" alt="'. 'A photo of '.$nameUppercase .'" />
+                  <a href="grad.php?name='. $dirname .'">
+                      <div>
+                          <h3>'. $firstName .' '. $lastName . ' '. $thirdName .'</h3>
+                      </div>
+                  </a>
                 </li>';
             }
         ?>
