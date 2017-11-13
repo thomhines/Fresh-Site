@@ -79,8 +79,8 @@
             <img class="schoolLogos psu" src="src/img/psulogo.png" alt="psulogo">
             </a>
 
-            <a href="https://www.halfcourtstudio.com/" target="_blank">
-            <img class="schoolLogos halfcourt" src="src/img/halfcourt.png" alt="Halfcourt Stuido">
+            <a href="https://feckinbrew.com/" target="_blank">
+            <img class="schoolLogos feckin" src="src/img/feckinlogo.png" alt="Feckin Brewery & Smokehouse">
             </a>
         </div>
 	</div>
