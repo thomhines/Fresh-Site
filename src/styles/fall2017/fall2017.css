@@ -18,12 +18,13 @@ Variables
 ========================================================================== */
 
 /* BRAND COLORS */
-/*  Black  #231f20  */
-/*  10% Gray  #e7e7e8  */
-/*  Dark Blue #244289  */
-/*  Aqua Blue  #25afea  */
-/*  Yellow  $red  */
-/* Selection */
+/* FALL 2017
+yellow: #eceb73;
+green: #008247;
+pink: #f7b6b3;
+blue: #1591B2;
+red: #eb4439; 
+*/
 
 
 
@@ -163,9 +164,9 @@ svg .cls-2 {
 
 /* Statement */
 .statement {
-  background: white;
+  background: #1591B2;
   color: #151515;
-  padding: 100px 0 200px 0;
+  padding: 100px 0 100px 0;
   margin-bottom: 0; }
   .statement h1 {
     color: #151515;
@@ -540,7 +541,7 @@ flexslider
 
 /* PHOTO GRID STYLES */
 .thumbnailGrid {
-  margin: 0 90px;
+  margin: 90px;
   position: relative; }
 
 .photoGrid {
