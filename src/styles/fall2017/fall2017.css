@@ -35,14 +35,14 @@ Main Body Styles
 ========================================================================== */
 
 ::-moz-selection {
-  background: #9edcf8;
+  background: #eceb73;
   /* Safari */ }
 ::selection {
-  background: #9edcf8;
+  background: #eceb73;
   /* Safari */ }
 
 ::-moz-selection {
-  background: #05e5e5;
+  background: #eceb73;
   /* Firefox */ }
 
 * {
@@ -76,7 +76,7 @@ h2 {
   font-size: 1.1em; }
 
 a {
-  color: #000000;
+  color: #eceb73;
   text-decoration: none; }
 
 strong {
@@ -92,10 +92,10 @@ p {
   p a {
     display: inline-block;
     line-height: 1.25em;
-    border-bottom: 3px solid #db202a; }
+    border-bottom: 3px solid #eceb73; }
     p a:hover {
-      color: #db202a;
-      border-color: #000000; }
+      color: #f7b6b3;
+      border-color: #f7b6b3; }
 
 iframe {
   margin-left: 20%;
@@ -823,12 +823,12 @@ p.one-liners {
     .footer p img {
       float: right;
       margin-top: -8px; }
-  .footer a {
+  /* .footer a { #TODELETE if not used
     color: #ffffff;
     text-decoration: none; }
     .footer a:hover, .footer a.active {
       color: #db202a;
-      border-color: #ffffff; }
+      border-color: #ffffff; } */
   .footer .eventData p {
     color: #000000; }
 
