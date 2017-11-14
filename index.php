@@ -3,7 +3,6 @@
 	<head>
 		<title>FRESH - PSU.GD Senior Showcase - FALL 2017</title>
 		<?php include 'header.php' ?>
-		<link rel="shortcut icon" href="favicon.ico">
 	</head>
 	<body>
 		<?php include 'sidebar-location.php' ?>
