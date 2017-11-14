@@ -111,11 +111,11 @@ hr {
   padding: 0;
   border: none; }
 
-.sm17--hero {
-  background-color: #000000;
+.hero {
+  background-color: #f7b6b3;
   color: white;
   height: 95% !important;
-  border-bottom: 10px solid #db202a;
+  /* border-bottom: 10px solid #db202a; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -125,13 +125,13 @@ hr {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
-  .sm17--hero .sm17--hero-container {
+  .hero .sm17--hero-container {
     width: 80%;
     margin: 0 auto; }
-  .sm17--hero .sm17--hero-svg {
+  .hero .sm17--hero-svg {
     padding-left: 15%;
     padding-right: 15%; }
-  .sm17--hero .sm17--term {
+  .hero .sm17--term {
     font-family: "eloquent-jf-pro", "Bodoni", serif;
     text-transform: uppercase;
     font-size: 30px;
@@ -139,13 +139,13 @@ hr {
     font-style: italic;
     margin-bottom: 20%;
     text-align: center; }
-    .sm17--hero .sm17--term:before {
+    .hero .sm17--term:before {
       content: '';
       display: block;
       width: 75px;
       border-bottom: 3px solid #ffffff;
       margin: 60px auto; }
-  .sm17--hero .sm17--showcase {
+  .hero .sm17--showcase {
     font-size: 20px;
     margin-bottom: 30px;
     text-align: center;
@@ -811,7 +811,7 @@ p.one-liners {
         color: black; }
 
 .footer {
-  background: #000000;
+  background: #eb4439;
   padding: 25px 0;
   margin-bottom: 0; }
   .footer p {
@@ -1279,7 +1279,7 @@ p.credits {
 @media screen and (max-width: 480px) {
   .bio {
     padding: 30px; }
-  .sm17--hero {
+  .hero {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;

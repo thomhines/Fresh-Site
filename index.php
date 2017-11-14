@@ -15,7 +15,7 @@
 					<a href="#fbsection3">Section 3</a>
 				</nav>
 				<!-- Curtain Reveal Sections -->
-				<section class="sm17--hero">
+				<section class="hero">
 					<div class="sm17--hero-container">
 						<div class="sm17--hero-svg">
 							<a href="/fresh">
