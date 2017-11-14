@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
 	<head>
 		<?php // Spit out the requested name ?>
-		<title>Fresh Summer 2017 - PSU.GD Senior Showcase - <?php echo ( $_GET["name"] ? ucfirst($_GET["name"]) : "Not Found" ); ?></title>
+		<title>Fresh Fall 2017 - PSU.GD Senior Showcase - <?php echo ( $_GET["name"] ? ucfirst($_GET["name"]) : "Not Found" ); ?></title>
 		<?php include 'header.php' ?>
 	</head>
 	<body class="grid wfull biobg">
@@ -41,8 +41,12 @@
 
 		<?php
 
-		$name = $_GET["name"];
-			if ( $name && file_exists('students/sm17/'.$_GET["name"]) ) {
+    $name = $_GET["name"];
+      if ( $name && file_exists('students/fall17/'.$_GET["name"]) ) {
+      // Include the correct index file
+      include 'students/fall17/'.$name . '/index.php';
+      }
+			else if ( $name && file_exists('students/sm17/'.$_GET["name"]) ) {
 				// Include the correct index file
 				include 'students/sm17/'.$name . '/index.php';
 				}
