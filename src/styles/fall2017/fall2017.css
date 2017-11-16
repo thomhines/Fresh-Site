@@ -162,10 +162,16 @@ svg .cls-2 {
   .sm17--svg__sub-page svg .cls-1 {
     fill: #000000; }
 
-/* Statement */
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - STATEMENT */
+/* This is the intro text on the index page */
+
 .statement {
   background: #1591B2;
-  color: #151515;
+  color: white;
   padding: 100px 0 100px 0;
   margin-bottom: 0; }
   .statement h1 {
@@ -174,7 +180,7 @@ svg .cls-2 {
     border-bottom: 2px solid #db202a;
     margin-bottom: 50px; }
   .statement p {
-    color: #151515;
+    color: white;
     padding: 15px 30px;
     line-height: 28px;
     text-align: center;
@@ -239,7 +245,12 @@ svg .cls-2 {
   display: inline;
   margin: 45px 10px -10px -5px; }
 
-/* FLYOUT MENUS */
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - FLYOUT MENUS */
+
 #showLeft {
   color: #ffffff;
   overflow: hidden;
@@ -539,6 +550,10 @@ flexslider
   margin: 0 auto;
   text-shadow: 1px 1px 3px black; }
 
+
+
+
+
 /* PHOTO GRID STYLES */
 .thumbnailGrid {
   margin: 90px;
@@ -679,7 +694,12 @@ flexslider
   border: 0px;
   height: 40px; }
 
-/* PROFILE PAGES */
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - PROFILE PAGES */
+
 .biobg {
   background-color: white; }
 
@@ -794,7 +814,21 @@ p.one-liners {
   width: 100%;
   max-width: 800px; }
 
-/* FOOTER STYLES */
+/*skillset bullets on profile pages*/
+.skills {
+  margin-left: 18px;
+  padding-bottom: 18px;
+  font-size: 1em;
+  font-weight: 110;
+  font-style: none;
+  color: black; }
+
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - FOOTER STYLES */
+
 .archive-link {
   font-weight: bold; }
 
@@ -927,7 +961,12 @@ p.credits {
   .halfcourt:hover {
     opacity: .5; }
 
-/* Common Classes */
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - COMMON CLASSES */
+
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table; }
@@ -1002,14 +1041,6 @@ p.credits {
   .archive_btn:hover {
     background: #aaa; }
 
-/*skillset bullets on profile pages*/
-.skills {
-  margin-left: 18px;
-  padding-bottom: 18px;
-  font-size: 1em;
-  font-weight: 110;
-  font-style: none;
-  color: black; }
 
 /* Set all parents to full height */
 /* The nav is fixed on the right side  and we center it by translating it 50%
@@ -1122,7 +1153,12 @@ p.credits {
 .cbp-spmenu-push-toleft {
   left: -240px; }
 
-/* Transitions */
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - TRANSITIONS */
+
 .cbp-spmenu,
 .cbp-spmenu-push {
   -webkit-transition: all 0.3s ease;
@@ -1158,6 +1194,7 @@ p.credits {
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - ANIMATIONS */
+
 @-webkit-keyframes spin {
   from {
     -webkit-transform: rotate(0deg);
