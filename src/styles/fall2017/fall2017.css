@@ -940,6 +940,9 @@ div.panel {
   border: 5px solid #db202a;
   background-color: white; }
 
+.credits-container {
+  margin-top: 50px; }
+
 p.credits {
   text-transform: uppercase;
   font-size: .8em;

@@ -39,14 +39,15 @@
     <!-- END // WILL ONLY BE SHOWN AT 800PX OR LESS (ABOVE THIS) -->
     <!-- ***************************** -->
 	<p class="footerBlurb clear">Thanks for taking a look at FRESH! Check out FRESH's cousin, <a href="http://www.psu.gd/be-honest" target="_blank">Be Honest</a>, an open portfolio party that happens every spring.</p>
-	<p>FRESH requires registration. If you are interested in working with one of our grads, please contact kateb (at) pdx.edu for information. Also, take a peek at our graduate <a href="archive.php">archive.</a></p>
-	  <p class="credits">Project Management by <a href="grad.php?name=kate_kobielsky">Kate Kobielsky</a> and <a href="grad.php?name=angela_dinh">Angela Dinh</a></p>
-    <p class="credits">Creative Direction by <a href="grad.php?name=bailey_collins">Bailey Collins</a>, <a href="grad.php?name=edlyn_wang">Edlyn Wang</a>, <a href="grad.php?name=kiersta_sze">Kiersta Sze</a>, <a href="grad.php?name=maggie_denham">Maggie Denham</a>, <a href="grad.php?name=rawz_addison">Rawz Addison</a>, <a href="grad.php?name=tina_roach">Tina Roach</a> and <a href="grad.php?name=tyler_alexander">Tyler Alexander</a></p>
-    <p class="credits">Photography by <a href="grad.php?name=kiersta_sze">Kiersta Sze</a>, <a href="grad.php?name=kay_ayran">Kaye Ayran</a> and <a href="grad.php?name=rayan_alhú">Rayan Alhú</a></p>
-    <p class="credits">Motion Graphics by <a href="grad.php?name=kaye_ayran">Kaye Ayran</a> and <a href="grad.php?name=maggie_denham">Maggie Denham</a></p>
+  <p>FRESH requires registration. If you are interested in working with one of our grads, please contact kateb (at) pdx.edu for information. Also, take a peek at our graduate <a href="archive.php">archive.</a></p>
+  <div class="credits-container">
+	  <p class="credits">Project Management by <a href="grad.php?name=kate_kobielsky">Kate Kobielsky</a> &amp; <a href="grad.php?name=angela_dinh">Angela Dinh</a></p>
+    <p class="credits">Creative Direction by <a href="grad.php?name=bailey_collins">Bailey Collins</a>, <a href="grad.php?name=edlyn_wang">Edlyn Wang</a>, <a href="grad.php?name=kiersta_sze">Kiersta Sze</a>, <a href="grad.php?name=maggie_denham">Maggie Denham</a>, <a href="grad.php?name=rawz_addison">Rawz Addison</a>, <a href="grad.php?name=tina_roach">Tina Roach</a> &amp; <a href="grad.php?name=tyler_alexander">Tyler Alexander</a></p>
+    <p class="credits">Photography by <a href="grad.php?name=kiersta_sze">Kiersta Sze</a>, <a href="grad.php?name=kay_ayran">Kaye Ayran</a> &amp; <a href="grad.php?name=rayan_alhú">Rayan Alhú</a></p>
+    <p class="credits">Motion Graphics by <a href="grad.php?name=kaye_ayran">Kaye Ayran</a> &amp; <a href="grad.php?name=maggie_denham">Maggie Denham</a></p>
     <p class="credits">Web Design by <a href="grad.php?name=tina_roach">Tina Roach</a></p>
-    <p class="credits">Web Development by <a href="grad.php?name=tricia_leach">Tricia Leach</a> and <a href="grad.php?name=drew_hankins">Drew Hankins</a></p>
-    <p class="credits">Copywriting by <a href="grad.php?name=ashleigh_cummings">Ashleigh Cummings</a>, <a href="grad.php?name=erika_skille">Erika Skille</a> and <a href="grad.php?name=tyler_alexander">Tyler Alexander</a></p>
+    <p class="credits">Web Development by <a href="grad.php?name=tricia_leach">Tricia Leach</a> &amp; <a href="grad.php?name=drew_hankins">Drew Hankins</a></p>
+    <p class="credits">Copywriting by <a href="grad.php?name=ashleigh_cummings">Ashleigh Cummings</a>, <a href="grad.php?name=erika_skille">Erika Skille</a> &amp; <a href="grad.php?name=tyler_alexander">Tyler Alexander</a></p>
 	</div>
 
 </div>
