@@ -1,7 +1,7 @@
 <div class="row footer clear">
-	<div class="s3 c2 footerLogo">
+	<div class="s2 c3 footerLogo">
 		<a href="/fresh/">
-			SO FRESH AND SO CLEAN.
+			<h3>SO FRESH AND SO CLEAN.</h3>
 		</a>
 	</div>
 	<div class="c5">
@@ -40,37 +40,40 @@
     <!-- ***************************** -->
 	<p class="footerBlurb clear">Thanks for taking a look at FRESH! Check out FRESH's cousin, <a href="http://www.psu.gd/be-honest" target="_blank">Be Honest</a>, an open portfolio party that happens every spring.</p>
 	<p>FRESH requires registration. If you are interested in working with one of our grads, please contact kateb (at) pdx.edu for information. Also, take a peek at our graduate <a href="archive.php">archive.</a></p>
-	  <p class="credits">Project Management by Kate Kobielsky and Angela Dinh</p>
-    <p class="credits">Creative Direction by Bailey Collins, Edlyn Wang, Kiersta Sze, Maggie Denham, Rawz Addison, Tina Roach and Tyler Alexander</p>
-    <p class="credits">Photography by Kiersta Sze, Kaye Ayran and Rayan Alhú</p>
-    <p class="credits">Motion Graphics by Kaye Ayran and Maggie Denham</p>
-    <p class="credits">Web Design by Tina Roach</p>
-    <p class="credits">Web Development by Tricia Leach and Drew Hankins</p>
-    <p class="credits">Copywriting by Ashleigh Cummings, Erika Skille and Tyler Alexander </p>
-
-        <div class="footerLogos">
-            <a href="http://fogdpsu.tumblr.com/" target="_blank">
-            <img class="schoolLogos fogd" src="src/img/fogdlogo.png" alt="fogdlogo">
-            </a>
-
-            <a href="http://psu.gd/" target="_blank">
-            <img class="schoolLogos psugd" src="src/img/psugdlogo.png" alt="psugdlogo">
-            </a>
-
-            <a href="http://www.pdx.edu/the-arts/art-design" target="_blank">
-            <img class="schoolLogos ad" src="src/img/adschoollogo.png" alt="adschoollogo">
-            </a>
-
-            <a href="http://www.pdx.edu" target="_blank">
-            <img class="schoolLogos psu" src="src/img/psulogo.png" alt="psulogo">
-            </a>
-
-            <a href="https://feckinbrew.com/" target="_blank">
-            <img class="schoolLogos feckin" src="src/img/feckinlogo.png" alt="Feckin Brewery and Smokehouse">
-            </a>
-        </div>
+	  <p class="credits">Project Management by <a href="grad.php?name=kate_kobielsky">Kate Kobielsky</a> and <a href="grad.php?name=angela_dinh">Angela Dinh</a></p>
+    <p class="credits">Creative Direction by <a href="grad.php?name=bailey_collins">Bailey Collins</a>, <a href="grad.php?name=edlyn_wang">Edlyn Wang</a>, <a href="grad.php?name=kiersta_sze">Kiersta Sze</a>, <a href="grad.php?name=maggie_denham">Maggie Denham</a>, <a href="grad.php?name=rawz_addison">Rawz Addison</a>, <a href="grad.php?name=tina_roach">Tina Roach</a> and <a href="grad.php?name=tyler_alexander">Tyler Alexander</a></p>
+    <p class="credits">Photography by <a href="grad.php?name=kiersta_sze">Kiersta Sze</a>, <a href="grad.php?name=kay_ayran">Kaye Ayran</a> and <a href="grad.php?name=rayan_alhú">Rayan Alhú</a></p>
+    <p class="credits">Motion Graphics by <a href="grad.php?name=kaye_ayran">Kaye Ayran</a> and <a href="grad.php?name=maggie_denham">Maggie Denham</a></p>
+    <p class="credits">Web Design by <a href="grad.php?name=tina_roach">Tina Roach</a></p>
+    <p class="credits">Web Development by <a href="grad.php?name=tricia_leach">Tricia Leach</a> and <a href="grad.php?name=drew_hankins">Drew Hankins</a></p>
+    <p class="credits">Copywriting by <a href="grad.php?name=ashleigh_cummings">Ashleigh Cummings</a>, <a href="grad.php?name=erika_skille">Erika Skille</a> and <a href="grad.php?name=tyler_alexander">Tyler Alexander</a></p>
 	</div>
 
+</div>
+
+<div class="row footer clear">
+  <div class="c7 footerLogos">
+
+    <a href="http://psu.gd/" target="_blank">
+    <img class="schoolLogos psugd" src="src/img/psugdlogo.png" alt="psugdlogo">
+    </a>
+
+    <a href="http://fogdpsu.tumblr.com/" target="_blank">
+    <img class="schoolLogos fogd" src="src/img/fogdlogo.png" alt="fogdlogo">
+    </a>
+
+    <a href="http://www.pdx.edu/the-arts/art-design" target="_blank">
+    <img class="schoolLogos ad" src="src/img/adschoollogo.png" alt="adschoollogo">
+    </a>
+
+    <a href="http://www.pdx.edu" target="_blank">
+    <img class="schoolLogos psu" src="src/img/psulogo.png" alt="psulogo">
+    </a>
+
+    <a href="https://feckinbrew.com/" target="_blank">
+    <img class="schoolLogos feckin" src="src/img/feckinlogo.png" alt="Feckin Brewery and Smokehouse">
+    </a>
+  </div>
 </div>
 
 <script>
