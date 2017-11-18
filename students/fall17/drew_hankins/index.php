@@ -3,18 +3,18 @@
 
 
     <div class="website_btn">
-        <a target="_blank" href="http://www.aaronkosborn.com">VIEW WEBSITE</a>
+        <a target="_blank" href="http://www.drewha.net">VIEW WEBSITE</a>
     </div>
 </div>
 
 <div class="c6 bio">
-    <h1 style="text-transform:uppercase;">Drew <span class="last-name">Hankins</span></h1>
+    <h1 style="text-transform:uppercase;">Drew Hankins</h1>
 
     <p>I’m an illustrator and designer from the Northwest, with a humble background in editorial illustration, production, marketing, playing music, total shredding, and walks at night. I want to work on magic and humanizing stories with good people. I like to ramble about the gravitational influence of the moon on earth, and my favorite X-files episodes, but I won’t do that here.</p>
-    <img class="artwork" src="students/sp17/aaron_osborn/work_examples/caseapp_aaron_osborn.png" alt="Case App">
-    <img class="artwork" src="students/sp17/aaron_osborn/work_examples/Friendtorship_Aaron_Osborn.png" alt="Friendtorship">
-    <img class="artwork" src="students/sp17/aaron_osborn/work_examples/thesis_aaron_osborn.png" alt="Thesis">
-    <img class="artwork" src="students/sp17/aaron_osborn/work_examples/twinpeaks_aaron_osborn.gif" alt="Twin Peaks">
+    <img class="artwork" src="students/fall17/drew_hankins/work_examples/bigslab_drew_hankins.png" alt="Big Slab Brand Book">
+    <img class="artwork" src="students/fall17/drew_hankins/work_examples/bigslab_drew_hankins.png" alt="Friendtorship">
+    <img class="artwork" src="students/fall17/drew_hankins/work_examples/bigslab_drew_hankins.png" alt="Thesis">
+    <img class="artwork" src="students/fall17/drew_hankins/work_examples/bigslab_drew_hankins.png" alt="Twin Peaks">
 </div>
 <!--FOOTER -->
 <?php include 'footer.php'; ?>

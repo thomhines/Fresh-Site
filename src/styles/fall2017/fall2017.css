@@ -103,7 +103,7 @@ p {
   font-size: 1.1em;
   line-height: 1.5em;
   letter-spacing: .03em;
-  color: #151515;
+  color: #1591B2;
   padding-bottom: 15px; }
   p a {
     display: inline-block;
@@ -304,7 +304,7 @@ svg .cls-2 {
   z-index: 1004;
   position: relative; }
   .infobtn button {
-    font-family: "proxima-nova", Helvetica, sans-serif;
+    font-family: "foco", Helvetica, sans-serif;
     background: transparent;
     border: 6px solid #ffffff;
     color: white;
@@ -423,7 +423,7 @@ svg .cls-2 {
   float: left;
   position: absolute; }
   .gradbtn button {
-    font-family: "proxima-nova", Helvetica, sans-serif;
+    font-family: "foco", Helvetica, sans-serif;;
     background: transparent;
     border: 6px solid #ffffff;
     color: white;
@@ -735,6 +735,16 @@ flexslider
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - PROFILE PAGES */
 
+
+/* BRAND COLORS */
+/* FALL 2017
+yellow: #eceb73;
+green: #008247;
+pink: #f7b6b3;
+blue: #1591B2;
+red: #eb4439; 
+*/
+
 .biobg {
   background-color: white; }
 
@@ -769,23 +779,22 @@ flexslider
   max-width: 800px;
   color: #1A1A1A; }
   .bio h1 {
-    color: #db202a;
+    color: #eb4439;
     padding-bottom: 20px;
     font-size: 3.5em;
     line-height: 1.2em;
-    font-family: "eloquent-jf-pro", "Bodoni", serif;
+    font-family: "foco", Helvetica, sans-serif;
     text-transform: uppercase; }
     .bio h1 span {
       color: #000000;
-      display: block;
-      font-style: italic; }
+      display: block;}
   .bio h2 {
-    color: #ec414e;
+    color: #1591B2;
     font-size: 32px; }
   .bio ul {
     margin-bottom: 2em; }
   .bio p {
-    color: #000000;
+    color: #1591B2;
     font-size: 18px;
     line-height: 1.75em;
     text-shadow: 0 0 10px white; }
@@ -817,7 +826,7 @@ flexslider
   text-align: center;
   padding: 25px 15px;
   border: 6px solid #000000;
-  font-family: "proxima-nova", Helvetica, sans-serif;
+  font-family: "foco", Helvetica, sans-serif;
   cursor: pointer;
   -webkit-transition: all 200ms ease 0s;
   transition: all 200ms ease 0s; }
@@ -841,7 +850,7 @@ p.one-liners {
   line-height: 1.8em;
   padding-top: 35px;
   text-align: left;
-  font-family: "proxima-nova", Helvetica, sans-serif; }
+  font-family: "foco", Helvetica, sans-serif; }
 
 .artwork {
   padding: 25px 0px;
@@ -975,7 +984,7 @@ p.credits {
   text-transform: uppercase; }
   .sponsors p {
     color: white;
-    font-family: "proxima-nova", Helvetica, sans-serif;
+    font-family: "foco", Helvetica, sans-serif;
     font-weight: 500;
     letter-spacing: 2px; }
   .sponsors a {
@@ -1030,7 +1039,7 @@ p.credits {
   position: fixed;
   border: 15px solid #db202a;
   background: white;
-  font-family: "proxima-nova", Helvetica, sans-serif;
+  font-family:"foco", Helvetica, sans-serif;
   -webkit-transition: all 2px;
   transition: all 2px;
   -webkit-box-shadow: 0 0 0 white;
