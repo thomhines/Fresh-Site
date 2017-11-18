@@ -148,7 +148,9 @@ h4.fall2017--hero {
   text-align: left; 
   font-weight: 400; 
   letter-spacing: 1px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px; 
+  position: relative; 
+  z-index: 1; }
 
 h2.fall2017--hero {
   color: #1591B2;
@@ -197,8 +199,28 @@ svg .cls-2 {
   .sm17--svg__sub-page svg .cls-1 {
     fill: #000000; }
 
+/* - - - - - - - - - - - - - - - - - - - - - - - - - FALL 2017 STYLES */
 
+/* plant image styles */
 
+.plant-header-right {
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  width: 43%; }
+
+.plant-header-left {
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  width: 50%; }
+
+.plant-footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+}
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - STATEMENT */
@@ -730,7 +752,6 @@ flexslider
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - PROFILE PAGES */
 
-
 /* BRAND COLORS */
 /* FALL 2017
 yellow: #eceb73;
@@ -945,7 +966,7 @@ div.panel {
   background-color: white; }
 
 .credits-container {
-  margin-top: 50px; }
+  margin: 50px 0 100px 0; }
 
 p.credits {
   text-transform: uppercase;

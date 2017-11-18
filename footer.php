@@ -1,3 +1,5 @@
+<footer>
+<img class="plant-footer" src="src/img/fall2017/plant-bottom-right.png" alt="green leafy plant">
 <div class="row footer clear">
 	<div class="s2 c3 footerLogo">
 		<a href="/fresh/">
@@ -97,3 +99,5 @@
         }
     }
 </script>
+
+</footer>
