@@ -733,7 +733,11 @@ flexslider
 
 @media (max-width: 768px) {
   .photoGrid li {
-    width: 100%; } }
+    width: 100%;
+    margin: 0;
+    padding: 10px 0; } 
+  .thumbnailGrid {
+    margin: 20px; } }
 
 .color {
   -webkit-filter: grayscale(0) !important;
