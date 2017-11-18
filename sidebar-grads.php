@@ -3,14 +3,9 @@
 		<button id="showRight">FRESH?</button>
 	</div>
 	<div class="profilescroll">
-        <video width="760" height="340" autoplay loop style="margin: 20px auto; display: block;">
-          <source src="src/video/fresh-motion-promo-final.mp4" type="video/mp4">
-          <source src="src/video/fresh-motion-promo-final.ogg" type="video/ogg">
-        Your browser does not support the video tag.
-        </video>
 		<div class="previous_grads">
+      <p>FRESH is an invitation-only review held at the end of every PSUGD Senior Portfolio class. FRESH typically happens three times a year (December, June and the end of August). The event is put on by the graduating students. It not only showcases their work, but gives them an opportunity to receive valuable feedback from respective design leaders.</p>
 			<p>Nearly every term, students graduate from the Portland State Graphic Design program and throw an awesome event that we call FRESH. This is an opportunity for recent grads to meet professionals working in the field, show off their work, and make connections with the community.</p>
-            <p>This term’s designers are all about seeing and being seen. We are strong, sophisticated, and on our way to the top of our game. Countless hours of planning, iteration, and fabrication has led to this moment. There’s no hiding anymore&mdash;it’s time for us to strut our stuff!</p>
 		</div>
 	</div>
 </nav>
