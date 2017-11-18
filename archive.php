@@ -7,15 +7,15 @@
 	<body>
 		<?php include 'sidebar-location.php' ?>
 		<?php include 'sidebar-grads.php' ?>
-		<div class="row topbar_archive">
-			<div class="s2 c2">
-				<a href="index.php"><img id="fresh-logo" class ="logo" src="src/img/images/Fresh_Logo_Small.png" alt="fresh logo"></a>
+		<!-- <div class="row topbar_archive">
+			<div class="s3 c6">
+				<a href="index.php"><img id="fresh-logo" class="logo-archive" src="src/img/fresh-logo.svg" alt="fresh logo"></a>
 			</div>
-		</div>
+		</div> -->
     <!--STATEMENT-->
 		<div class="row statement">
 			<div class="s3 c6" style="text-align:center;">
-				<h1 style="margin-top:130px;">SUMMER 2017 GRADUATE PORTFOLIOS</h1>
+				<h1 class="archive-header">SUMMER 2017 GRADUATE PORTFOLIOS</h1>
 				<p>Scroll down the page for more PSU design graduates.</p>
 				<img class="arrow_dn" src="src/img/arrow.svg">
 			</div>
@@ -27,7 +27,7 @@
 		<!--STATEMENT-->
 		<div class="row statement">
 			<div class="s3 c6" style="text-align:center;">
-				<h1 style="margin-top:130px;">SPRING 2017 GRADUATE PORTFOLIOS</h1>
+				<h1 class="archive-header">SPRING 2017 GRADUATE PORTFOLIOS</h1>
 				<p>Scroll down the page for more PSU design graduates.</p>
 				<img class="arrow_dn" src="src/img/arrow.svg">
 			</div>
@@ -39,7 +39,7 @@
 		<!--STATEMENT-->
 		<div class="row statement">
 			<div class="s3 c6" style="text-align:center;">
-				<h1 style="margin-top:130px;">FALL 2016 GRADUATE PORTFOLIOS</h1>
+				<h1 class="archive-header">FALL 2016 GRADUATE PORTFOLIOS</h1>
 				<p>Scroll down the page for more PSU design graduates.</p>
 				<img class="arrow_dn" src="src/img/arrow.svg">
 			</div>
@@ -51,7 +51,7 @@
 		<!--STATEMENT-->
 		<div class="row statement">
 			<div class="s3 c6" style="text-align:center;">
-				<h1 style="margin-top:130px;">SUMMER 2016 GRADUATE PORTFOLIOS</h1>
+				<h1 class="archive-header">SUMMER 2016 GRADUATE PORTFOLIOS</h1>
 				<img class="arrow_dn" src="src/img/arrow.svg">
 			</div>
 		</div>
@@ -62,7 +62,7 @@
 		<!--STATEMENT-->
 		<div class="row statement">
 			<div class="s3 c6" style="text-align:center;">
-				<h1 style="margin-top:130px;">SPRING 2016 GRADUATE PORTFOLIOS</h1>
+				<h1 class="archive-header">SPRING 2016 GRADUATE PORTFOLIOS</h1>
 				<img class="arrow_dn" src="src/img/arrow.svg">
 			</div>
 		</div>
@@ -73,7 +73,7 @@
 		<!--STATEMENT-->
 		<div class="row statement">
 			<div class="s3 c6" style="text-align:center;">
-				<h1 style="margin-top:130px;">FALL 2015 GRADUATE PORTFOLIOS</h1>
+				<h1 class="archive-header">FALL 2015 GRADUATE PORTFOLIOS</h1>
 				<img class="arrow_dn" src="src/img/arrow.svg">
 			</div>
 		</div>
@@ -84,7 +84,7 @@
 		<!--STATEMENT-->
 		<div class="row statement">
 			<div class="s3 c6" style="text-align:center;">
-				<h1 style="margin-top:130px;">SUMMER 2015 GRADUATE PORTFOLIOS</h1>
+				<h1 class="archive-header">SUMMER 2015 GRADUATE PORTFOLIOS</h1>
 				<img class="arrow_dn" src="src/img/arrow.svg">
 			</div>
 		</div>
@@ -95,7 +95,7 @@
 		<!--STATEMENT-->
 		<div class="row statement">
 			<div class="s3 c6" style="text-align:center;">
-				<h1 style="margin-top:130px;">SPRING 2015 GRADUATE PORTFOLIOS</h1>
+				<h1 class="archive-header">SPRING 2015 GRADUATE PORTFOLIOS</h1>
 				<img class="arrow_dn" src="src/img/arrow.svg">
 			</div>
 		</div>
@@ -106,7 +106,7 @@
 		<!--STATEMENT-->
 		<div class="row statement">
 			<div class="s3 c6" style="text-align:center;">
-				<h1 style="margin-top:130px;">FALL 2014 GRADUATE PORTFOLIOS</h1>
+				<h1 class="archive-header">FALL 2014 GRADUATE PORTFOLIOS</h1>
 				<img class="arrow_dn" src="src/img/arrow.svg">
 			</div>
 		</div>
@@ -117,7 +117,7 @@
 		<!--STATEMENT-->
 		<div class="row statement">
 			<div class="s3 c6" style="text-align:center;">
-				<h1 style="margin-top:130px;">SUMMER 2014 GRADUATE PORTFOLIOS</h1>
+				<h1 class="archive-header">SUMMER 2014 GRADUATE PORTFOLIOS</h1>
 				<img class="arrow_dn" src="src/img/arrow.svg">
 			</div>
 		</div>
@@ -128,7 +128,7 @@
 		<!--STATEMENT-->
 		<div class="row statement">
 			<div class="s3 c6" style="text-align:center;">
-				<h1 style="margin-top:130px;">SPRING 2014 GRADUATE PORTFOLIOS</h1>
+				<h1 class="archive-header">SPRING 2014 GRADUATE PORTFOLIOS</h1>
 				<img class="arrow_dn" src="src/img/arrow.svg">
 			</div>
 		</div>
@@ -139,7 +139,7 @@
 		<!--STATEMENT-->
 		<div class="row statement">
 			<div class="s3 c6" style="text-align:center;">
-				<h1 style="margin-top:130px;">FALL 2013 GRADUATE PORTFOLIOS</h1>
+				<h1 class="archive-header">FALL 2013 GRADUATE PORTFOLIOS</h1>
 
 				<img class="arrow_dn" src="src/img/arrow.svg">
 			</div>
@@ -151,7 +151,7 @@
 		<!--STATEMENT-->
 		<div class="row statement">
 			<div class="s3 c6" style="text-align:center;">
-				<h1 style="margin-top:130px;">SUMMER 2013 GRADUATE PORTFOLIOS</h1>
+				<h1 class="archive-header">SUMMER 2013 GRADUATE PORTFOLIOS</h1>
 				<img class="arrow_dn" src="src/img/arrow.svg">
 			</div>
 		</div>
@@ -162,7 +162,7 @@
 		<!--STATEMENT-->
 		<div class="row statement">
 			<div class="s3 c6" style="text-align:center;">
-				<h1 style="margin-top:130px;">SPRING 2013 GRADUATE PORTFOLIOS</h1>
+				<h1 class="archive-header">SPRING 2013 GRADUATE PORTFOLIOS</h1>
 				<img class="arrow_dn" src="src/img/arrow.svg">
 			</div>
 		</div>
