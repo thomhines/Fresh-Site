@@ -1,4 +1,4 @@
-<div class="thumbnailGrid">
+<div class="thumbnailGrid clearfix">
 
 		<ul class="photoGrid">
       
@@ -20,12 +20,19 @@
 			<li class="studentBlock">
 				<img class="photo" src="students/fall16/cameron_behbahany/cameron_redo_2_web.jpg"  alt="Cameron Behbahany"/>
 				<a href="grad.php?name=cameron_behbahany"><div><h3>Cameron Behbahany</h3></div></a>
-			</li>
-	
-			<li class="studentBlock">
+      </li>
+
+      <li class="studentBlock">
 				<img class="photo" src="students/fall16/duc_tran/duc_bw_web.jpg"  alt="Duc Tran"/>
 				<a href="grad.php?name=duc_tran"><div><h3>Duc Tran</h3></div></a>
-			</li>
+      </li>
+
+
+      
+      <!-- <li class="studentBlock">
+				<img class="photo" src="students/fall16/duc_tran/duc_bw_web.jpg"  alt="Duc Tran"/>
+				<a href="grad.php?name=duc_tran"><div><h3>Duc Tran</h3></div></a>
+			</li> -->
 
 			<li class="studentBlock">
 				<img class="photo" src="students/fall16/erica_belland/erica_bw_web.jpg"  alt="Erica Belland"/>
