@@ -219,10 +219,12 @@ svg .cls-2 {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 40%;
-}
+  width: 40%; }
 
 
+
+
+  
 /* - - - - - - - - - - - - - - - - - - - - - - - - - STATEMENT */
 /* This is the intro text on the index page */
 
@@ -318,6 +320,19 @@ svg .cls-2 {
   overflow: hidden;
   padding-bottom: 30px; }
 
+.flyoutbtn button {
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: .2em;
+  border: none;
+  background: transparent;
+  display: block;
+  width: 160px;
+  height: 74px;
+  cursor: pointer;
+}
+
 .infobtn {
   top: 50%;
   width: 38px;
@@ -326,17 +341,6 @@ svg .cls-2 {
   z-index: 1004;
   position: relative; }
   .infobtn button {
-    font-family: "foco", Helvetica, sans-serif;
-    background: transparent;
-    border: 6px solid #ffffff;
-    color: white;
-    border: none;
-    display: block;
-    width: 160px;
-    height: 74px;
-    cursor: pointer;
-    font-size: 14px;
-    letter-spacing: .2em;
     -webkit-transform: rotate(-270deg);
     transform: rotate(-270deg); }
     .infobtn button:before {
@@ -445,17 +449,6 @@ svg .cls-2 {
   float: left;
   position: absolute; }
   .gradbtn button {
-    font-family: "foco", Helvetica, sans-serif;;
-    background: transparent;
-    border: 6px solid #ffffff;
-    color: white;
-    border: none;
-    display: block;
-    width: 160px;
-    height: 74px;
-    cursor: pointer;
-    font-size: 14px;
-    letter-spacing: .2em;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg); }
     .gradbtn button:before {
