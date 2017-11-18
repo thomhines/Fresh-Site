@@ -6,6 +6,8 @@
 		<?php include 'header.php' ?>
 	</head>
 	<body class="grid wfull biobg">
+    <img class="plant-ind-left" src="src/img/fall2017/plant-ind-student.png" alt="leafy green plant">
+    <img class="plant-ind-left" src="src/img/fall2017/plant-ind-student-patterns.svg" alt="leafy green plant">
 		<!-- Nav Slides -->
 			<!-- Class "cbp-spmenu-open" gets applied to menu -->
 		<?php include 'sidebar-location.php' ?>
@@ -13,9 +15,9 @@
 
 		<div class="row topbar">
 			<div class="c2">
-
+        
 				<a href="/fresh/" class="sm17--svg__sub-page">
-					
+					FRESH (replace with logo)
 				</a>
 
 			</div>

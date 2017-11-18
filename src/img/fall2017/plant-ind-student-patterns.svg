@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="125px" height="145px" viewBox="0 0 125 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="125" height="145"></rect>
+        <rect id="path-3" x="0" y="0" width="125" height="145"></rect>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3">
+            <g id="Page-1-Copy-10">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g mask="url(#mask-2)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <g id="Page-1-Copy-9" mask="url(#mask-4)">
+                        <g transform="translate(70.952205, 95.970145) rotate(63.000000) translate(-70.952205, -95.970145) translate(31.952205, 84.470145)">
+                            <path d="M57.1638,3.1138 L69.2558,22.0168" id="Fill-1" stroke="none" fill="#ECEA64" fill-rule="evenodd"></path>
+                            <path d="M57.1638,3.1138 L69.2558,22.0168" id="Stroke-2" stroke="#ECEA64" stroke-width="5.325" fill="none" stroke-linecap="round"></path>
+                            <path d="M75.2585,12.8785 L77.1845,15.8895" id="Fill-4" stroke="none" fill="#ECEA64" fill-rule="evenodd"></path>
+                            <path d="M75.2585,12.8785 L77.1845,15.8895" id="Stroke-5" stroke="#ECEA64" stroke-width="5.325" fill="none" stroke-linecap="round"></path>
+                            <path d="M42.7883,0.6626 L54.8763,19.5586" id="Fill-7" stroke="none" fill="#ECEA64" fill-rule="evenodd"></path>
+                            <path d="M42.7883,0.6626 L54.8763,19.5586" id="Stroke-8" stroke="#ECEA64" stroke-width="5.325" fill="none" stroke-linecap="round"></path>
+                            <path d="M32.0017,4.0572 L41.4767,18.8702" id="Fill-10" stroke="none" fill="#ECEA64" fill-rule="evenodd"></path>
+                            <path d="M32.0017,4.0572 L41.4767,18.8702" id="Stroke-11" stroke="#ECEA64" stroke-width="5.325" fill="none" stroke-linecap="round"></path>
+                            <path d="M21.509,7.7945 L29.15,19.7385" id="Fill-13" stroke="none" fill="#ECEA64" fill-rule="evenodd"></path>
+                            <path d="M21.509,7.7945 L29.15,19.7385" id="Stroke-14" stroke="#ECEA64" stroke-width="5.325" fill="none" stroke-linecap="round"></path>
+                            <path d="M10.6936,11.0259 L16.5466,20.1759" id="Fill-16" stroke="none" fill="#ECEA64" fill-rule="evenodd"></path>
+                            <path d="M10.6936,11.0259 L16.5466,20.1759" id="Stroke-17" stroke="#ECEA64" stroke-width="5.325" fill="none" stroke-linecap="round"></path>
+                            <path d="M0.6628,15.2759 L4.9108,21.3129" id="Fill-19" stroke="none" fill="#ECEA64" fill-rule="evenodd"></path>
+                            <path d="M0.6628,15.2759 L4.9108,21.3129" id="Stroke-20" stroke="#ECEA64" stroke-width="5.325" fill="none" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
