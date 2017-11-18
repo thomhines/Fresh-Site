@@ -32,7 +32,7 @@
 					<!--STATEMENT-->
 					<div class="row statement">
 						<div class="s3 c6">
-							<p>The <a target="_blank" href="http://psu.gd/">Portland State Graphic Design</a> program invites you to meet 20 FRESH graduates at <a target="_blank" href="http://guerrilladev.co/the-fair-haired-dumbbell/">Fair-Haired Dumbbell</a> on Wednesday, December 6th from 5:30&ndash;8:30 pm. FRESH requires registration. If you are interested in working with one of our grads, please contact kateb (at) pdx.edu for information.</p>
+							<p>The <a target="_blank" href="http://psu.gd/">Portland State Graphic Design</a> program invites you to meet 20 FRESH graduates at <a target="_blank" href="http://guerrilladev.co/the-fair-haired-dumbbell/">The Fair-Haired Dumbbell</a> on Wednesday, December 6th from 5:30&ndash;8:30 pm. FRESH requires registration. If you are interested in working with or speaking to one of our grads, please contact Kate Bingaman-Burt at kateb (at) pdx.edu for information.</p>
 						</div>
 					</div>
 					<!--end STATEMENT-->
