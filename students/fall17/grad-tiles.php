@@ -12,7 +12,7 @@
                 $firstName = ucwords($nameArray[0]);
                 $lastName = ucwords($nameArray[1]);
                 $thirdName = ' ' . ucwords($nameArray[2]);
-                $photofile = 'students/fall17/'.$dirname.'/portraits/homepage.png';
+                $photofile = 'students/fall17/'.$dirname.'/homepage.jpg';
 
                 echo '<li class="studentBlock">
                   <img class="photo" src="'. $photofile .'" alt="'. 'A photo of '.$nameUppercase .'" />
