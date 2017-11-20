@@ -354,6 +354,58 @@ img {
 
 } 
 
+/* =Media query for 960 Screens
+-------------------------------------------------------------- */
+@media only screen and (max-width:960px) {
+  
+      .row {
+          margin-bottom: 0;
+      }
+  
+      .c1,.c2,.c3,.c4,.c5,.c7,.c8,.c9,.c10,.c11,.c12 {
+          width: 80%;
+          margin: 20px 0;
+      }
+      
+      .c6 {
+          width: 100%;
+          padding: 20%;
+      }
+      
+      .s1,.s2,.s3,.s4,.s5,.s5,.s6,.s7,.s8,.s9,.s10,.s11 {
+          margin: 0 auto !important;
+          width: 100% !important;
+      }
+      
+      .s2.c2 {
+          margin: 0 !important;
+      }
+  
+      .c2 {
+          width: 100%;
+          margin: 0 auto;
+          padding: 0;
+          float: left;
+      }
+      
+      .s2.c2 {
+          margin: 0 auto;
+          max-width: 100%;
+      }
+      
+      .row.topbar {
+          width: 100%;
+          margin: 0 auto;
+      }
+      
+      .s1.c5 {
+          width: 100% !important;
+          margin: 0 auto;
+          padding: 0;
+      }
+      
+  }
+
 
 
 /* =Media query for iPad and tablets

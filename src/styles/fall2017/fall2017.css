@@ -755,15 +755,10 @@ flexslider
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - PROFILE PAGES */
 
-/* BRAND COLORS */
-/* FALL 2017
-yellow: #eceb73;
-green: #008247;
-pink: #f7b6b3;
-blue: #1591B2;
-red: #eb4439; 
-*/
+.biobg { /* this is applied to body of profile page */
+  background-color: white; }
 
+/* - - - - - - - - - - - - - - - - - - - header of profile pages */
 .logo-grad {
   position: absolute;
   top: 35px;
@@ -782,8 +777,125 @@ red: #eb4439;
   fill: #eb4439;
 }
 
-.biobg {
-  background-color: white; }
+.biosection {
+  margin: 140px 0 0 0; 
+  position: relative; }
+
+/* - - - - - - - - - - - - - - - - - - - left side/photo profile pages */
+
+.bioleft {
+  margin-top: 60px;
+  min-width: 250px;
+  position: relative;
+  z-index: 1; }
+
+.bio_pic {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.bio_pic img {
+  width: 100%; }
+
+.website_btn {
+  width: 250px;
+  display: block;
+  margin: 2em auto;
+  text-align: center;
+  padding: 25px 15px;
+  border: 6px solid #f7b6b3;
+  font-family: "foco", Helvetica, sans-serif;
+  cursor: pointer;
+  -webkit-transition: all 200ms ease 0s;
+  transition: all 200ms ease 0s; }
+    .website_btn a {
+      color: #f7b6b3;
+      line-height: 0em;
+      height: 100%;
+      width: 100%;
+      text-decoration: none;
+      letter-spacing: .2em;
+      font-weight: bold;
+      display: block; }
+    .website_btn:hover {
+      background: #f7b6b3; }
+    .website_btn:hover a {
+      color: #eceb73; }
+
+/* - - - - - - - - - - - - - - - - - - - right side/bio profile pages */
+
+.bio {
+  padding: 80px;
+  float: left;
+  max-width: 800px;
+  color: #1591B2; 
+  font-size: 1.2em;
+  line-height: 1.75;
+  letter-spacing: .03em; }
+    .bio h1 { /* student name */
+      color: #eb4439;
+      padding-bottom: 25px;
+      font-size: 3.5em;
+      line-height: 1.2;}
+    .bio h1 span {  
+      /* not using fall 2017 */
+      /* this styles the last name on bio page */ }
+    .bio h2 { /* project title */
+      color: #eb4439;
+      font-size: 1.75em; 
+      padding-bottom: .5em;}
+    .bio_question { 
+      color: #eb4439;
+      font-weight: 700;
+      margin-top: .5em;  }
+    .bio ul { /* interests/skills list */
+      padding-left: 25px;
+      margin-bottom: 1.5em;
+      list-style-type: circle;
+      font-family: "foco", Helvetica, sans-serif;
+      color: #eb4439;
+      font-size: 1.1em;
+      line-height: 1.5em;
+      letter-spacing: .03em;}
+    .bio p {
+      text-shadow: 0 0 10px white; }
+    .bio img { /* adds space between projects in bio */
+      margin-top: 1em; }
+
+.artwork {
+  padding: 25px 0px;
+  float: left;
+  width: 100%;
+  max-width: 800px; }
+
+.logobar {
+  margin: 0 auto;
+  min-width: 75px;
+  max-width: 85px; }
+  .logobar:hover {
+    opacity: 0.5; }
+
+p.one-liners {
+  color: #244289;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  padding-top: 35px;
+  text-align: left;
+  font-family: "foco", Helvetica, sans-serif; }
+
+
+
+/*skillset bullets on profile pages*/
+.skills {
+  margin-left: 18px;
+  padding-bottom: 18px;
+  font-size: 1em;
+  font-weight: 110;
+  font-style: none;
+  color: black; }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - ARCHIVE PAGE */
 
 .topbar_archive {
   padding: 55px 0;
@@ -795,121 +907,6 @@ red: #eb4439;
   margin: 0 auto;
   min-width: 150px;
   max-width: 200px; }
-
-.biosection {
-  margin: 140px 0 0 0; 
-  position: relative; }
-
-.bio {
-  padding: 80px;
-  float: left;
-  max-width: 800px;
-  color: #1591B2; 
-  font-size: 18px;
-  line-height: 1.75;
-  letter-spacing: .03em; }
-    .bio h1 {
-      color: #eb4439;
-      padding-bottom: 25px;
-      font-size: 3.5em;
-      line-height: 1.2;}
-    .bio h1 span {  
-      /* not using fall 2017 */
-      /* this styles the last name on bio page */ }
-    .bio h2 {
-      color: #eb4439;
-      font-size: 1.75em; 
-      padding-bottom: .5em;}
-    .bio h4 {
-      color: #eb4439;
-      font-weight: 700;
-      margin-top: .5em;  }
-    .bio ul {
-      padding-left: 25px;
-      margin-bottom: 1.5em;
-      list-style-type: circle;
-      font-family: "foco", Helvetica, sans-serif;
-      color: #eb4439;
-      font-size: 1.1em;
-      line-height: 1.5em;
-      letter-spacing: .03em;}
-    .bio p {
-      text-shadow: 0 0 10px white; }
-    .bio img {
-      margin-top: 1em;
-    }
-
-.logobar {
-  margin: 0 auto;
-  min-width: 75px;
-  max-width: 85px; }
-  .logobar:hover {
-    opacity: 0.5; }
-
-.bioleft {
-  margin-top: 60px;
-  min-width: 260px;
-  margin-right: 25px; 
-  position: relative;
-  z-index: 1; }
-
-.bio_pic {
-  display: block;
-  width: 300px;
-  margin: 0 auto;
-  overflow: hidden; }
-  .bio_pic img {
-    width: 100%; }
-
-.website_btn {
-  width: 300px;
-  display: block;
-  margin: 2em auto;
-  text-align: center;
-  padding: 25px 15px;
-  border: 6px solid #f7b6b3;
-  font-family: "foco", Helvetica, sans-serif;
-  cursor: pointer;
-  -webkit-transition: all 200ms ease 0s;
-  transition: all 200ms ease 0s; }
-  .website_btn a {
-    color: #f7b6b3;
-    line-height: 0em;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-    letter-spacing: .2em;
-    font-weight: bold;
-    display: block; }
- .website_btn:hover {
-    background: #f7b6b3; }
-  .website_btn:hover a {
-      color: #eceb73; }
-
-p.one-liners {
-  color: #244289;
-  font-size: 1.2em;
-  line-height: 1.8em;
-  padding-top: 35px;
-  text-align: left;
-  font-family: "foco", Helvetica, sans-serif; }
-
-.artwork {
-  padding: 25px 0px;
-  float: left;
-  width: 100%;
-  max-width: 800px; }
-
-/*skillset bullets on profile pages*/
-.skills {
-  margin-left: 18px;
-  padding-bottom: 18px;
-  font-size: 1em;
-  font-weight: 110;
-  font-style: none;
-  color: black; }
-
-
 
 
 
@@ -1333,7 +1330,11 @@ p.credits {
     width: 98%;
     font-size: .9em;
     padding-top: 5px;
-    line-height: 1.2em; } }
+    line-height: 1.2em; } 
+  .bio {
+    max-width: 100%;
+    padding: 30px 150px 100px 150px }
+}
 
 /* =Media query for iPad and tablets
 -------------------------------------------------------------- */
@@ -1363,7 +1364,7 @@ p.credits {
     margin: 0 auto;
     padding: 10px 0 20px 0; }
   .bio {
-    padding: 20%; }
+    padding: 10%; }
   .row.topbar {
     padding: 0; }
   .row.footer.clear {
