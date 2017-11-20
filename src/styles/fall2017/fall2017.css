@@ -148,9 +148,9 @@ hr {
 
 h4.fall2017--hero {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.7em;
   text-align: left; 
-  font-weight: 400; 
+  font-weight: 700; 
   letter-spacing: 1px;
   padding-bottom: 10px; 
   position: relative; 
@@ -515,7 +515,8 @@ svg .cls-2 {
   width: 100%;
   padding: 2em 4em;
   overflow-y: scroll;
-  overflow-x: hidden; }
+  overflow-x: hidden; 
+  z-index: 2000; }
 
 ::-webkit-scrollbar-track {
   background-color: #b46868; }
@@ -760,23 +761,20 @@ flexslider
   background-color: white; }
 
 /* - - - - - - - - - - - - - - - - - - - header of profile pages */
+
 .logo-grad {
   position: absolute;
   top: 35px;
-  left: 60px;
-}
+  left: 60px; }
 
 .logo-grad svg {
-  height: 40px;
-}
+  height: 40px; }
 
 .logo-grad svg path {
-  fill: #1591B2;
-}
+  fill: #1591B2; }
 
 .logo-grad svg:hover path {
-  fill: #eb4439;
-}
+  fill: #eb4439; }
 
 .biosection {
   margin: 140px 0 0 0; 
@@ -911,6 +909,21 @@ p.one-liners {
   min-width: 150px;
   max-width: 200px; }
 
+.logo-container-archive {
+  padding-bottom: 50px; }
+
+.statement-archive {
+  padding: 120px 0;
+  background: white;
+  margin-bottom: 0; 
+  text-align: center;
+  max-width: 100%; }
+.statement-archive p {
+  color: black;
+  line-height: 28px; }
+.statement-archive a {
+  color: #eb4439; 
+  border-bottom: 3px solid #eb4439; }
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - FOOTER STYLES */
@@ -1349,7 +1362,7 @@ p.credits {
     padding-top: 0px; }
   .photoGrid li a div h3 {
     width: 98%;
-    font-size: 2em;
+    font-size: 1.2em;
     padding-top: 5px;
     line-height: 1.2em; } 
   .bio {
@@ -1375,6 +1388,35 @@ p.credits {
     width: 60%;
     left: 40px;
     padding-top: 30px; } }
+
+/* =Media query for 768px wide - this is where 3 column
+    photo grid turns into a single column
+-------------------------------------------------------------- */
+@media only screen and (max-width: 800px) {
+  .photoGrid li a div h3 {
+    font-size: 2em;} }
+
+
+/* =Media query for 600px wide
+-------------------------------------------------------------- */
+@media only screen and (max-width: 700px) {
+    /* Fall 2017 styles */
+  .plant-footer {
+    width: 70%; }
+  .plant-header-left {
+    width: 65%; } 
+  .plant-header-right {
+    width: 65%; } 
+  .fall2017--hero-container {
+    width: 90%;
+    padding: 100px 0 80px 0; }
+  .fall2017--hero-container svg {
+    height: 130px; }
+  .fall2017--hero-container h2 {
+    font-size: 2em; }
+  .fall2017--hero-container h4 {
+    font-size: 1.5em;
+    font-weight: 700; } }
 
 
 /* =Media query for iPad and tablets
@@ -1443,6 +1485,7 @@ p.credits {
     max-width: 94%;
     margin: 0 auto; } }
 
+
 /* =Media query for 480 Screens
 -------------------------------------------------------------- */
 @media screen and (max-width: 480px) {
@@ -1467,6 +1510,8 @@ p.credits {
     padding-bottom: 120px; }
   .footer {
     padding: 30px 0 350px 0; }
+  .accordion-buttons {
+    padding: 0 20px; }
   /* Fall 2017 styles */
   .plant-footer {
     width: 70%; }
