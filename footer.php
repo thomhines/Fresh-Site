@@ -1,3 +1,5 @@
+<footer>
+
 <img class="plant-footer" src="src/img/fall2017/plant-bottom-right.png" alt="green leafy plant">
 <img class="plant-footer plant-footer--svg" src="src/img/fall2017/plant-bottom-right-patterns.svg" alt="geometric patterns">
 
@@ -97,3 +99,5 @@
         }
     }
 </script>
+
+</footer>

@@ -818,11 +818,12 @@ flexslider
       text-decoration: none;
       letter-spacing: .2em;
       font-weight: bold;
-      display: block; }
+      display: block;
+      outline: 0; }
     .website_btn:hover {
       background: #f7b6b3; }
     .website_btn:hover a {
-      color: #eceb73; }
+      color: #eceb73;}
 
 /* - - - - - - - - - - - - - - - - - - - right side/bio profile pages */
 
@@ -1364,7 +1365,7 @@ p.credits {
 @media only screen and (max-width: 800px) {
   .footer {
     max-width: 100%;
-    padding: 30px 20px 190px 20px; } 
+    padding: 30px 20px 210px 20px; } 
   .footerLogos {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1466,11 +1467,22 @@ p.credits {
     padding-bottom: 120px; }
   .footer {
     padding: 30px 0 350px 0; }
+  /* Fall 2017 styles */
   .plant-footer {
     width: 70%; }
   .plant-header-left {
     width: 65%; } 
   .plant-header-right {
-    width: 65%; } }
+    width: 65%; } 
+  .fall2017--hero-container {
+    width: 90%;
+    padding: 100px 0 80px 0; }
+  .fall2017--hero-container svg {
+    height: 100px; }
+  .fall2017--hero-container h2 {
+    font-size: 2em; }
+  .fall2017--hero-container h4 {
+    font-size: 1.2em;
+    font-weight: 700; } }
 
 /* END @480px */
