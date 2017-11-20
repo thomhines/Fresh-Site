@@ -416,7 +416,7 @@ svg .cls-2 {
   .eventData h2, .previous_grads h2 {
     text-align: center;
     font-size: 1em;
-    font-weight: 350;
+    font-weight: 400;
     color: black;
     display: inline-block;
     position: relative; }
@@ -424,12 +424,20 @@ svg .cls-2 {
     margin-bottom: 1em;
     text-align: left;
     font-size: 1em;
-    font-weight: 350;
+    font-weight: 400;
     color: black;
     display: inline-block;
     position: relative; }
-    .eventData p a, .previous_grads p a {
-      color: #191919; }
+  .eventData p a, .previous_grads p a {
+    color: #1591B2;
+    display: inline-block;
+    line-height: 1.25em;
+    border-bottom: 3px solid #1591B2; }
+  .eventData p a:hover, .previous_grads p a:hover {
+    color: #f7b6b3;
+    display: inline-block;
+    line-height: 1.25em;
+    border-bottom: 3px solid #f7b6b3; }
 
 .unionmap {
   position: relative;
@@ -925,9 +933,10 @@ footer {
         color: black; }
 
 .footer {
-  background: #eb4439;
   padding: 25px 0;
-  margin-bottom: 0; }
+  padding-bottom: 250px;
+  margin-bottom: 0; 
+  background-color: #eb4439; }
   .footer p {
     color: #ffffff;
     font-size: 16px;
@@ -943,7 +952,7 @@ footer {
     .footer a:hover, .footer a.active {
       color: #db202a;
       border-color: #ffffff; } */
-  .footer .eventData p {
+  .footer .eventData p, .footer .previous_grads p {
     color: #000000; }
 
 .footerBlurb {
@@ -952,20 +961,31 @@ footer {
   padding-top: 30px; }
 
 .footerLogo {
-  padding-top: 40px;
-  padding-bottom: 40px; 
-  padding-right: 90px; }
+  padding: 40px 90px 40px 0; }
 
 .footerLogos {
-  margin-left: 40px; }
+  position: absolute;
+  bottom: 0;
+  left: 20px; 
+  width: calc(100% - 20px);
+  max-width: 100%; }
+.footerLogos img {
+  display: inline;
+}
 
-.acordian-info {
+.accordion-buttons {
+  margin-bottom: 35px; }
+
+.accordion-info {
   margin-bottom: 15px;
   display: none; }
 
+
 button.accordion {
-  background-color: #db202a;
+  background-color: #eceb73;
   color: #ffffff;
+  font-size: 2em;
+  font-weight: 700;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -975,18 +995,17 @@ button.accordion {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   text-transform: uppercase;
-  line-height: 1.75em;
-  text-decoration: none;
-  letter-spacing: .2em; }
+  line-height: 1.75;
+  letter-spacing: .2em;
+  text-decoration: none; }
 
-div.panel {
+.accordion-info .panel {
   padding: 20px;
   display: none;
-  border: 5px solid #db202a;
-  background-color: white; }
-
-.credits-container {
-  margin: 50px 0 100px 0; }
+  border: 10px solid #eceb73;
+  border-top: none;
+  background-color: white;
+  color: black; }
 
 p.credits {
   text-transform: uppercase;
@@ -1000,7 +1019,7 @@ p.credits {
 
 .schoolLogos {
   float: left;
-  margin-right: 5%;
+  margin-right: 3%;
   margin-top: 40px;
   margin-bottom: 20px;
   max-width: 80px; }
@@ -1312,6 +1331,7 @@ p.credits {
 
 
 /********************** MEDIA QUERIES **********************/
+
 /* =Media query for 960 Screens - sets nested grids to 100%
 -------------------------------------------------------------- */
 @media only screen and (max-width: 960px) {
@@ -1319,7 +1339,13 @@ p.credits {
     width: 100%; }
   .footer {
     max-width: 100%;
-    padding: 30px; }
+    padding: 30px 90px 150px 90px; }
+  .footerLogo {
+    padding: 0 20px; }
+  .footer .c5 {
+    width: 100%; }
+  .footerBlurb {
+    padding-top: 0px; }
   .photoGrid li a div h3 {
     width: 98%;
     font-size: 2em;
@@ -1331,6 +1357,24 @@ p.credits {
   .bio h1 {
     font-size: 2em;
     font-weight: 700; } }
+
+
+/* =Media query for 800px wide
+-------------------------------------------------------------- */
+@media only screen and (max-width: 800px) {
+  .footer {
+    max-width: 100%;
+    padding: 30px 20px 190px 20px; } 
+  .footerLogos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 60%;
+    left: 40px;
+    padding-top: 30px; } }
+
 
 /* =Media query for iPad and tablets
 -------------------------------------------------------------- */
@@ -1373,7 +1417,7 @@ p.credits {
       margin: 0 auto; }
   .schoolLogos {
     margin: 0 auto;
-    padding: 15px; }
+    padding: 20px 20px 20px 0; }
   .footerLogos {
     margin: 40px auto;
     overflow: auto;
@@ -1383,7 +1427,7 @@ p.credits {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-  .acordian-info {
+  .accordion-info {
     display: block; }
   .previous_grads_video {
     max-width: 94%;
@@ -1409,6 +1453,24 @@ p.credits {
     align-items: flex-start;
     padding-top: 20%;
     padding-bottom: 20%;
-    height: auto !important; } }
+    height: auto !important; }
+  .footerLogos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 80%;
+    left: 20px;
+    padding-top: 30px;
+    padding-bottom: 120px; }
+  .footer {
+    padding: 30px 0 350px 0; }
+  .plant-footer {
+    width: 70%; }
+  .plant-header-left {
+    width: 65%; } 
+  .plant-header-right {
+    width: 65%; } }
 
 /* END @480px */
