@@ -213,7 +213,7 @@ svg .cls-2 {
   position: absolute; 
   bottom: 0; 
   left: 0; 
-  width: 50%; }
+  width: 45%; }
 
 .plant-footer {
   position: absolute;
@@ -316,18 +316,13 @@ svg .cls-2 {
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - FLYOUT MENUS */
 
-#showLeft {
-  color: #ffffff;
-  overflow: hidden;
-  padding-bottom: 30px; }
-
-#showRight {
-  color: #ffffff;
+#showLeft, #showRight {
+  color: #eceb73;
+  font-weight: 700;
   overflow: hidden;
   padding-bottom: 30px; }
 
 .flyoutbtn button {
-  color: white;
   font-size: 1em;
   font-weight: 700;
   letter-spacing: .2em;
@@ -354,7 +349,7 @@ svg .cls-2 {
       display: block;
       width: 100%;
       height: 90%;
-      border: 4px solid #ffffff;
+      border: 4px solid #eceb73;
       position: absolute;
       bottom: -40px;
       left: 0;
@@ -380,18 +375,16 @@ svg .cls-2 {
   color: #191e64; }
 
 .eventSpace img {
-  padding-top: 50px; }
+  padding: 10px;
+  z-index: 1004;
+  display: block;
+  width: 70%;
+  margin: auto;
+  border: none;  }
 
 .eventSpace a {
   color: #666666;
   font-weight: 400; }
-
-.revlogo {
-  z-index: 1004;
-  display: block;
-  width: 70%;
-  margin: 0 auto 40px;
-  border: none; }
 
 .revinfo {
   float: right;
@@ -414,20 +407,20 @@ svg .cls-2 {
   border: none;
   margin: 10px auto; }
 
-.eventData {
+.eventData, .previous_grads {
   position: relative;
   max-width: 95%;
   margin: 20px auto; }
-  .eventData h1 {
+  .eventData h1, .previous_grads h1 {
     color: #ec414e; }
-  .eventData h2 {
+  .eventData h2, .previous_grads h2 {
     text-align: center;
     font-size: 1em;
     font-weight: 350;
     color: black;
     display: inline-block;
     position: relative; }
-  .eventData p {
+  .eventData p, .previous_grads p {
     margin-bottom: 1em;
     text-align: left;
     font-size: 1em;
@@ -435,7 +428,7 @@ svg .cls-2 {
     color: black;
     display: inline-block;
     position: relative; }
-    .eventData p a {
+    .eventData p a, .previous_grads p a {
       color: #191919; }
 
 .unionmap {
@@ -462,7 +455,7 @@ svg .cls-2 {
       display: block;
       width: 100%;
       height: 90%;
-      border: 4px solid #ffffff;
+      border: 4px solid #eceb73;
       position: absolute;
       bottom: -40px;
       left: 0;
@@ -609,8 +602,8 @@ flexslider
 
 
 
+/* - - - - - - - - - - - - - - - - - - - - - - - - - PHOTO GRID STYLES */
 
-/* PHOTO GRID STYLES */
 .thumbnailGrid {
   margin: 90px;
   position: relative; }
@@ -1099,7 +1092,7 @@ p.credits {
 #cbp-spmenu-s1 {
   background: #eb4439; }
 
-.previous_grads {
+/* .previous_grads {
   width: 500px;
   margin: 0 auto;
   padding-top: 25px; }
@@ -1108,7 +1101,7 @@ p.credits {
     font-weight: 350;
     color: black;
     display: inline-block;
-    position: relative; }
+    position: relative; } */
 
 .archive_btn {
   width: 220px;
