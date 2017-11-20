@@ -770,7 +770,7 @@ flexslider
 }
 
 .logo-grad svg path {
-  fill: #f7b6b3;
+  fill: #1591B2;
 }
 
 .logo-grad svg:hover path {
@@ -836,7 +836,8 @@ flexslider
     .bio h1 { /* student name */
       color: #eb4439;
       padding-bottom: 25px;
-      font-size: 3.5em;
+      font-size: 2.5em;
+      font-weight: 700;
       line-height: 1.2;}
     .bio h1 span {  
       /* not using fall 2017 */
@@ -844,7 +845,7 @@ flexslider
     .bio h2 { /* project title */
       color: #eb4439;
       font-size: 1.75em; 
-      padding-bottom: .5em;}
+      padding-bottom: .7em;}
     .bio_question { 
       color: #eb4439;
       font-weight: 700;
@@ -1334,7 +1335,9 @@ p.credits {
   .bio {
     max-width: 100%;
     padding: 30px 150px 100px 150px }
-}
+  .bio h1 {
+    font-size: 2em;
+    font-weight: 700; } }
 
 /* =Media query for iPad and tablets
 -------------------------------------------------------------- */
