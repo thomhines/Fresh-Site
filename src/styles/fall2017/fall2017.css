@@ -213,7 +213,7 @@ svg .cls-2 {
   position: absolute; 
   bottom: 0; 
   left: 0; 
-  width: 45%; }
+  width: 40%; }
 
 .plant-footer {
   position: absolute;
@@ -335,7 +335,7 @@ svg .cls-2 {
 }
 
 .infobtn {
-  top: 50%;
+  top: calc(50% - 19px); /* subtracts half of width to make it exactly 50% */
   width: 38px;
   right: -10px;
   float: right;
@@ -443,7 +443,7 @@ svg .cls-2 {
 .gradbtn {
   z-index: 1004;
   left: -132px;
-  top: 50%;
+  top: calc(50% - 19px); /* subtracts half of width to make it exactly 50% */
   width: 38px;
   float: left;
   position: absolute; }
