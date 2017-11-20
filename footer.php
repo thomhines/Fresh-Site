@@ -8,39 +8,35 @@
 		</a>
 	</div>
 	<div class="c5">
+
+
+
+
+
     <!-- WILL ONLY BE SHOWN AT 800PX OR LESS -->
+    <!-- this adds expandable buttons in the footer to
+         replace the flyout EVENT INFO and FRESH? menus -->
     <div class="acordian-info">
-        <button class="accordion"><h3>Event Info ▾</h3></button>
-            <div class="panel">
-                <div class="eventSpace">
-					<a target="_blank" href="https://www.halfcourtstudio.com/">
-						<img class="revlogo" src="src/img/images/sellon_hc-9797.jpg" alt="Dairy Building interior" width="100%" />
-					</a>
-                </div>
-                <div class="eventData clear">
-                    <p>FRESH is an invitation-only review held at the end of every PSUGD Senior Portfolio class. FRESH typically happens three times a year (December, June and the end of August). The event is put on by the students and not only showcases their graduating work, but also gives them an opportunity to get valuable feedback from respective design leaders.</p>
-					<p>This year, FRESH is at <a target="_blank" href="https://www.halfcourtstudio.com/">Half Court Studio</a> &amp; <a target="_blank" href="https://www.outletpdx.com/">Outlet</a> August 30th from 5:30&ndash;9:00 pm. The address is <a target="_blank" href="https://goo.gl/maps/pBMAVzapEj22">2500 Northeast Sandy Blvd. Suite F, Portland, OR 97232</a>.</p>
-					<p>If you are currently looking to collaborate with a FRESH PSUGD grad and would like to be invited to one of our portfolio events, please email ethanallensmith (at) pdx.edu</p>
-                    .</p>
-                </div>
-            </div>
-    </div> 
+      <button class="accordion"><h3>Event Info ▾</h3></button>
+      <div class="panel">
+        <?php include 'sidebar-location-content.php'; ?>  
+      </div>
+    </div>
+
     <div class="acordian-info">
     	<button class="accordion"><h3>Fresh? ▾</h3></button>
-        <div class="panel">
-            <video class="previous_grads_video"width="760" height="340" autoplay loop style="margin: 20px auto; display: block;">
-              <source src="src/video/fresh-motion-promo-final.mp4" type="video/mp4">
-              <source src="src/video/fresh-motion-promo-final.ogg" type="video/ogg">
-            Your browser does not support the video tag.
-            </video>
-            <div class="previous_grads">
-                <p>Nearly every term, students graduate from the Portland State Graphic Design program and throw an awesome event that we call FRESH. This is an opportunity for recent grads to meet professionals working in the field, show off their work, and make connections with the community.</p>
-                <p>This term’s designers are all about seeing and being seen. We are strong, sophisticated, and on our way to the top of our game. Countless hours of planning, iteration, and fabrication has led to this moment. There’s no hiding anymore&mdash;it’s time for us to strut our stuff!</p>
-            </div>
-        </div>
-    </div>
+      <div class="panel">
+        <?php include 'sidebar-grads-content.php'; ?>  
+      </div> 
+    </div> 
+
     <!-- END // WILL ONLY BE SHOWN AT 800PX OR LESS (ABOVE THIS) -->
     <!-- ***************************** -->
+
+
+
+
+
 	<p class="footerBlurb clear">Thanks for taking a look at FRESH! Check out FRESH's cousin, <a href="http://www.psu.gd/be-honest" target="_blank">Be Honest</a>, an open portfolio party that happens every spring.</p>
   <p>FRESH requires registration. If you are interested in working with one of our grads, please contact kateb (at) pdx.edu for information. Also, take a peek at our graduate <a href="archive.php">archive.</a></p>
   <div class="credits-container">
