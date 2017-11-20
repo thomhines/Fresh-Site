@@ -27,13 +27,6 @@
 				<a href="grad.php?name=duc_tran"><div><h3>Duc Tran</h3></div></a>
       </li>
 
-
-      
-      <!-- <li class="studentBlock">
-				<img class="photo" src="students/fall16/duc_tran/duc_bw_web.jpg"  alt="Duc Tran"/>
-				<a href="grad.php?name=duc_tran"><div><h3>Duc Tran</h3></div></a>
-			</li> -->
-
 			<li class="studentBlock">
 				<img class="photo" src="students/fall16/erica_belland/erica_bw_web.jpg"  alt="Erica Belland"/>
 				<a href="grad.php?name=erica_belland"><div><h3>Erica Belland</h3></div></a>
