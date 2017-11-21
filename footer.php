@@ -5,23 +5,23 @@
 
 <div class="footerLogos">
   <a href="http://psu.gd/" target="_blank">
-  <img class="schoolLogos psugd" src="src/img/psugdlogo.png" alt="psugdlogo">
+  <img class="schoolLogos psugd" src="src/img/logos/psugdlogo.png" alt="psugdlogo">
   </a>
 
   <a href="http://fogdpsu.tumblr.com/" target="_blank">
-  <img class="schoolLogos fogd" src="src/img/fogdlogo.png" alt="fogdlogo">
+  <img class="schoolLogos fogd" src="src/img/logos/fogdlogo.png" alt="fogdlogo">
   </a>
 
   <a href="http://www.pdx.edu/the-arts/art-design" target="_blank">
-  <img class="schoolLogos ad" src="src/img/adschoollogo.png" alt="adschoollogo">
+  <img class="schoolLogos ad" src="src/img/logos/adschoollogo.png" alt="adschoollogo">
   </a>
 
   <a href="http://www.pdx.edu" target="_blank">
-  <img class="schoolLogos psu" src="src/img/psulogo.png" alt="psulogo">
+  <img class="schoolLogos psu" src="src/img/logos/psulogo.png" alt="psulogo">
   </a>
 
   <a href="https://feckinbrew.com/" target="_blank">
-  <img class="schoolLogos feckin" src="src/img/feckinlogo.png" alt="Feckin Brewery and Smokehouse">
+  <img class="schoolLogos feckin" src="src/img/logos/feckinlogo.png" alt="Feckin Brewery and Smokehouse">
   </a>
 </div> <!-- end footerLogos -->
 

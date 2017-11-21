@@ -5,15 +5,14 @@
 <meta name="keywords" content="PSU.GD Graduate Showcase, FRESH, Graphic Design" />
 
 <!-- FAVICONS -->
-<link rel="icon" href="src/img/images/favicons/favicon.ico" type="image/x-icon"/>
-<link rel="shortcut icon" href="src/img/images/favicons/favicon.ico" type="image/x-icon"/>
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 <!-- END FAVICONS -->
 
 <!-- CSS FRAMEWORK--> <!-- do not change -->
 <link href="src/styles/framework/gridiculous.css" rel="stylesheet">
 <link href="src/styles/framework/navi.css" rel="stylesheet">
 <link href="src/styles/framework/reset.css" rel="stylesheet">
-<link href="src/styles/framework/fonts.css" rel="stylesheet">
+<!-- <link href="src/styles/framework/fonts.css" rel="stylesheet"> -->
 <!-- CSS FRAMEWORK--> <!-- change every term -->
 <link href="src/styles/fall2017/fall2017.css" rel="stylesheet">
 <!-- END CSS -->
