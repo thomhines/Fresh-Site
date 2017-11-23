@@ -656,7 +656,7 @@ flexslider
       display: block;
       position: absolute;
       -webkit-transition: all 10ms;
-      transition: all 10ms; }
+      transition: all 200ms; }
       .photoGrid li a:before {
         content: '';
         display: block;
@@ -681,12 +681,9 @@ flexslider
           opacity: 1;
           cursor: pointer;
           -webkit-transition: all .3s;
-          transition: all .3s; }
-          .photoGrid li a:hover div .sm17--block-svg path {
-            -webkit-animation: dash 500ms ease forwards;
-            animation: dash 500ms ease forwards; }
+          transition: all 200ms; }
         .photoGrid li a:hover:before {
-          opacity: .6; }
+          opacity: .7; }
       .photoGrid li a div {
         width: 100%;
         height: 100%;
@@ -701,24 +698,7 @@ flexslider
         text-align: center;
         -webkit-transition: all .3s;
         transition: all .3s; }
-        .photoGrid li a div .sm17--block-svg {
-          position: absolute;
-          left: 0;
-          padding: 30px;
-          width: 100%;
-          height: 100%; }
-          .photoGrid li a div .sm17--block-svg path {
-            stroke: #ffffff;
-            stroke-dasharray: 1920;
-            stroke-dashoffset: 1920; }
 
-@-webkit-keyframes dash {
-  to {
-    stroke-dashoffset: 0; } }
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0; } }
         .photoGrid li a div h3 {
           width: 100%;
           height: 100%;
@@ -727,7 +707,20 @@ flexslider
           font-size: 1.6em;
           letter-spacing: 1px;
           position: relative; 
-          top: 45% }
+          top: calc(50% - .8em); /* subtracts half of font size so it is centered */
+          }
+        @media not all and (hover: hover) {
+          .photoGrid li a div {
+            opacity: 1; }
+          .photoGrid li a:before {
+            content: '';
+            display: block;
+            background-color: #eb4439;
+            opacity: .7;
+            width: 100%;
+            height: 3.5em; 
+            position: relative; 
+            top: calc((100% - 3.5em) / 2); } }
   .photoGrid .photo {
     width: 100% !important;
     -webkit-transition: all 1s ease;
