@@ -18,6 +18,7 @@
     <!--STATEMENT-->
     <div class="row statement-archive">
       <div class="s3 c6">
+        <h1 class="archive-header">PSUGD ALUMNI</h1>
         <p>Our talented graduates are spread over the globe, working in a variety of roles and industries. Many of our graduates generously continue to contribute to <a target="_blank" href="http://psu.gd/">PSUGD</a> by teaching classes, giving Show & Tell lectures, dropping in for critiques, or supporting the program with their attendance at events like FRESH. On this page you can view our graduate archive, going back to Spring 2013.</p>
       </div>
     </div>

@@ -46,14 +46,14 @@ Main Body Styles
 ========================================================================== */
 
 ::-moz-selection {
-  background: #eb4439;
+  background: #f7b6b3;
   /* Safari */ }
 ::selection {
-  background: #eb4439;
+  background: #f7b6b3;
   /* Safari */ }
 
 ::-moz-selection {
-  background: #eb4439;
+  background: #f7b6b3;
   /* Firefox */ }
 
 * {
@@ -782,6 +782,10 @@ flexslider
 
 /* - - - - - - - - - - - - - - - - - - - left side/photo profile pages */
 
+.bio {
+  z-index: 3000; /* this is needed due to issue with footer. #todo try to fix footer */
+}
+
 .bioleft {
   margin-top: 60px;
   min-width: 250px;
@@ -898,6 +902,12 @@ p.one-liners {
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - ARCHIVE PAGE */
 
+.archive-header {
+  color: #eb4439;
+  padding-bottom: 40px;
+  border-bottom: 3px solid #f7b6b3;
+  margin-bottom: 30px; }
+
 .topbar_archive {
   padding: 55px 0;
   position: relative;
@@ -920,7 +930,8 @@ p.one-liners {
   max-width: 100%; }
 .statement-archive p {
   color: black;
-  line-height: 28px; }
+  line-height: 28px; 
+  padding: 15px 30px}
 .statement-archive a {
   color: #eb4439; 
   border-bottom: 3px solid #eb4439; }
@@ -1044,6 +1055,10 @@ p.credits {
     min-height: 3em; }
   .schoolLogos a img {
     width: auto; }
+
+.psu {
+  max-width: 130px;
+  padding-top: 5px; }
 
 .sponsors {
   overflow: hidden;
@@ -1402,7 +1417,7 @@ p.credits {
 @media only screen and (max-width: 700px) {
     /* Fall 2017 styles */
   .plant-footer {
-    width: 70%; }
+    width: 60%; }
   .plant-header-left {
     width: 65%; } 
   .plant-header-right {
