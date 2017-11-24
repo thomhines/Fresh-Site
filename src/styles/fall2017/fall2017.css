@@ -86,7 +86,7 @@ h1 {
 
 h2 {
   font-weight: 700;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 1px;
   font-size: 1.1em; }
 
@@ -105,13 +105,13 @@ strong {
 p {
   font-family: 'foco', Helvetica, sans-serif;
   font-size: 1.1em;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: .03em;
   color: #1591B2;
   padding-bottom: 15px; }
   p a {
     display: inline-block;
-    line-height: 1.25em;
+    line-height: 1.25;
     border-bottom: 3px solid #eceb73; }
     p a:hover {
       color: #f7b6b3;
@@ -371,7 +371,7 @@ svg .cls-2 {
   float: left;
   display: inline-block;
   margin: 0px 0px 0 0;
-  line-height: 2em;
+  line-height: 2;
   color: #191e64; }
 
 .eventSpace img {
@@ -431,12 +431,12 @@ svg .cls-2 {
   .eventData p a, .previous_grads p a {
     color: #1591B2;
     display: inline-block;
-    line-height: 1.25em;
+    line-height: 1.25;
     border-bottom: 3px solid #1591B2; }
   .eventData p a:hover, .previous_grads p a:hover {
     color: #f7b6b3;
     display: inline-block;
-    line-height: 1.25em;
+    line-height: 1.25;
     border-bottom: 3px solid #f7b6b3; }
 
 .unionmap {
@@ -860,7 +860,7 @@ flexslider
       font-family: "foco", Helvetica, sans-serif;
       color: #eb4439;
       font-size: 1.1em;
-      line-height: 1.5em;
+      line-height: 1.5;
       letter-spacing: .03em;}
     .bio p {
       text-shadow: 0 0 10px white; }
@@ -883,7 +883,7 @@ flexslider
 p.one-liners {
   color: #244289;
   font-size: 1.2em;
-  line-height: 1.8em;
+  line-height: 1.8;
   padding-top: 35px;
   text-align: left;
   font-family: "foco", Helvetica, sans-serif; }
@@ -1377,13 +1377,16 @@ p.credits {
     width: 98%;
     font-size: 1.2em;
     padding-top: 5px;
-    line-height: 1.2em; } 
+    line-height: 1.2; } 
   .bio {
     max-width: 100%;
     padding: 30px 150px 100px 150px }
   .bio h1 {
     font-size: 2em;
-    font-weight: 700; } }
+    font-weight: 700; }
+  .bio h2 { /* project title */
+    font-size: 1.5em;
+    line-height: 1.2; }
 
 
 /* =Media query for 800px wide
@@ -1402,7 +1405,7 @@ p.credits {
     left: 40px;
     padding-top: 30px; } }
 
-/* =Media query for 768px wide - this is where 3 column
+/* =Media query for 800px wide - this is where 3 column
     photo grid turns into a single column
 -------------------------------------------------------------- */
 @media only screen and (max-width: 800px) {
