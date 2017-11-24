@@ -709,6 +709,10 @@ flexslider
           position: relative; 
           top: calc(50% - .8em); /* subtracts half of font size so it is centered */
           }
+
+        /* this adds a colored band and the students name
+           on top of their image in the photo grid if 
+           the user has a device that does not utilize hover states */
         @media not all and (hover: hover) {
           .photoGrid li a div {
             opacity: 1; }
@@ -776,7 +780,7 @@ flexslider
 /* - - - - - - - - - - - - - - - - - - - left side/photo profile pages */
 
 .bio {
-  z-index: 3000; /* this is needed due to issue with footer. #todo try to fix footer */
+  z-index: 100; /* this is needed due to issue with footer. #todo try to fix footer */
 }
 
 .bioleft {
@@ -830,12 +834,14 @@ flexslider
   font-size: 1.2em;
   line-height: 1.75;
   letter-spacing: .03em; }
-    .bio h1 { /* student name */
+    .bio h1, .bioleft h1 { /* student name */
       color: #eb4439;
       padding-bottom: 25px;
       font-size: 2.5em;
       font-weight: 700;
       line-height: 1.2;}
+    .bioleft h1 {
+      text-align: center; }
     .bio h1 span {  
       /* not using fall 2017 */
       /* this styles the last name on bio page */ }
@@ -998,7 +1004,6 @@ footer {
   margin-bottom: 15px;
   display: none; }
 
-
 button.accordion {
   background-color: #eceb73;
   color: #ffffff;
@@ -1019,7 +1024,7 @@ button.accordion {
 
 .accordion-info .panel {
   padding: 20px;
-  display: none;
+  display: block;
   border: 10px solid #eceb73;
   border-top: none;
   background-color: white;
