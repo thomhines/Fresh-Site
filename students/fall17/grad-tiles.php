@@ -15,7 +15,7 @@
                 $photofile = 'students/fall17/'.$dirname.'/homepage.jpg';
 
                 echo '<li class="studentBlock">
-                  <img class="photo" src="'. $photofile .'" alt="'. 'A photo of '.$nameUppercase .'" />
+                  <img class="photo" src="'. $photofile .'" alt="'. 'A portrait photograph of '.$firstName. ' '.$lastName .'" />
                   <a href="grad.php?name='. $dirname .'">
                       <div>
                           <h3>'. $firstName .' '. $lastName . ' '. $thirdName .'</h3>
