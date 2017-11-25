@@ -18,10 +18,7 @@
                     <img class="photo" src="'. $photofile .'" alt="'. 'A photo of '.$nameUppercase .'" />
                     <a href="grad.php?name='. $dirname .'">
                         <div>
-                            <svg class="sm17--block-svg" width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3 3h474v474H3z" stroke="#000" stroke-width="4" fill="none"/>
-                            </svg>
-                            <h3>'. '<span class="sm17--firstname">'. $firstName .'</span>'.'<span class="sm17--lastname">'. $lastName . $thirdName .'</span>' .'</h3>
+                            <h3>'. $firstName .' '. $lastName . ' '. $thirdName .'</h3>
                         </div>
                     </a>
                 </li>';

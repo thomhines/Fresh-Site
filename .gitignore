@@ -15,3 +15,12 @@ Thumbs.db
 
 # phpstorm
 .idea/*
+
+# Fall 2017 Dropbox (delete after complete)
+reference/
+._*
+students/fall16/
+students/sm17/
+students/sp17/
+.dropbox
+
