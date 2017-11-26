@@ -8,7 +8,7 @@
   <img class="schoolLogos psugd" src="src/img/logos/psugdlogo.png" alt="psugdlogo">
   </a>
 
-  <a href="http://fogdpsu.tumblr.com/" target="_blank">
+  <a href="https://www.instagram.com/fogd/" target="_blank">
   <img class="schoolLogos fogd" src="src/img/logos/fogdlogo.png" alt="fogdlogo">
   </a>
 
@@ -67,10 +67,11 @@
 
     <p class="footerBlurb clear">Thanks for taking a look at FRESH! Check out FRESH's cousin, <a href="http://www.psu.gd/be-honest" target="_blank">Be Honest</a>, an open portfolio party that happens every spring.</p>
     <p>FRESH requires registration. If you are interested in working with or speaking to one of our grads, please register for the event through <a target="_blank" href="http://fall2017fresh.eventbrite.com">Eventbrite</a>. Also, take a peek at our graduate <a href="archive.php">archive.</a></p>
+    <p>Thank you, <a target="_blank" href="http://guerrilladev.co/">Guerilla Development</a> for the use of your space for our event, and <a target="_blank" href="https://www.halfcourtstudio.com/">Half Court Studio</a> for lending us your studio for our class portraits.</p>
     <div class="credits-container">
       <p class="credits">Project Management by <a href="grad.php?name=kate_kobielsky">Kate Kobielsky</a> &amp; <a href="grad.php?name=angela_dinh">Angela Dinh</a></p>
       <p class="credits">Creative Direction by <a href="grad.php?name=bailey_collins">Bailey Collins</a>, <a href="grad.php?name=edlyn_wang">Edlyn Wang</a>, <a href="grad.php?name=kiersta_sze">Kiersta Sze</a>, <a href="grad.php?name=maggie_denham">Maggie Denham</a>, <a href="grad.php?name=rawz_addison">Rawz Addison</a>, <a href="grad.php?name=tina_roach">Tina Roach</a> &amp; <a href="grad.php?name=tyler_alexander">Tyler Alexander</a></p>
-      <p class="credits">Photography by <a href="grad.php?name=kiersta_sze">Kiersta Sze</a>, <a href="grad.php?name=kay_ayran">Kaye Ayran</a> &amp; <a href="grad.php?name=rayan_alhú">Rayan Alhú</a></p>
+      <p class="credits">Photography by <a href="grad.php?name=kiersta_sze">Kiersta Sze</a>, <a href="grad.php?name=kaye_ayran">Kaye Ayran</a> &amp; <a href="grad.php?name=rayan_alhu">Rayan Alhú</a></p>
       <p class="credits">Motion Graphics by <a href="grad.php?name=kaye_ayran">Kaye Ayran</a> &amp; <a href="grad.php?name=maggie_denham">Maggie Denham</a></p>
       <p class="credits">Web Design by <a href="grad.php?name=tina_roach">Tina Roach</a></p>
       <p class="credits">Web Development by <a href="grad.php?name=tricia_leach">Tricia Leach</a> &amp; <a href="grad.php?name=drew_hankins">Drew Hankins</a></p>
