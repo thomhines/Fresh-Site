@@ -836,7 +836,7 @@ flexslider
   letter-spacing: .03em; }
     .bio h1, .bioleft h1 { /* student name */
       color: #eb4439;
-      padding-bottom: 25px;
+      padding-bottom: 15px;
       font-size: 2.5em;
       font-weight: 700;
       line-height: 1.2;}
@@ -1380,7 +1380,7 @@ p.credits {
     line-height: 1.2; } 
   .bio {
     max-width: 100%;
-    padding: 30px 150px 100px 150px }
+    padding: 10px 150px 100px 150px }
   .bio h1 {
     font-size: 2em;
     font-weight: 700; }
@@ -1463,7 +1463,7 @@ p.credits {
     margin: 0 auto;
     padding: 10px 0 20px 0; }
   .bio {
-    padding: 10%; }
+    padding: 2% 10% 10% 10%; }
   .row.topbar {
     padding: 0; }
   .row.footer.clear {
@@ -1506,7 +1506,8 @@ p.credits {
 -------------------------------------------------------------- */
 @media screen and (max-width: 480px) {
   .bio {
-    padding: 30px; }
+    padding: 30px;
+    padding-top: 10px; }
   .hero {
     -webkit-box-align: start;
     -ms-flex-align: start;
