@@ -2,15 +2,29 @@
 <html lang="en" class="no-js">
 	<head>
 		<?php // Spit out the requested name ?>
-		<title>Fresh Fall 2017 - PSU.GD Senior Showcase - <?php echo ( $_GET["name"] ? ucfirst($_GET["name"]) : "Not Found" ); ?></title>
+		<title>Fresh Winter 2018 - PSU.GD Senior Showcase - <?php echo ( $_GET["name"] ? ucfirst($_GET["name"]) : "Not Found" ); ?></title>
 		<?php include 'header.php' ?>
 	</head>
+  
 	<body class="grid wfull biobg">
-    <img class="plant-ind-left" src="src/img/fall2017/plant-ind-student.png" alt="leafy green plant">
-    <img class="plant-ind-left" src="src/img/fall2017/plant-ind-student-patterns.svg" alt="leafy green plant">
-    <div class="logo-grad">
+  
+    <!-- This is the design that goes at the top of each profile page and single archive page. Replace these with your designs for current term -->
+    <img class="design-bio-left" src="src/img/winter2018/stripes-top-left-student-page.png" alt="leafy green design">
+    
+    <div class="logo-grad"> <!-- contains the logo -->
       <a href="/fresh/">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="2in" height="2.014in" viewBox="0 0 481 145"><title>fresh-logo-fall-2017</title><path d="M32.939,58.391H56.291c.695,11.377-.032,20.344-20.344,20.344H32.939v57.033H6.9V8.393H79.232a36.77,36.77,0,0,1,.569,7.034q0,13.309-15.4,13.307H32.939Z" fill="#ebea74"/><path d="M180,44.894q0,13.5-6.369,23.195a35.082,35.082,0,0,1-17.777,13.878l31.369,52.47a37.705,37.705,0,0,1-15.209,3.232,21.444,21.444,0,0,1-11.787-3.041q-4.753-3.041-8.745-9.886l-21.671-36.88H119.354v47.907H93.118V9.153a291.679,291.679,0,0,1,33.65-1.9q27.185,0,40.209,9.221T180,44.894Zm-27.377,2.472q0-11.024-5.7-16.35T129.24,25.693q-3.422,0-5.892.189t-4.185.381V70.18H128.1q11.784,0,18.155-5.895T152.623,47.366Z" fill="#ebea74"/><path d="M260.609,115.617q7.6,0,11.691,3.518t4.089,9.979c0,1.395-.034,2.567-.1,3.518s-.161,2-.286,3.137H201.2V8.393h71.767a36.77,36.77,0,0,1,.569,7.034q0,7.228-3.706,10.266t-12.454,3.041H227.436V60.1h22.78c1.134,10.422-.409,20.342-20.342,20.342h-2.439v35.172Z" fill="#ebea74"/><path d="M291.884,106.491A64.268,64.268,0,0,0,307.855,116a42.532,42.532,0,0,0,15.4,2.848q9.7,0,15.495-4.466t5.8-12.644q-.194-6.651-3.613-10.548a26.423,26.423,0,0,0-9.031-6.464,105.991,105.991,0,0,0-12.261-4.661q-6.086-1.9-12.168-4.466a47.529,47.529,0,0,1-11.122-6.559,29.967,29.967,0,0,1-8.174-10.267q-3.137-6.273-3.137-15.589,0-11.594,5.892-19.962a37.512,37.512,0,0,1,16.255-12.832,57.781,57.781,0,0,1,23.1-4.468,71.968,71.968,0,0,1,19.2,2.567q9.315,2.565,13.878,5.989,5.321,3.043,5.323,8.555A14.428,14.428,0,0,1,366.6,29.4a35.022,35.022,0,0,1-5.514,7.509,50.4,50.4,0,0,0-13.5-7.7,40.939,40.939,0,0,0-14.828-2.946q-9.318,0-14.831,3.707a12.145,12.145,0,0,0-5.514,10.741,13.111,13.111,0,0,0,1.808,6.844,17.927,17.927,0,0,0,5.987,5.705q4.181,2.66,15.59,6.842,6.083,2.283,12.356,4.942a49.006,49.006,0,0,1,11.408,6.75,31.788,31.788,0,0,1,8.364,10.267q3.232,6.178,3.232,15.493,0,19.391-12.832,30.418T323.443,139a84.215,84.215,0,0,1-19.2-2.091,55.852,55.852,0,0,1-15.209-5.7q-5.324-3.609-5.323-8.364Q283.71,117.329,291.884,106.491Z" fill="#ebea74"/><path d="M412.14,60.1h35.392V8.582a59.809,59.809,0,0,1,9.505-.95q7.794,0,12.165,3.707t4.373,11.122V135.768H447.532V80.635H412.14v55.133H386.094V8.582a65.041,65.041,0,0,1,9.126-.95q16.918,0,16.919,14.829Z" fill="#ebea74"/></svg>
+
+          <!-- start of FRESH logo -->
+   
+          <!-- copy and past the following into your svg code:
+          style="max-width: 100%"
+          width="2in" height="2.014in"
+          -->
+  
+          <svg style="max-width: 100%" width="2in" height="2.014in" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 618.69 170"><defs><clipPath id="a"><path d="M426.23 112a11 11 0 0 1 .37 2.75c0 7.61-5.65 12.77-14.73 12.77A15.36 15.36 0 0 1 396.64 112h-35.11c0 26.52 18.17 48.13 50.34 48.13 27.75 0 49.85-21.61 49.85-47.64v-.54z" fill="none"/></clipPath><clipPath id="b"><path fill="none" d="M146.09 98.35V68.89h23.03l62.75 86.36h-46.84l-38.94-56.9z"/></clipPath></defs><g data-name="Layer 2"><g data-name="Layer 1"><g clip-path="url(#a)" fill="none" stroke="#000" stroke-width="2.99"><path d="M387.12 99.81v116.23M378.71 99.81v116.23M371.15 99.81v116.23"/></g><path fill="#9bd3ad" d="M576.76 94.49h-51.74v-30.2h51.81l-.07 30.2z"/><path fill="#f89a2e" d="M486.03 7.91h36.1v34.28h-36.1z"/><path fill="none" stroke="#010101" stroke-width="5.99" d="M486.03 7.91h36.1v34.28h-36.1z"/><path fill="none" stroke="#000" stroke-width="5.99" d="M579.84 6.39v57.96h-57.71V40.67h-36.1v113.07h36.1V95.53h57.71v58.21h35.85V6.39h-35.85z"/><path d="M393.45 115.02l-.68 42.2 14.19 4.08 17.91-2.02 17.23-7.44 15.2-18.24 4.73-17.91-.33-3.71h-35.47l-.35 7.43-5.4 6.76-8.61 1.33-7.95-2.35-7.09-9.46-3.38-.67z"/><path fill="#f89a2e" d="M277.93 154h-16.8V89.47l16.8 6.93V154z"/><path d="M277.8 125.13h66.22v28.82H277.8z"/><path fill="#9bd3ad" d="M280.94 66.21l-.32-26.58h-23.06v34.86l23.38-8.28z"/><path fill="none" stroke="#9bd3ad" stroke-width="8.98" d="M340.69 22.87h-78.17"/><path stroke="#000" stroke-width=".48" d="M244.52 7.01h18.12v147.05h-18.12z"/><path fill="#f89a2e" d="M185.03 155.25h46.84l-59.18-84.34h-23.58v29.33l35.92 55.01zM38.66 71.63l-19.11 7.59V24.89h19.11v46.74z"/><path fill="#f89a2e" d="M97.98 24.72H19.76v14.8h78.27l-.05-14.8z"/><path fill="#9bd3ad" d="M13.76 154l.27-58.61 23.79 5.02V154H13.76z"/><path d="M178.09 71.75c8.1 0 13.51-8.34 13.51-16.94s-6.39-16.21-14.49-16.21h-28v33.15zM113 7.91h61.64c31.68 0 52.31 19.15 52.31 46.9 0 25.79-13 40.27-34.87 45.68l39.78 54.76h-45.18l-37.57-55v55H113z" fill="none" stroke="#010101" stroke-width="5.99"/><path d="M244.64 7.91h97.49v31.92h-61.39v26.52h56.72v31.44h-56.72v26.52h64.09v30.94H244.64z" fill="none" stroke="#000" stroke-width="5.99"/><path d="M3 7.91h95v31.92H39.09v31.43h54.28v31.44H39.09v52.55H3z" fill="none" stroke="#010101" stroke-width="5.99"/><path fill="none" stroke="#010101" stroke-width="2.99" d="M93.06 79.88H19.5l20.22-8.09M18.86 86.69h74.38M93.06 94.62H19.6"/><path fill="#010101" d="M3 155.25V7.91h95.03l.07 17H19.76v130.33L3 155.25z"/><path fill="none" stroke="#fff" stroke-width="5.99" d="M11.98 141.49V18.1h71.08"/><path fill="#010101" d="M110.02 5.13h41.9v153.02h-41.9z"/><path d="M131.15 23h47c42.5 0 42.7 64.49 4 64.49h-10.21" fill="none" stroke="#9bd3ad" stroke-width="8.98"/><path fill="#f89a2e" d="M191.59 97.71l-12.45-17.7-12.49.47.23 24.72 24.71-7.49z"/><g clip-path="url(#b)" fill="none" stroke="#010101" stroke-width="2.99"><path d="M152.81 61.4l75.04 103.27M142.24 61.4l75.04 103.27M131.67 61.4l75.03 103.27"/></g><path fill="#fff" d="M119.09 18.51h12.07v126.98h-12.07z"/><path fill="none" stroke="#000" stroke-width="5.99" d="M280.74 39.83h-34.16"/><path fill="none" stroke="#000" stroke-width="2.99" d="M336.19 81.77h-76.62M336.19 89.47h-76.62l21.67 7.79"/><path fill="none" stroke="#fff" stroke-width="8.98" d="M251.28 144.1V22.94h11.6"/><path fill="none" stroke="#000" stroke-width="2.99" d="M279.93 67.27l-20.36 7.22h76.62"/><path fill="none" stroke="#010101" stroke-width="2.99" d="M19.6 94.62l19.13 6.71"/><path d="M412.6 35.9c10.07 0 15.23 6.88 15.23 15.23h33.89C459.75 23.87 444.28 3 411.62 3c-27.57 0-49.79 21.35-50.07 47.16h35.58c0-9.59 7.62-14.26 15.47-14.26z" fill="#9bd3ad" stroke="#000" stroke-width="5.99"/><path d="M426.23 112a11 11 0 0 1 .37 2.75c0 7.61-5.65 12.77-14.73 12.77A15.36 15.36 0 0 1 396.64 112h-35.11c0 20.71 11.07 38.42 31.24 45.19a59.91 59.91 0 0 0 19.1 2.94c27.75 0 49.85-21.61 49.85-47.64v-.54z" fill="none" stroke="#000" stroke-width="5.99"/><path d="M423.17 66.84c-12.53-3.68-26-5.64-26-16.69h-35.62v.49c0 25.29 13.75 36.83 38.55 45.67 11 3.81 23.92 6.81 26.15 15.67h35.45c-.19-22.77-12.47-37.34-38.53-45.14z" fill="none" stroke="#000" stroke-width="5.99"/><path d="M412.61 24c11.38 0 20.51 6 24.7 15.22h10.13C443.43 26.36 433.65 15 411.62 15c-19.67 0-35.9 14.23-37.9 32.15h11.63C386.87 33.65 397.86 24 412.61 24z" fill="#fff"/><path d="M419.78 78.36c-1.61-.47-3.24-.92-4.85-1.36-11.86-3.23-29.78-8.12-29.78-26.83a24.51 24.51 0 0 1 .2-3h-11.63a31.35 31.35 0 0 0-.21 3.51c0 17.56 7.72 26.24 30.5 34.36 1.44.5 2.91 1 4.38 1.47 12 4 30.19 9.92 30.19 28.27 0 14.34 11.16 17.45 11.16-2.21 0-12.5-3.56-26.32-29.96-34.21z"/><path fill="#010101" d="M505.59 43.58h19.43v107.74h-19.43zM615.33 154.83h-38.5V64.06l38.5.23v90.54z"/><path fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width="2.99" d="M588.47 83.45V18.66l-8.63-12.27M606.17 83.45V18.66l8.64-12.27M597.18 83.9V18.18"/><path fill="none" stroke="#9bd3ad" stroke-width="8.98" d="M608.48 90.07v60.48"/><path fill="none" stroke="#f89a2e" stroke-width="8.98" d="M595.39 116.22v34.33"/><path fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width="2.99" d="M588.47 18.66h17.7"/></g></g></svg>
+          
+          <!-- end of FRESH logo -->
+
       </a>
     </div>
 
@@ -24,9 +38,13 @@
 		<?php
 
     $name = $_GET["name"];
-      if ( $name && file_exists('students/fall17/'.$_GET["name"]) ) {
-      // Include the correct index file
-      include 'students/fall17/'.$name . '/index.php';
+      if ( $name && file_exists('students/winter18/'.$_GET["name"]) ) {
+        // Include the correct index file
+        include 'students/winter18/'.$name . '/index.php';
+      }
+      else if ( $name && file_exists('students/fall17/'.$_GET["name"]) ) {
+        // Include the correct index file
+        include 'students/fall17/'.$name . '/index.php';
       }
 			else if ( $name && file_exists('students/sm17/'.$_GET["name"]) ) {
 				// Include the correct index file

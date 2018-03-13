@@ -1,0 +1,1559 @@
+/* Clearfix hack by Nicolas Gallagher: 
+http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; } 
+  
+  /* ==========================================================================
+WINTER 2018 COLORS & FONTS
+========================================================================== */
+
+/* BRAND COLORS
+orange: #f89a2e;
+green: #9ad2ac;
+*/
+
+/* DIN 2014 Typekit Settings
+/* Kit under Alex's Account
+/* FALL 2017
+
+REGULAR
+font-family: "din-2014",sans-serif;
+font-style: normal;
+font-weight: 400;
+
+DEMI
+font-family: "din-2014",sans-serif;
+font-style: normal;
+font-weight: 600;
+
+BOLD
+font-family: "din-2014",sans-serif;
+font-style: normal;
+font-weight: 700;
+
+
+BLACK
+font-family: "din-2014",sans-serif;
+font-style: normal;
+font-weight: 800;
+*/
+
+/* ==========================================================================
+Main Body Styles
+========================================================================== */
+
+::-moz-selection {
+  background: #f89a2e;
+  /* Safari */ }
+::selection {
+  background: #f89a2e;
+  /* Safari */ }
+
+::-moz-selection {
+  background: #f89a2e;
+  /* Firefox */ }
+
+* {
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+
+body {
+  font-size: 15px;
+}
+
+canvas {
+  width: 100%;
+  display: block;
+  border: 16px solid #9edcf8;
+  background-image: url("../../img/images/fresh_banner.gif");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "din-2014",sans-serif;
+  font-style: normal;
+  font-weight: 700; }
+
+h1 {
+  font-size: 1.7em;
+  letter-spacing: 1px; }
+
+h2 {
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-size: 1.1em; }
+
+h3 {
+  letter-spacing: 2px;
+  font-size: 3em; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+strong {
+  font-weight: bold; }
+
+p {
+  font-family: "din-2014",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1em;
+  line-height: 1.5;
+  letter-spacing: .02em;
+  color: black;
+  padding-bottom: 16px; }
+  p a {
+    display: inline-block;
+    line-height: 1.25;
+    border-bottom: 3px solid white; }
+    p a:hover {
+      color: #f89a2e;
+      border-color: #f89a2e; }
+
+iframe {
+  margin-left: 20%;
+  width: 60%;
+  height: 400px;  
+  margin-bottom: 30px;
+  margin-right: 40%; }
+
+hr {
+  color: white;
+  background-color: white;
+  height: 4px;
+  padding: 0;
+  border: none; }
+
+.header {
+  background-color: white;
+  color: red;
+  /* height: 95% !important; */
+  /* border-bottom: 10px solid #db202a; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+h4.header-container-text {
+  color: #9ad2ac;
+  font-size: 1.7em;
+  text-align: left; 
+  letter-spacing: 1px;
+  padding-bottom: 10px; 
+  position: relative; 
+  z-index: 1; }
+
+h2.header-container-text {
+  color: #f89a2e;
+  font-size: 2.5em;
+  text-align: right; }
+
+.header-container {
+  width: 60%; 
+  max-width: 800px; }
+
+.header-container svg {
+  display: block;
+  margin: 0 auto;
+  height: auto; }
+
+svg .cls-1 {
+  fill: white; }
+
+svg .cls-2 {
+  fill: #db202a; }
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - ANY TERM DESIGN ELEMENTS */
+
+.design-header-right {
+  position: absolute; 
+  top: -25px; 
+  right: 0px;
+  width: 20%; 
+  min-width: 100px; }
+
+
+.design-header-left {
+  position: absolute; 
+  bottom: 0px; 
+  left: 0px; 
+  width: 20%;
+  min-width: 100px; }
+
+.design-footer-right {
+  position: absolute;
+  bottom: 0;
+  right: -2px;
+  width: 20%;
+  min-width: 100px; }
+
+.design-bio-left {
+  position: absolute;
+  top: -20px;
+  left: 0px;
+  width: 75px; }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - STATEMENT */
+/* This is the intro text on the index page */
+
+.statement {
+  background: #9ad2ac;
+  color: black;
+  padding: 70px 0 50px 0;
+  margin-bottom: 0; }
+  .statement h1 {
+    color: black;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #f89a2e;
+    margin-bottom: 30px; }
+  .statement p {
+    color: black;
+    padding: 15px 30px;
+    line-height: 28px;
+    text-align: center;
+    max-width: 100%; }
+
+.covervid-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/*container*/
+.container > header {
+  padding: 2.875em 1.875em 1.875em;
+  position: fixed;
+  z-index: 1000;
+  width: 60%;
+  left: 20%; }
+  .container > header h1 {
+    font-size: 2.125em;
+    line-height: 1.3;
+    margin: 0;
+    float: left; }
+  .container > header span {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    padding: 0 0 0.6em 0.1em; }
+  .container > header nav {
+    float: right; }
+    .container > header nav a {
+      display: block;
+      float: left;
+      position: relative;
+      width: 2.5em;
+      height: 2.5em;
+      background: white;
+      border-radius: 50%;
+      color: transparent;
+      margin: 0 0.1em;
+      border: 4px solid white;
+      text-indent: -8000px; }
+      .container > header nav a:after {
+        content: attr(data-info);
+        color: white;
+        position: absolute;
+        width: 600%;
+        top: 120%;
+        text-align: right;
+        right: 0;
+        opacity: 0;
+        pointer-events: none; }
+      .container > header nav a:hover {
+        background: #db202a; }
+        .container > header nav a:hover:after {
+          opacity: 1; }
+
+.arrowleft {
+  display: inline;
+  margin: 45px 10px -10px -5px; }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - FLYOUT MENUS */
+
+#showLeft, #showRight {
+  font-family: "din-2014",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: black;
+  overflow: hidden;
+  padding-bottom: 30px; }
+  
+.flyoutbtn button {
+  background: red;
+  font-size: 1em;
+  letter-spacing: .2em;
+  border: none;
+  background: transparent;
+  display: block;
+  width: 160px;
+  height: 74px;
+  cursor: pointer;
+}
+
+.flyoutbtn button:hover {
+  background: #9ad2ac; }
+
+.infobtn {
+  top: calc(50% - 38px); /* subtracts width to make it exactly 50% */
+  width: 38px;
+  right: -10px;
+  float: right;
+  z-index: 1004;
+  position: relative; }
+  .infobtn button {
+    -webkit-transform: rotate(-270deg);
+    transform: rotate(-270deg); }
+    .infobtn button:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 90%;
+      border: 4px solid black;
+      position: absolute;
+      bottom: -40px;
+      left: 0;
+      z-index: 100; }
+    .infobtn button:focus {
+      outline: none; }
+    .infobtn button.disabled {
+      pointer-events: none; }
+
+.eventinfo {
+  padding: 2em 4em;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+  background-color: white; }
+
+.eventSpace h1 {
+  font-size: 1.7em;
+  float: left;
+  display: inline-block;
+  margin: 0px 0px 0 0;
+  line-height: 2;
+  color: #191e64; }
+
+.eventSpace img {
+  padding: 10px;
+  z-index: 1004;
+  display: block;
+  width: 70%;
+  margin: auto;
+  border: none;  }
+
+.eventSpace a {
+  color: #666666; }
+
+.revinfo {
+  float: right;
+  display: inline;
+  position: absolute;
+  padding-left: 8px; }
+
+.revlogoMobile {
+  display: none; }
+
+.revphoto {
+  background-image: url("../../img/images/location2.png");
+  background-size: cover;
+  background-position: center center;
+  clear: both;
+  width: 600px;
+  height: 300px;
+  z-index: 1006;
+  display: block;
+  border: none;
+  margin: 10px auto; }
+
+.eventData, .previous_grads {
+  position: relative;
+  max-width: 95%;
+  margin: 20px auto; }
+  .eventData h1, .previous_grads h1 {
+    color: #f89a2e; }
+  .eventData h2, .previous_grads h2 {
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    display: inline-block;
+    position: relative; }
+  .eventData p, .previous_grads p {
+    margin-bottom: 1em;
+    text-align: left;
+    font-size: 1em;
+    color: black;
+    display: inline-block;
+    position: relative; }
+  .eventData p a, .previous_grads p a {
+    color: #f89a2e;
+    display: inline-block;
+    line-height: 1.25;
+    border-bottom: 3px solid #f89a2e; }
+  .eventData p a:hover, .previous_grads p a:hover {
+    color: #9ad2ac;
+    display: inline-block;
+    line-height: 1.25;
+    border-bottom: 3px solid #9ad2ac; }
+
+.unionmap {
+  position: relative;
+  top: 2%;
+  right: 5px;
+  -webkit-transition: all 0.14s ease 0s;
+  transition: all 0.14s ease 0s; }
+  .unionmap:hover {
+    opacity: .7; }
+
+.gradbtn {
+  z-index: 1004;
+  left: -132px;
+  top: calc(50% - 38px); /* subtracts width to make it exactly 50% */
+  width: 38px;
+  float: left;
+  position: absolute; }
+  .gradbtn button {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+    .gradbtn button:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 90%;
+      border: 4px solid black;
+      position: absolute;
+      bottom: -40px;
+      left: 0;
+      z-index: 100; }
+    .gradbtn button:focus {
+      outline: none; }
+    .gradbtn button.disabled {
+      pointer-events: none; }
+
+.grad_img {
+  height: 500px;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px; }
+
+.faceblock {
+  float: left;
+  display: inline-block;
+  text-align: center; }
+  .faceblock:hover {
+    -webkit-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; }
+  .faceblock h4 {
+    text-transform: uppercase; }
+
+.profile_pic {
+  background-size: cover;
+  background-position: center center;
+  clear: both;
+  width: 600px;
+  height: 400px;
+  z-index: 1006;
+  display: block;
+  border: none;
+  margin: 0px auto; }
+  .profile_pic img {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+
+.profilescroll {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 2em 4em;
+  overflow-y: scroll;
+  overflow-x: hidden; 
+  z-index: 2000; 
+  background: white;}
+
+::-webkit-scrollbar-track {
+  background-color: #b46868; }
+
+/* the new scrollbar will have a flat appearance with the set background color */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+/* this will style the thumb, ignoring the track */
+::-webkit-scrollbar-button {
+  background-color: #7c2929; }
+
+/* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+::-webkit-scrollbar-corner {
+  background-color: black; }
+
+/* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+/* TEXT LAYOUTS */
+.centercontent {
+  margin: 0px auto;
+  display: block;
+  top: 10%; }
+
+.index-banner {
+  width: 100%;
+  margin: 0 auto; }
+  .index-banner img {
+    width: 100%;
+    height: 100%;
+    border: 16px solid #9edcf8; }
+
+/* slideshow */
+/* ==========================================================================
+flexslider
+========================================================================== */
+
+#slideshow {
+  width: 100%;
+  margin: 0 auto 0 0; }
+  #slideshow img {
+    width: 100%; }
+
+.logo-archive {
+  width: 100%;
+  z-index: 200; 
+  padding: 30px 150px 130px 150px; }
+
+.flexslider {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.flex-control-nav,
+.flex-direction-nav {
+  display: none; }
+
+/* slideshow */
+/* ==========================================================================
+flexslider
+========================================================================== */
+
+.logomain {
+  display: block;
+  margin: 0 auto;
+  width: 400px; }
+
+.slidetext1 {
+  text-align: center;
+  font-size: 1.4em;
+  display: block;
+  margin: 0 auto; }
+
+.slidetext2 {
+  text-align: center;
+  font-size: 1.4em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 1px 1px 3px black; }
+
+.slidetext3 {
+  text-align: center;
+  font-size: 1.4em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 1px 1px 3px black; }
+
+.slidetext4 {
+  text-align: center;
+  font-size: 1.4em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 1px 1px 3px black; }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - PHOTO GRID / HOMEPAGE GALLERY */
+
+/* photos must be exact squares (not a pixel off) or the grid will break */
+
+.thumbnailGrid {
+  margin: 90px;
+  position: relative; }
+
+.photoGrid {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  list-style: none;
+  position: relative; }
+  .photoGrid .studentBlock_fill {
+    width: 33.333%;
+    cursor: pointer;
+    min-height: 100px;
+    background-color: transparent; }
+  .photoGrid li {
+    float: left;
+    height: 100%;
+    margin: 20px;
+    width: calc(33.333% - 40px); /* deducts margin x2 */
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative; }
+    .photoGrid li:hover {
+      cursor: pointer;
+      -webkit-transition: 10ms ease;
+      transition: 200ms ease; }
+      .photoGrid li:hover .photo {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-filter: grayscale(100%) !important;
+        filter: grayscale(100%) !important;
+        opacity: 50%; }
+    .photoGrid li a {
+      top: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+      -webkit-transition: all 10ms;
+      transition: all 200ms; }
+      .photoGrid li a:before {
+        content: '';
+        display: block;
+        background-color: #f89a2e;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all 200ms ease-in;
+        transition: all 200ms ease-in; }
+      /* #TODO make hover states covers vary */
+      /* a.photoGridLink:nth-of-type(1n):before {
+        background-color: #f89a2e; }
+      a.photoGridLink:nth-of-type(2n):before {
+        background-color: #9ad2ac; }
+      a.photoGridLink:nth-of-type(3n):before {
+        background-color: black; }
+      a.photoGridLink:nth-of-type(4n):before {
+        background-color: #f89a2e; } */
+      .photoGrid li a:hover {
+        cursor: pointer; }
+        .photoGrid li a:hover div {
+          opacity: 1;
+          cursor: pointer;
+          -webkit-transition: all .3s;
+          transition: all 200ms; }
+        .photoGrid li a:hover:before {
+          opacity: .7; }
+      .photoGrid li a div {
+        width: 100%;
+        height: 100%;
+        right: 0;
+        opacity: 0;
+        top: 50%;
+        position: absolute;
+        display: table-cell;
+        background: transparent;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        text-align: center;
+        -webkit-transition: all .3s;
+        transition: all .3s; }
+
+        .photoGrid li a div h3 {
+          width: 100%;
+          height: 100%;
+          color: white;
+          font-size: 1.6em;
+          letter-spacing: 1px;
+          position: relative; 
+          top: calc(50% - .8em); /* subtracts half of font size so it is centered */
+          }
+
+        /* this adds a colored band and the students name
+           on top of their image in the photo grid if 
+           the user has a device that does not utilize hover states */
+        @media not all and (hover: hover) {
+          .photoGrid li a div {
+            opacity: 1; }
+          .photoGrid li a:before {
+            content: '';
+            display: block;
+            background-color: #f89a2e;
+            opacity: .7;
+            width: 100%;
+            height: 3.5em; 
+            position: relative; 
+            top: calc((100% - 3.5em) / 2); } }
+  .photoGrid .photo {
+    width: 100% !important;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease; }
+
+@media (max-width: 768px) {
+  .photoGrid li {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0; } 
+  .thumbnailGrid {
+    margin: 20px; } }
+
+.color {
+  -webkit-filter: grayscale(0) !important;
+  filter: grayscale(0) !important; }
+
+.arrow_dn {
+  margin: 16px auto;
+  display: block;
+  border: 0px;
+  height: 40px; }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - PROFILE PAGE */
+
+.biobg { /* this is applied to body of profile page */
+  background-color: white; }
+
+/* - - - - - - - - - - - - - - - - - - - header of profile pages */
+
+.logo-grad {
+  position: absolute;
+  top: 35px;
+  left: 60px; }
+
+.logo-grad svg {
+  height: 55px; }
+  
+/*
+.logo-grad svg path {
+  fill: #9ad2ac; }
+*/
+
+/*
+.logo-grad svg:hover path {
+  fill: #f89a2e; }
+*/
+
+.biosection {
+  margin: 140px 0 0 0; 
+  position: relative; }
+
+/* - - - - - - - - - - - - - - - - - - - left side/photo profile pages */
+
+.bio {
+  z-index: 100; /* this is needed due to issue with footer. #todo try to fix footer */
+}
+
+.bioleft {
+  margin-top: 60px;
+  min-width: 250px;
+  position: relative;
+  z-index: 1; }
+
+.bio_pic {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.bio_pic img {
+  width: 100%; }
+
+.website_btn {
+  width: 250px;
+  display: block;
+  margin: 2em auto;
+  text-align: center;
+  border: 6px solid black;
+  font-family: "din-2014",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: all 200ms ease 0s;
+  transition: all 200ms ease 0s; }
+    .website_btn a {
+      color: black;
+      line-height: 0;
+      height: 100%;
+      width: 100%;
+      padding: 25px 15px; /* leave padding on link so entire box clickable */
+      text-decoration: none;
+      letter-spacing: .2em;
+      display: block;
+      outline: 0; }
+    .website_btn:hover {
+      background: #9ad2ac; }
+    .website_btn:hover a {
+      color: white;}
+
+/* - - - - - - - - - - - - - - - - - - - right side/bio profile pages */
+
+.bio {
+  padding: 80px;
+  float: left;
+  max-width: 800px;
+  color: black; 
+  font-size: 1.2em;
+  line-height: 1.75;
+  letter-spacing: .03em; }
+    .bio h1, .bioleft h1 { /* student name */
+      color: #f89a2e;
+      padding-bottom: 15px;
+      font-size: 2.5em;
+      line-height: 1.2;}
+    .bioleft h1 {
+      text-align: center; }
+    .bio h1 span {  
+      /* not using fall 2017 */
+      /* this styles the last name on bio page */ }
+    .bio h2 { /* project title */
+      color: #f89a2e;
+      font-size: 1.75em; 
+      padding-bottom: .2em;}
+    .bio_question { 
+      color: #f89a2e;
+      margin-top: .5em;  }
+    .bio ul { /* interests/skills list */
+      padding-left: 25px;
+      margin-bottom: 1.5em;
+      list-style-type: circle;
+      font-family: "din-2014",sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      color: #9ad2ac;
+      font-size: 1.2em;
+      line-height: 1.5;
+      letter-spacing: .03em;}
+    .bio p {
+      text-shadow: 0 0 10px white; }
+    .bio img { /* adds space between projects in bio */
+      margin-top: 1em; }
+
+.artwork {
+  padding: 25px 0px;
+  float: left;
+  width: 100%;
+  max-width: 800px; }
+
+.logobar {
+  margin: 0 auto;
+  min-width: 75px;
+  max-width: 85px; }
+  .logobar:hover {
+    opacity: 0.5; }
+
+p.one-liners {
+  color: #244289;
+  font-size: 1.2em;
+  line-height: 1.8;
+  padding-top: 35px;
+  text-align: left;
+  font-family: "din-2014",sans-serif;
+  font-style: normal; }
+
+/*skillset bullets on profile pages*/
+.skills {
+  margin-left: 18px;
+  padding-bottom: 18px;
+  font-size: 1em;
+  font-style: none;
+  color: black; }
+  
+.c6.bio a {
+  color: black;
+}
+
+.c6.bio a:hover {
+  color: #f89a2e;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - ARCHIVE PAGE */
+
+.archive-header {
+  color: #f89a2e;
+  padding-bottom: 40px;
+  border-bottom: 3px solid #f89a2e;
+  margin-bottom: 30px; }
+
+.topbar_archive {
+  padding: 55px 0;
+  position: relative;
+  z-index: 999; }
+
+.logobar_archive {
+  display: block;
+  margin: 0 auto;
+  min-width: 150px;
+  max-width: 200px; }
+
+.logo-container-archive {
+  padding-bottom: 50px; }
+
+.statement-archive {
+  padding: 120px 0;
+  background: white;
+  margin-bottom: 0; 
+  text-align: center;
+  max-width: 100%; }
+.statement-archive p {
+  color: black;
+  line-height: 28px; 
+  padding: 15px 30px}
+.statement-archive a {
+  color: #f89a2e; 
+  border-bottom: 3px solid #f89a2e; }
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - FOOTER STYLES */
+
+footer {
+  
+  position: relative; }
+  
+
+.archive-link {
+  font-family: "din-2014",sans-serif; }
+
+.footerBand {
+  background-color: white;
+  margin: 0 !important;
+  padding: 0; }
+  .footerBand p {
+    font-size: 14px;
+    color: white; }
+    .footerBand p a {
+      text-decoration: none; }
+      .footerBand p a:hover, .footerBand p a.active {
+        color: black; }
+
+.footer {
+  padding: 25px 0;
+  padding-bottom: 250px;
+  margin-bottom: 0; 
+  background-color: #f89a2e;
+  }
+  .footer p {
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 150%;
+    letter-spacing: .025em; }
+    .footer p img {
+      float: right;
+      margin-top: -8px; }
+  /* .footer a { #TODELETE if not used
+    color: white;
+    text-decoration: none; }
+    .footer a:hover, .footer a.active {
+      color: #db202a;
+      border-color: white; } */
+  .footer .eventData p, .footer .previous_grads p {
+    color: black; }
+
+#footerBlurb {
+  font-family: "din-2014",sans-serif; font-style: normal; font-weight: 700;
+
+  color: blue;
+}
+
+#footerBlurb a:hover {
+  color: #9ad2ac;
+  border-bottom: 3px solid #9ad2ac;
+}
+
+.footerBlurb {
+  font-size: 16px;
+  line-height: 150%;
+  padding-top: 30px; }
+ 
+.footerLogo {
+  padding: 40px 90px 40px 0; 
+  line-height: 403%;}
+  
+.footerLogo a {
+  color: black; }
+
+.footerLogos {
+  position: absolute;
+  bottom: 0;
+  left: 20px; 
+  width: calc(100% - 20px);
+  max-width: 100%; }
+.footerLogos img {
+  display: inline;
+}
+
+.accordion-buttons {
+  margin-bottom: 35px; }
+
+.accordion-info {
+  margin-bottom: 15px;
+  display: none; }
+
+button.accordion {
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  text-transform: uppercase;
+  line-height: 1.75;
+  letter-spacing: .2em;
+  text-decoration: none; }
+
+.accordion-info .panel {
+  padding: 20px;
+  display: block;
+  border: 10px solid black;
+  border-top: none;
+  background-color: white;
+  color: black; }
+
+p.credits {
+  font-family: "din-2014",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: .8em;
+  letter-spacing: .11em;
+  padding-bottom: 5px;
+  color: black; }
+
+.credits a {
+  
+  border-bottom: 0px; /* undo for style for regular links */ }
+
+.credits a:hover {
+  color: #9ad2ac; } 
+  
+.whiteText {
+  color: white;
+}
+  
+.schoolLogos {
+  height: 80px;
+  margin: auto;
+  float: left;
+  padding-bottom: 20px;
+  margin-right: 3%;
+  max-width: 80px; }
+  .schoolLogos a.icon {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    min-height: 3em; }
+  .schoolLogos a img {
+    width: auto; }
+
+.psu {
+  max-width: 130px; }
+
+.sponsors {
+  overflow: hidden;
+  padding-bottom: 25px;
+  text-align: center;
+  background: black;
+  text-transform: uppercase; }
+  .sponsors p {
+    color: white;
+    font-family: "din-2014",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px; }
+  .sponsors a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2em 1em 1em 0; }
+
+.fogd,
+.psugd,
+.ad,
+.psu,
+.feckin,
+.footerSponsor {
+  -webkit-transition: all 0.14s ease 0s;
+  transition: all 0.14s ease 0s; }
+  .fogd:hover,
+  .psugd:hover,
+  .ad:hover,
+  .psu:hover,
+  .feckin:hover,
+  .footerSponsor:hover {
+    opacity: 0.5; }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - COMMON CLASSES */
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+.clear {
+  clear: both; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.infofoot {
+  display: none; }
+
+/* General styles for all menus */
+.cbp-spmenu {
+  position: fixed;
+  border: 15px solid #9ad2ac;
+  background: white;
+  font-family: "din-2014",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-transition: all 2px;
+  transition: all 2px;
+  -webkit-box-shadow: 0 0 0 white;
+  box-shadow: 0 0 0 white; }
+  .cbp-spmenu h2 {
+    color: #191e64; }
+  .cbp-spmenu h3 {
+    font-size: 1.9em;
+    padding: 30px 0 0 60px;
+    margin: 0;
+    color: black; }
+
+#cbp-spmenu-s1 {
+  background: #f89a2e; }
+
+/* .previous_grads {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 25px; }
+  .previous_grads p {
+    font-size: 1em;
+    font-weight: 350;
+    color: black;
+    display: inline-block;
+    position: relative; } */
+
+.archive_btn {
+  width: 220px;
+  color: white;
+  -webkit-transition: all 0.14s ease 0s;
+  transition: all 0.14s ease 0s;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  margin: 1em;
+  height: 34px;
+  background: none repeat scroll 13px 12px #191e64;
+  border-radius: 4px;
+  transition: all 0.14s ease 0s; }
+  .archive_btn a {
+    text-decoration: none;
+    color: white; }
+  .archive_btn:hover {
+    background: #aaa; }
+
+/* Set all parents to full height */
+/* The nav is fixed on the right side  and we center it by translating it 50%
+(we don't know it's height so we can't use the negative margin trick) */
+.cbp-fbscroller > nav {
+  display: none; }
+  .cbp-fbscroller > nav a {
+    display: block;
+    position: relative;
+    z-index: 9999;
+    color: transparent;
+    width: 22px;
+    height: 22px;
+    outline: none;
+    margin: 25px 10px;
+    border-radius: 50%;
+    border: 4px solid black;
+    background: #302c2b; }
+
+.no-touch .cbp-fbscroller > nav a:hover {
+  background: rgba(255, 255, 255, 0.6); }
+
+.cbp-fbscroller > nav a.cbp-fbcurrent {
+  background: white; }
+
+/* background-attachment does the trick */
+.cbp-fbscroller section {
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.no-touch .cbp-fbscroller section {
+  background-attachment: fixed; }
+
+#fbsection1 {
+  border-bottom: 0px;
+  pointer-events: none; }
+
+#fbsection2 {
+  background: white;
+  color: white;
+  padding: 15px;
+  height: 100%;
+  background-attachment: scroll; }
+
+#fbsection3 {
+  background: white;
+  height: auto;
+  background-attachment: scroll; }
+
+/* Orientation-dependent styles for the content of the menu */
+.cbp-spmenu-vertical {
+  width: 66%;
+  height: 100%;
+  top: 0;
+  z-index: 1000; }
+
+.cbp-spmenu-horizontal {
+  width: 100%;
+  height: 150px;
+  left: 0;
+  z-index: 1000;
+  overflow: auto; }
+  .cbp-spmenu-horizontal h3 {
+    height: 100%;
+    width: 20%;
+    float: left;
+    text-align: center; }
+
+/* Vertical menu that slides from the left or right */
+.cbp-spmenu-left {
+  left: 0;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%); }
+
+.cbp-spmenu-right {
+  right: 0;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%); }
+
+.cbp-spmenu-left.cbp-spmenu-open {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%); }
+
+.cbp-spmenu-right.cbp-spmenu-open {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%); }
+
+/* Horizontal menu that slides from the top or bottom */
+.cbp-spmenu-top {
+  top: -150px; }
+  .cbp-spmenu-top.cbp-spmenu-open {
+    top: 0px; }
+
+.cbp-spmenu-bottom {
+  bottom: -150px; }
+  .cbp-spmenu-bottom.cbp-spmenu-open {
+    bottom: 0px; }
+
+/* Push classes applied to the body */
+.cbp-spmenu-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0; }
+
+.cbp-spmenu-push-toright {
+  left: 240px; }
+
+.cbp-spmenu-push-toleft {
+  left: -240px; }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - TRANSITIONS */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.Animate1,
+.Animate2,
+.Animate3 {
+  -webkit-transition: all 100s ease !important;
+  transition: all 100s ease !important;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg); }
+  .Animate1:hover,
+  .Animate2:hover,
+  .Animate3:hover {
+    -webkit-transition: all 5s ease !important;
+    transition: all 5s ease !important; }
+
+.Animate1 {
+  -webkit-animation: spin 32s linear infinite;
+  animation: spin 32s linear infinite; }
+
+.Animate2 {
+  -webkit-animation: spin2 60s linear infinite;
+  animation: spin2 60s linear infinite; }
+
+.Animate3 {
+  -webkit-animation: spin 48s linear infinite;
+  animation: spin 48s linear infinite; }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - ANIMATIONS */
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-webkit-keyframes spin2 {
+  from {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+  to {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@keyframes spin2 {
+  from {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+  to {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+/********************** MEDIA QUERIES **********************/
+
+/* =Media query for 960 Screens - sets nested grids to 100%
+-------------------------------------------------------------- */
+@media only screen and (max-width: 960px) {
+  body {
+    width: 100%; }
+  .footer {
+    max-width: 100%;
+    padding: 30px 90px 150px 90px; }
+  .footerLogo {
+    padding: 0 20px; }
+  .footer .c5 {
+    width: 100%; }
+  .footerBlurb {
+    padding-top: 0px; }
+  .photoGrid li a div h3 {
+    width: 98%;
+    font-size: 1.2em;
+    padding-top: 5px;
+    line-height: 1.2; } 
+    
+  .design-header-left {
+    width: 35%; } 
+  .design-header-right {
+    width: 35%; } 
+  .design-footer-right {
+    width: 30%; }
+    
+  .bio {
+    max-width: 100%;
+    padding: 10px 150px 100px 150px }
+  .bio h1 {
+    font-size: 2em; }
+  .bio h2 { /* project title */
+    font-size: 1.5em;
+    line-height: 1.2; }
+
+/* =Media query for 800px wide
+-------------------------------------------------------------- */
+@media only screen and (max-width: 800px) {
+  .footer {
+    max-width: 100%;
+    padding: 30px 20px 210px 20px; } 
+  .footerLogos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 60%;
+    left: 40px;
+    padding-top: 30px; } }
+
+/* =Media query for 800px wide - this is where 3 column
+    photo grid turns into a single column
+-------------------------------------------------------------- */
+@media only screen and (max-width: 800px) {
+  .photoGrid li a div h3 {
+    font-size: 2em;} }
+
+
+/* =Media query for 600px wide
+-------------------------------------------------------------- */
+@media only screen and (max-width: 700px) {
+    /* Fall 2017 styles */
+  .design-footer {
+    width: 60%; }
+  .design-header-left {
+    width: 65%; } 
+  .design-header-right {
+    width: 65%; } 
+  .header-container {
+    width: 90%;
+    padding: 100px 0 80px 0; }
+  .header-container svg {
+    height: 130px; }
+  .header-container h2 {
+    font-size: 2em; }
+  .header-container h4 {
+    font-size: 1.5em; } }
+
+/* =Media query for iPad and tablets
+-------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 800px), only screen and (max-device-width: 768px) and (orientation: portrait) {
+  body {
+    font-size: 90%; }
+  h1 {
+    font-size: 1.7em; }
+  .statement {
+    padding: 20px 0;
+    margin-bottom: 0; }
+    .statement p {
+      padding: 0;
+      line-height: 28px;
+      text-align: center;
+      max-width: 100%; }
+  .infobtn {
+    display: none; }
+    .infobtn button {
+      display: none; }
+  .cbp-spmenu {
+    display: none; }
+  img .logobar {
+    margin: 40px auto 40px auto; }
+  img.revlogo {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0 20px 0; }
+  .bio {
+    padding: 2% 10% 10% 10%; }
+  .row.topbar {
+    padding: 0; }
+  .row.footer.clear {
+    width: 100%;
+    margin: 0; }
+  .footerLogo {
+    margin: 0 auto; }
+    .footerLogo img {
+      width: 150px;
+      margin: 0 auto; }
+  .schoolLogos {
+    margin: 0 auto;
+    padding: 20px 20px 20px 0; }
+  .footerLogos {
+    margin: 40px auto;
+    overflow: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .accordion-info {
+    display: block; }
+  .previous_grads_video {
+    max-width: 94%;
+    height: 200px; }
+  .previous_grads {
+    max-width: 94%;
+    padding: 10px; }
+  .eventSpace {
+    max-width: 94%;
+    margin: 0 auto; }
+  .eventData {
+    max-width: 94%;
+    margin: 0 auto; } }
+
+/* =Media query for 480 Screens
+-------------------------------------------------------------- */
+@media screen and (max-width: 480px) {
+  .bio {
+    padding: 30px;
+    padding-top: 10px; }
+  .header {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    height: auto !important; }
+  .footerLogos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 80%;
+    left: 20px;
+    padding-top: 30px;
+    padding-bottom: 120px; }
+  .footer {
+    padding: 30px 0 350px 0; }
+  .accordion-buttons {
+    padding: 0 20px; }
+  /* Fall 2017 styles */
+  .design-header-left {
+    width: 40%; } 
+  .design-header-right {
+    width: 40%; } 
+  .design-footer-right {
+    width: 55%; }
+  .header-container {
+    width: 90%;
+    padding: 100px 0 80px 0; }
+  .header-container svg {
+    height: 100px; }
+  .header-container h2 {
+    font-size: 2em; }
+  .header-container h4 {
+    font-size: 1.2em; } }
+    
+  .logo-grad {
+   width: 100%;
+   left: 0px;
+  }
+  
+  .logo-grad svg {
+    display: block;
+    margin: auto;
+    height: 45px; }
+
+/* END @480px */

@@ -1,13 +1,14 @@
 <footer>
 
-<img class="plant-footer" src="src/img/fall2017/plant-bottom-right.png" alt="green leafy plant">
-<img class="plant-footer plant-footer--svg" src="src/img/fall2017/plant-bottom-right-patterns.svg" alt="geometric patterns">
+<img class="design-footer-right" src="src/img/winter2018/stripes-bottom-right.png" alt="page design">
 
-<div class="footerLogos">
+<div class="footerLogos"> <!-- start footerLogos -->
+
   <a href="http://psu.gd/" target="_blank">
-  <img class="schoolLogos psugd" src="src/img/logos/psugdlogo.png" alt="psugdlogo">
+  <img class="schoolLogos psugd" src="src/img/logos/black/psugdlogo.svg" alt="psugdlogo">
   </a>
 
+  <!--
   <a href="https://www.instagram.com/fogd/" target="_blank">
   <img class="schoolLogos fogd" src="src/img/logos/fogdlogo.png" alt="fogdlogo">
   </a>
@@ -15,22 +16,27 @@
   <a href="http://www.pdx.edu/the-arts/art-design" target="_blank">
   <img class="schoolLogos ad" src="src/img/logos/adschoollogo.png" alt="adschoollogo">
   </a>
+  -->  
 
   <a href="http://www.pdx.edu" target="_blank">
-  <img class="schoolLogos psu" src="src/img/logos/psulogo.png" alt="psulogo">
+  <img class="schoolLogos psu" src="src/img/logos/black/psulogo.svg" alt="psulogo">
   </a>
 
-  <a href="https://feckinbrew.com/" target="_blank">
-  <img class="schoolLogos feckin" src="src/img/logos/feckinlogo.png" alt="Feckin Brewery and Smokehouse">
+  <a href="http://www.babydollpizza.com/" target="_blank">
+  <img class="schoolLogos footerSponsor" src="src/img/logos/black/babydollpizza.svg" alt="Baby Doll Pizza">
   </a>
+  
+  <a href="https://www.deschutesbrewery.com/" target="_blank">
+  <img class="schoolLogos footerSponsor" src="src/img/logos/black/deschutesbrewery.svg" alt="Deschutes Brewery">
+  </a>
+  
+  <a href="http://kampgrizzly.com/" target="_blank">
+  <img class="schoolLogos footerSponsor" src="src/img/logos/black/kampgrizzly.svg" alt="Kamp Grizzly">
+  </a>
+  
 </div> <!-- end footerLogos -->
 
-
-
 <div class="row footer clear">
-
-
-
 
     <!-- WILL ONLY BE SHOWN AT 800PX OR LESS -->
     <!-- this adds expandable buttons in the footer to
@@ -42,7 +48,6 @@
           <?php include 'sidebar-location-content.php'; ?>  
         </div>
       </div>
-
       <div class="accordion-info">
         <button class="accordion"><h4>Fresh? ▾</h4></button>
         <div class="panel">
@@ -54,34 +59,39 @@
     <!-- END // WILL ONLY BE SHOWN AT 800PX OR LESS (ABOVE THIS) -->
     <!-- ***************************** -->
 
-
-
-
   <div class="s2 c3 footerLogo">
     <a href="/fresh/">
-      <h3>SO FRESH AND SO CLEAN.</h3>
+      <h3>SHOW YOUR STRIPES.</h3>
     </a>
   </div>
   
   <div class="c5">
-
-    <p class="footerBlurb clear">Thanks for taking a look at FRESH! Check out FRESH's cousin, <a href="http://www.psu.gd/be-honest" target="_blank">Be Honest</a>, an open portfolio party that happens every spring.</p>
-    <p>FRESH requires registration. If you are interested in working with or speaking to one of our grads, please register for the event through <a target="_blank" href="http://fall2017fresh.eventbrite.com">Eventbrite</a>. Also, take a peek at our graduate <a href="archive.php">archive.</a></p>
-    <p>Thank you, <a target="_blank" href="http://guerrilladev.co/">Guerilla Development</a> for the use of your space for our event, and <a target="_blank" href="https://www.halfcourtstudio.com/">Half Court Studio</a> for lending us your studio for our class portraits.</p>
+  
+    <div id="footerBlurb">
+      <p class="footerBlurb clear">Thanks for taking a look at FRESH! Check out FRESH's cousin, <a href="http://www.psu.gd/be-honest" target="_blank">Be Honest</a>, an open portfolio party that happens every spring.</p>
+      <p>FRESH requires registration. If you are interested in working with or speaking to one of our grads, please register for the event through <a target="_blank" href="https://psugd2018winterfresh.eventbrite.com/">Eventbrite</a>. Also, take a peek at our graduate <a href="archive.php">archive.</a></p>
+      <p>Thank you <a target="_blank" href="http://kampgrizzly.com">Kamp Grizzly</a> for the use of your space for our event and lending us your studio for our class portraits.</p>
+    </div>
+    
     <div class="credits-container">
-      <p class="credits">Project Management by <a href="grad.php?name=kate_kobielsky">Kate Kobielsky</a> &amp; <a href="grad.php?name=angela_dinh">Angela Dinh</a></p>
-      <p class="credits">Creative Direction by <a href="grad.php?name=bailey_collins">Bailey Collins</a>, <a href="grad.php?name=edlyn_wang">Edlyn Wang</a>, <a href="grad.php?name=kiersta_sze">Kiersta Sze</a>, <a href="grad.php?name=maggie_denham">Maggie Denham</a>, <a href="grad.php?name=rawz_addison">Rawz Addison</a>, <a href="grad.php?name=tina_roach">Tina Roach</a> &amp; <a href="grad.php?name=tyler_alexander">Tyler Alexander</a></p>
-      <p class="credits">Photography by <a href="grad.php?name=kiersta_sze">Kiersta Sze</a>, <a href="grad.php?name=kaye_ayran">Kaye Ayran</a> &amp; <a href="grad.php?name=rayan_alhu">Rayan Alhú</a></p>
-      <p class="credits">Motion Graphics by <a href="grad.php?name=kaye_ayran">Kaye Ayran</a> &amp; <a href="grad.php?name=maggie_denham">Maggie Denham</a></p>
-      <p class="credits">Web Design by <a href="grad.php?name=tina_roach">Tina Roach</a></p>
-      <p class="credits">Web Development by <a href="grad.php?name=tricia_leach">Tricia Leach</a> &amp; <a href="grad.php?name=drew_hankins">Drew Hankins</a></p>
-      <p class="credits">Copywriting by <a href="grad.php?name=ashleigh_cummings">Ashleigh Cummings</a>, <a href="grad.php?name=erika_skille">Erika Skille</a> &amp; <a href="grad.php?name=tyler_alexander">Tyler Alexander</a></p>
+      <p class="credits">Creative Direction by <span class="whiteText"><a href="grad.php?name=aaron_ughoc">Aaron Ughoc</a>, <a href="grad.php?name=jodie_beechem">Jodie Beechem</a>, <a href="grad.php?name=jackie_tran">Jackie Tran</a> &amp; <a href="grad.php?name=lisa_kennedy">Lisa Kennedy</a></span></p>
+      
+      <p class="credits">Project Management by <span class="whiteText"><a href="grad.php?name=jackie_tran">Jackie Tran</a> &amp; <a href="grad.php?name=lisa_kennedy">Lisa Kennedy</a></span></p>
+      
+      <p class="credits">Production by <span class="whiteText"><a href="grad.php?name=denise_hernandez">Denise Hernandez</a>, <a href="grad.php?name=riley_hoke">Riley Hoke</a>, <a href="grad.php?name=damian_navratil">Damian Navratil</a>, <a href="grad.php?name=tung_tran">Tung Tran</a> &amp; <a href="grad.php?name=jose_ramirez">Jose Ramirez</a></span></p>
+      
+      <p class="credits">Photography by <span class="whiteText"><a href="grad.php?name=aaron_ughoc">Aaron Ughoc</a>, <a href="grad.php?name=tatyana_chapin">Tatyana Chapin</a>, <a href="grad.php?name=michaela_mellmer">Michaela Mellmer</a>, <a href="grad.php?name=jose_ramirez">Jose Ramirez</a> &amp; <a href="grad.php?name=tung_tran">Tung Tran</a></span></p>
+      
+      <p class="credits">Copywriting by <span class="whiteText"><a href="grad.php?name=denise_hernandez">Denise Hernandez</a>, <a href="grad.php?name=riley_hoke">Riley Hoke</a> &amp; <a href="grad.php?name=jodie_beechem">Jodie Beechem</a></span></p>
+      
+      <p class="credits">Web Design by <span class="whiteText"><a href="grad.php?name=lisa_kennedy">Lisa Kennedy</a></span></p>
+      <p class="credits">Web Development by <span class="whiteText"><a href="grad.php?name=alexander_tran">Alexander Tran</a></span></p> 
     </div> <!-- end credits-container -->
+    
   </div> <!-- end c5 -->
+  
 </div> <!-- end row footer clear -->
 
-<script>
-
-</script>
+<script></script>
 
 </footer>
