@@ -1,4 +1,4 @@
-/* Clearfix hack by Nicolas Gallagher: 
+/* Clearfix hack by Nicolas Gallagher:
 http://nicolasgallagher.com/micro-clearfix-hack/ */
 
 .clearfix:before,
@@ -7,8 +7,8 @@ http://nicolasgallagher.com/micro-clearfix-hack/ */
   display: table; }
 
 .clearfix:after {
-  clear: both; } 
-  
+  clear: both; }
+
   /* ==========================================================================
 WINTER 2018 COLORS & FONTS
 ========================================================================== */
@@ -125,7 +125,7 @@ p {
 iframe {
   margin-left: 20%;
   width: 60%;
-  height: 400px;  
+  height: 400px;
   margin-bottom: 30px;
   margin-right: 40%; }
 
@@ -154,10 +154,10 @@ hr {
 h4.header-container-text {
   color: #9ad2ac;
   font-size: 1.7em;
-  text-align: left; 
+  text-align: left;
   letter-spacing: 1px;
-  padding-bottom: 10px; 
-  position: relative; 
+  padding-bottom: 10px;
+  position: relative;
   z-index: 1; }
 
 h2.header-container-text {
@@ -166,7 +166,7 @@ h2.header-container-text {
   text-align: right; }
 
 .header-container {
-  width: 60%; 
+  width: 60%;
   max-width: 800px; }
 
 .header-container svg {
@@ -184,17 +184,17 @@ svg .cls-2 {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - ANY TERM DESIGN ELEMENTS */
 
 .design-header-right {
-  position: absolute; 
-  top: -25px; 
+  position: absolute;
+  top: -25px;
   right: 0px;
-  width: 20%; 
+  width: 20%;
   min-width: 100px; }
 
 
 .design-header-left {
-  position: absolute; 
-  bottom: 0px; 
-  left: 0px; 
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
   width: 20%;
   min-width: 100px; }
 
@@ -297,7 +297,7 @@ svg .cls-2 {
   color: black;
   overflow: hidden;
   padding-bottom: 30px; }
-  
+
 .flyoutbtn button {
   background: red;
   font-size: 1em;
@@ -490,8 +490,8 @@ svg .cls-2 {
   width: 100%;
   padding: 2em 4em;
   overflow-y: scroll;
-  overflow-x: hidden; 
-  z-index: 2000; 
+  overflow-x: hidden;
+  z-index: 2000;
   background: white;}
 
 ::-webkit-scrollbar-track {
@@ -537,7 +537,7 @@ flexslider
 
 .logo-archive {
   width: 100%;
-  z-index: 200; 
+  z-index: 200;
   padding: 30px 150px 130px 150px; }
 
 .flexslider {
@@ -682,12 +682,12 @@ flexslider
           color: white;
           font-size: 1.6em;
           letter-spacing: 1px;
-          position: relative; 
+          position: relative;
           top: calc(50% - .8em); /* subtracts half of font size so it is centered */
           }
 
         /* this adds a colored band and the students name
-           on top of their image in the photo grid if 
+           on top of their image in the photo grid if
            the user has a device that does not utilize hover states */
         @media not all and (hover: hover) {
           .photoGrid li a div {
@@ -698,11 +698,13 @@ flexslider
             background-color: #f89a2e;
             opacity: .7;
             width: 100%;
-            height: 3.5em; 
-            position: relative; 
+            height: 3.5em;
+            position: relative;
             top: calc((100% - 3.5em) / 2); } }
   .photoGrid .photo {
-    width: 100% !important;
+    /* width: 100% !important; */
+	 width: calc((100vw - 90px) / 3 - 80px);
+	 height: calc((100vw - 90px) / 3 - 80px);
     -webkit-transition: all 1s ease;
     transition: all 1s ease; }
 
@@ -710,7 +712,7 @@ flexslider
   .photoGrid li {
     width: 100%;
     margin: 0;
-    padding: 10px 0; } 
+    padding: 10px 0; }
   .thumbnailGrid {
     margin: 20px; } }
 
@@ -738,7 +740,7 @@ flexslider
 
 .logo-grad svg {
   height: 55px; }
-  
+
 /*
 .logo-grad svg path {
   fill: #9ad2ac; }
@@ -750,7 +752,7 @@ flexslider
 */
 
 .biosection {
-  margin: 140px 0 0 0; 
+  margin: 140px 0 0 0;
   position: relative; }
 
 /* - - - - - - - - - - - - - - - - - - - left side/photo profile pages */
@@ -807,7 +809,7 @@ flexslider
   padding: 80px;
   float: left;
   max-width: 800px;
-  color: black; 
+  color: black;
   font-size: 1.2em;
   line-height: 1.75;
   letter-spacing: .03em; }
@@ -818,14 +820,14 @@ flexslider
       line-height: 1.2;}
     .bioleft h1 {
       text-align: center; }
-    .bio h1 span {  
+    .bio h1 span {
       /* not using fall 2017 */
       /* this styles the last name on bio page */ }
     .bio h2 { /* project title */
       color: #f89a2e;
-      font-size: 1.75em; 
+      font-size: 1.75em;
       padding-bottom: .2em;}
-    .bio_question { 
+    .bio_question {
       color: #f89a2e;
       margin-top: .5em;  }
     .bio ul { /* interests/skills list */
@@ -873,7 +875,7 @@ p.one-liners {
   font-size: 1em;
   font-style: none;
   color: black; }
-  
+
 .c6.bio a {
   color: black;
 }
@@ -906,24 +908,24 @@ p.one-liners {
 .statement-archive {
   padding: 120px 0;
   background: white;
-  margin-bottom: 0; 
+  margin-bottom: 0;
   text-align: center;
   max-width: 100%; }
 .statement-archive p {
   color: black;
-  line-height: 28px; 
+  line-height: 28px;
   padding: 15px 30px}
 .statement-archive a {
-  color: #f89a2e; 
+  color: #f89a2e;
   border-bottom: 3px solid #f89a2e; }
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - FOOTER STYLES */
 
 footer {
-  
+
   position: relative; }
-  
+
 
 .archive-link {
   font-family: "din-2014",sans-serif; }
@@ -943,7 +945,7 @@ footer {
 .footer {
   padding: 25px 0;
   padding-bottom: 250px;
-  margin-bottom: 0; 
+  margin-bottom: 0;
   background-color: #f89a2e;
   }
   .footer p {
@@ -979,18 +981,18 @@ footer {
   font-size: 16px;
   line-height: 150%;
   padding-top: 30px; }
- 
+
 .footerLogo {
-  padding: 40px 90px 40px 0; 
+  padding: 40px 90px 40px 0;
   line-height: 403%;}
-  
+
 .footerLogo a {
   color: black; }
 
 .footerLogos {
   position: absolute;
   bottom: 0;
-  left: 20px; 
+  left: 20px;
   width: calc(100% - 20px);
   max-width: 100%; }
 .footerLogos img {
@@ -1040,16 +1042,16 @@ p.credits {
   color: black; }
 
 .credits a {
-  
+
   border-bottom: 0px; /* undo for style for regular links */ }
 
 .credits a:hover {
-  color: #9ad2ac; } 
-  
+  color: #9ad2ac; }
+
 .whiteText {
   color: white;
 }
-  
+
 .schoolLogos {
   height: 80px;
   margin: auto;
@@ -1374,15 +1376,15 @@ p.credits {
     width: 98%;
     font-size: 1.2em;
     padding-top: 5px;
-    line-height: 1.2; } 
-    
+    line-height: 1.2; }
+
   .design-header-left {
-    width: 35%; } 
+    width: 35%; }
   .design-header-right {
-    width: 35%; } 
+    width: 35%; }
   .design-footer-right {
     width: 30%; }
-    
+
   .bio {
     max-width: 100%;
     padding: 10px 150px 100px 150px }
@@ -1397,7 +1399,7 @@ p.credits {
 @media only screen and (max-width: 800px) {
   .footer {
     max-width: 100%;
-    padding: 30px 20px 210px 20px; } 
+    padding: 30px 20px 210px 20px; }
   .footerLogos {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1423,9 +1425,9 @@ p.credits {
   .design-footer {
     width: 60%; }
   .design-header-left {
-    width: 65%; } 
+    width: 65%; }
   .design-header-right {
-    width: 65%; } 
+    width: 65%; }
   .header-container {
     width: 90%;
     padding: 100px 0 80px 0; }
@@ -1531,9 +1533,9 @@ p.credits {
     padding: 0 20px; }
   /* Fall 2017 styles */
   .design-header-left {
-    width: 40%; } 
+    width: 40%; }
   .design-header-right {
-    width: 40%; } 
+    width: 40%; }
   .design-footer-right {
     width: 55%; }
   .header-container {
@@ -1545,12 +1547,12 @@ p.credits {
     font-size: 2em; }
   .header-container h4 {
     font-size: 1.2em; } }
-    
+
   .logo-grad {
    width: 100%;
    left: 0px;
   }
-  
+
   .logo-grad svg {
     display: block;
     margin: auto;
