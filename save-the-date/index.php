@@ -1,80 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
-		<title>FRESH - PSU.GD Senior Showcase - WINTER 2018</title>
-		<?php include 'header.php' ?>
-	</head>
-	<body>
-		<?php include 'sidebar-location.php' ?>
-		<?php include 'sidebar-grads.php' ?>
-		<div class="container">
-			<div id="cbp-fbscroller" class="cbp-fbscroller">
-				<nav>
-					<a href="#fbsection1" class="cbp-fbcurrent">Section 1</a>
-					<a href="#fbsection2">Section 2</a>
-					<a href="#fbsection3">Section 3</a>
-				</nav>
-				<!-- Curtain Reveal Sections -->
-				<section class="header">
-					<div class="header-container">
-            <img class="design-header-right" src="src/img/winter2018/stripes-top-right.png" alt="page design">
-         
-            <h4 class="header-container-text">PSUGD SENIOR PORTFOLIO SHOWCASE</h4>
-            
-            <!-- start of FRESH logo -->
-            
-            <!-- copy and past this into your svg code below: style="max-width: 100%"
+
+<head>
+    <title>FRESH - PSU.GD Senior Showcase - SPRING 2018</title>
+    <?php include 'header.php' ?>
+</head>
+
+<body>
+    <?php include 'sidebar-location.php' ?>
+        <?php include 'sidebar-grads.php' ?>
+            <div class="container">
+                <div id="cbp-fbscroller" class="cbp-fbscroller">
+                    <nav> <a href="#fbsection1" class="cbp-fbcurrent">Section 1</a> <a href="#fbsection2">Section 2</a> <a href="#fbsection3">Section 3</a> </nav>
+                    <!-- Curtain Reveal Sections -->
+                    <section class="header">
+                        <div class="header-container">
+                                                       <!-- start of FRESH logo -->
+                            <!-- copy and past this into your svg code below: style="max-width: 100%"
             in viewBox, adjust the height (last set of numbers) to increase or decrease the bottom padding
             -->
-            
-            <svg style="max-width: 100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 618.69 165"><defs><clipPath id="a"><path d="M426.23 112a11 11 0 0 1 .37 2.75c0 7.61-5.65 12.77-14.73 12.77A15.36 15.36 0 0 1 396.64 112h-35.11c0 26.52 18.17 48.13 50.34 48.13 27.75 0 49.85-21.61 49.85-47.64v-.54z" fill="none"/></clipPath><clipPath id="b"><path fill="none" d="M146.09 98.35V68.89h23.03l62.75 86.36h-46.84l-38.94-56.9z"/></clipPath></defs><g data-name="Layer 2"><g data-name="Layer 1"><g clip-path="url(#a)" fill="none" stroke="#000" stroke-width="2.99"><path d="M387.12 99.81v116.23M378.71 99.81v116.23M371.15 99.81v116.23"/></g><path fill="#9bd3ad" d="M576.76 94.49h-51.74v-30.2h51.81l-.07 30.2z"/><path fill="#f89a2e" d="M486.03 7.91h36.1v34.28h-36.1z"/><path fill="none" stroke="#010101" stroke-width="5.99" d="M486.03 7.91h36.1v34.28h-36.1z"/><path fill="none" stroke="#000" stroke-width="5.99" d="M579.84 6.39v57.96h-57.71V40.67h-36.1v113.07h36.1V95.53h57.71v58.21h35.85V6.39h-35.85z"/><path d="M393.45 115.02l-.68 42.2 14.19 4.08 17.91-2.02 17.23-7.44 15.2-18.24 4.73-17.91-.33-3.71h-35.47l-.35 7.43-5.4 6.76-8.61 1.33-7.95-2.35-7.09-9.46-3.38-.67z"/><path fill="#f89a2e" d="M277.93 154h-16.8V89.47l16.8 6.93V154z"/><path d="M277.8 125.13h66.22v28.82H277.8z"/><path fill="#9bd3ad" d="M280.94 66.21l-.32-26.58h-23.06v34.86l23.38-8.28z"/><path fill="none" stroke="#9bd3ad" stroke-width="8.98" d="M340.69 22.87h-78.17"/><path stroke="#000" stroke-width=".48" d="M244.52 7.01h18.12v147.05h-18.12z"/><path fill="#f89a2e" d="M185.03 155.25h46.84l-59.18-84.34h-23.58v29.33l35.92 55.01zM38.66 71.63l-19.11 7.59V24.89h19.11v46.74z"/><path fill="#f89a2e" d="M97.98 24.72H19.76v14.8h78.27l-.05-14.8z"/><path fill="#9bd3ad" d="M13.76 154l.27-58.61 23.79 5.02V154H13.76z"/><path d="M178.09 71.75c8.1 0 13.51-8.34 13.51-16.94s-6.39-16.21-14.49-16.21h-28v33.15zM113 7.91h61.64c31.68 0 52.31 19.15 52.31 46.9 0 25.79-13 40.27-34.87 45.68l39.78 54.76h-45.18l-37.57-55v55H113z" fill="none" stroke="#010101" stroke-width="5.99"/><path d="M244.64 7.91h97.49v31.92h-61.39v26.52h56.72v31.44h-56.72v26.52h64.09v30.94H244.64z" fill="none" stroke="#000" stroke-width="5.99"/><path d="M3 7.91h95v31.92H39.09v31.43h54.28v31.44H39.09v52.55H3z" fill="none" stroke="#010101" stroke-width="5.99"/><path fill="none" stroke="#010101" stroke-width="2.99" d="M93.06 79.88H19.5l20.22-8.09M18.86 86.69h74.38M93.06 94.62H19.6"/><path fill="#010101" d="M3 155.25V7.91h95.03l.07 17H19.76v130.33L3 155.25z"/><path fill="none" stroke="#fff" stroke-width="5.99" d="M11.98 141.49V18.1h71.08"/><path fill="#010101" d="M110.02 5.13h41.9v153.02h-41.9z"/><path d="M131.15 23h47c42.5 0 42.7 64.49 4 64.49h-10.21" fill="none" stroke="#9bd3ad" stroke-width="8.98"/><path fill="#f89a2e" d="M191.59 97.71l-12.45-17.7-12.49.47.23 24.72 24.71-7.49z"/><g clip-path="url(#b)" fill="none" stroke="#010101" stroke-width="2.99"><path d="M152.81 61.4l75.04 103.27M142.24 61.4l75.04 103.27M131.67 61.4l75.03 103.27"/></g><path fill="#fff" d="M119.09 18.51h12.07v126.98h-12.07z"/><path fill="none" stroke="#000" stroke-width="5.99" d="M280.74 39.83h-34.16"/><path fill="none" stroke="#000" stroke-width="2.99" d="M336.19 81.77h-76.62M336.19 89.47h-76.62l21.67 7.79"/><path fill="none" stroke="#fff" stroke-width="8.98" d="M251.28 144.1V22.94h11.6"/><path fill="none" stroke="#000" stroke-width="2.99" d="M279.93 67.27l-20.36 7.22h76.62"/><path fill="none" stroke="#010101" stroke-width="2.99" d="M19.6 94.62l19.13 6.71"/><path d="M412.6 35.9c10.07 0 15.23 6.88 15.23 15.23h33.89C459.75 23.87 444.28 3 411.62 3c-27.57 0-49.79 21.35-50.07 47.16h35.58c0-9.59 7.62-14.26 15.47-14.26z" fill="#9bd3ad" stroke="#000" stroke-width="5.99"/><path d="M426.23 112a11 11 0 0 1 .37 2.75c0 7.61-5.65 12.77-14.73 12.77A15.36 15.36 0 0 1 396.64 112h-35.11c0 20.71 11.07 38.42 31.24 45.19a59.91 59.91 0 0 0 19.1 2.94c27.75 0 49.85-21.61 49.85-47.64v-.54z" fill="none" stroke="#000" stroke-width="5.99"/><path d="M423.17 66.84c-12.53-3.68-26-5.64-26-16.69h-35.62v.49c0 25.29 13.75 36.83 38.55 45.67 11 3.81 23.92 6.81 26.15 15.67h35.45c-.19-22.77-12.47-37.34-38.53-45.14z" fill="none" stroke="#000" stroke-width="5.99"/><path d="M412.61 24c11.38 0 20.51 6 24.7 15.22h10.13C443.43 26.36 433.65 15 411.62 15c-19.67 0-35.9 14.23-37.9 32.15h11.63C386.87 33.65 397.86 24 412.61 24z" fill="#fff"/><path d="M419.78 78.36c-1.61-.47-3.24-.92-4.85-1.36-11.86-3.23-29.78-8.12-29.78-26.83a24.51 24.51 0 0 1 .2-3h-11.63a31.35 31.35 0 0 0-.21 3.51c0 17.56 7.72 26.24 30.5 34.36 1.44.5 2.91 1 4.38 1.47 12 4 30.19 9.92 30.19 28.27 0 14.34 11.16 17.45 11.16-2.21 0-12.5-3.56-26.32-29.96-34.21z"/><path fill="#010101" d="M505.59 43.58h19.43v107.74h-19.43zM615.33 154.83h-38.5V64.06l38.5.23v90.54z"/><path fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width="2.99" d="M588.47 83.45V18.66l-8.63-12.27M606.17 83.45V18.66l8.64-12.27M597.18 83.9V18.18"/><path fill="none" stroke="#9bd3ad" stroke-width="8.98" d="M608.48 90.07v60.48"/><path fill="none" stroke="#f89a2e" stroke-width="8.98" d="M595.39 116.22v34.33"/><path fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width="2.99" d="M588.47 18.66h17.7"/></g></g></svg>
-            
-            <!-- end of FRESH logo -->
-            
-            <h2 class="header-container-text" style="position: relative; z-index: 1;">WINTER 2018</h2>
-            <img class="design-header-left" src="src/img/winter2018/stripes-top-left.png" alt="page design">
-            
-					</div>
-          
-				</section>
-				<!-- COLLABORATIVE PORTFOLIO -->
-				<section id="fbsection3">
-        
-					<!--STATEMENT-->
-					<div class="row statement">
-          <!-- find css styles of this div under .statement, anchor tags under .eventData -->
-						<div class="s3 c6">
-							<p>The <a target="_blank" href="http://psu.gd/">Portland State Graphic Design</a> program invites you to meet 12 FRESH graduates at <a target="_blank" href="http://kampgrizzly.com">Kamp Grizzly</a> on Tuesday, March 20th from 5:30&ndash;8:30 pm. FRESH requires registration. If you are interested in working with or speaking to one of our grads, please register for the event through <a target="_blank" href="https://psugd2018winterfresh.eventbrite.com/">Eventbrite</a>.</p>
-						</div>
-					</div>
-           
-      <script type="text/javascript">
+                            <div class="logo">
+                                <svg class="fresh_rollover" style="max-width: 100%" id="b6639dd3-8717-4b0a-b85c-da0a33891b1b" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 155">
+                                    <title>FRESH MARK_WEBSITE</title>
+                                    <polygon points="17.05 61.63 60.26 61.63 60.26 52.55 17.05 52.55 17.05 15.64 69.77 15.64 69.77 6.56 7.24 6.56 7.24 109.08 17.05 109.08 17.05 61.63" />
+                                    <path d="M148.86,36c0-17.72-12.31-29.44-32.08-29.44H79.14V109.08H89V66h30c10.4,0,17.28,7.76,17.87,18.45l1.46,24.61h9.23l-1.47-24.61C145.49,73.64,140.36,65,132,60.6,142.12,55.91,148.86,47.57,148.86,36ZM117.08,56.94H89V15.64h28.12c15.67,0,21.38,9.52,21.38,20.36S132.75,56.94,117.08,56.94Z" />
+                                    <polygon points="169.8 60.45 213 60.45 213 51.38 169.8 51.38 169.8 15.64 222.52 15.64 222.52 6.56 159.98 6.56 159.98 109.08 224.13 109.08 224.13 100 169.8 100 169.8 60.45" />
+                                    <path d="M240.24,32c0-10.83,9.08-17.57,24.46-17.57,14.79,0,24.6,8.2,25.92,20.65h9.81c-1.76-18-15.82-29.73-35.73-29.73-20.51,0-34.57,10.69-34.57,26.65,0,35.74,61.95,21.38,61.95,49.65,0,13.77-11.42,19.48-26.94,19.48-17.29,0-27.39-10-28.86-25.34h-9.81c1.47,20.8,15.82,34.42,38.67,34.42,21.08,0,37.34-10.11,37.34-28.56C302.48,43.76,240.24,59.72,240.24,32Z" />
+                                    <polygon points="379.8 51.52 322.1 51.52 322.1 6.56 312.29 6.56 312.29 109.08 322.1 109.08 322.1 60.6 379.8 60.6 379.8 109.08 389.62 109.08 389.62 6.56 379.8 6.56 379.8 51.52" />
+                                    <path d="M12.8,128.3c0-1.8,1.57-3,4.1-3,2.71,0,4.46,1.5,4.68,3.74h4.61c-.22-4.8-3.88-7.91-9.29-7.91-5.2,0-8.83,2.93-8.83,7.14,0,9.81,13.77,6,13.77,11.49,0,2.27-1.91,3.37-4.65,3.37A4.85,4.85,0,0,1,12,138.47H7.31c.25,5.39,4.06,8.9,9.88,8.9,5.64,0,9.55-2.89,9.55-7.65C26.74,129.73,12.8,134,12.8,128.3Z" />
+                                    <path d="M40.76,121.45H30.47v25.63h4.87v-9.74h5.42c5.34,0,8.53-3.29,8.53-7.94S46.1,121.45,40.76,121.45Zm-.22,11.83h-5.2v-7.76h5.2a3.88,3.88,0,1,1,0,7.76Z" />
+                                    <path d="M67.55,134.89A5.89,5.89,0,0,0,71,129.36c0-4.65-3.15-7.91-8.5-7.91H52v25.63h4.87v-9.63h5.52a3.43,3.43,0,0,1,3.44,3.33l.63,6.3h4.79l-.62-6.85A6.74,6.74,0,0,0,67.55,134.89Zm-5.27-1.61H56.87v-7.76h5.41c2.86,0,4,1.79,4,3.84A3.68,3.68,0,0,1,62.28,133.28Z" />
+                                    <rect x="75.89" y="121.45" width="4.87" height="25.62" />
+                                    <polygon points="102.07 139.54 90.98 121.45 85.74 121.45 85.74 147.08 90.58 147.08 90.58 129.03 101.7 147.08 106.9 147.08 106.9 121.45 102.07 121.45 102.07 139.54" />
+                                    <path d="M123.5,125.33c3.51,0,6,1.94,6.47,4.84h4.87c-.4-5.31-5-9-11.31-9-6.66,0-12.81,4.36-12.81,13.1s6,13.11,12.52,13.11c3.44,0,6.26-1.76,7.21-4.36v4.07h4.32v-9.56a4.22,4.22,0,0,0-4.25-4.21h-6.81V137h5.2a1.23,1.23,0,0,1,1.32,1.32c0,2.74-3.33,5-6.81,5-4.54,0-8-3.44-8-9.12S118.88,125.33,123.5,125.33Z" />
+                                    <path d="M321.15,139.28l4-2c4.06-2,6.07-4.76,6.07-8.2,0-4.79-3.66-7.94-8.93-7.94-5.6,0-9.19,3.51-9.08,9.19H318c-.07-3.11,1.47-5.2,4.21-5.2a3.73,3.73,0,0,1,4.06,3.92c0,1.86-1.06,3.33-3.14,4.35l-4.1,2.05c-2.46,1.21-5.93,3.92-5.93,8.06l0,3.55h18v-4.21H317.93C317.93,141.29,319.69,140.05,321.15,139.28Z" />
+                                    <path d="M344.79,121.16h-1.47c-6.37,0-9.26,4.39-9.26,12.23v1.75c0,7.84,2.89,12.23,9.26,12.23h1.47c6.37,0,9.29-4.39,9.29-12.23v-1.75C354.08,125.55,351.16,121.16,344.79,121.16Zm4.46,15.26c0,4.51-1.79,6.74-4.68,6.74h-1c-2.89,0-4.65-2.23-4.65-6.74v-4.31c0-4.54,1.76-6.78,4.65-6.78h1c2.89,0,4.68,2.24,4.68,6.78Z" />
+                                    <path d="M358.36,125h-1.83v4.17h2c1.07,0,2.57-.33,3-1v18.85h4.84V121.45H361.8C361.51,124.24,360.34,125,358.36,125Z" />
+                                    <path d="M385.17,133.28A6.1,6.1,0,0,0,388.5,128c0-4-3.48-6.88-8.45-6.88s-8.46,2.86-8.46,6.88a6.21,6.21,0,0,0,3.22,5.24,6.75,6.75,0,0,0-4.32,6.29c0,4.8,4.18,7.8,9.56,7.8s9.51-3,9.51-7.8A6.66,6.66,0,0,0,385.17,133.28Zm-5.12-8.2c2.38,0,3.91,1.21,3.91,3.15s-1.53,3.14-3.91,3.14-4-1.2-4-3.14S377.63,125.08,380.05,125.08Zm0,18.12c-2.93,0-4.84-1.39-4.84-3.74s1.91-3.77,4.84-3.77,4.75,1.47,4.75,3.77S382.94,143.2,380.05,143.2Z" />
+                                </svg>
+                            </div>
+                            <!-- end of FRESH logo -->
+                            <div class="info">
+                                <h4 class="header-container-text">PSUGD SENIOR PORTFOLIO SHOWCASE<br>JUNE 12th//5:30–8:30PM</h4>
+                                <p class="reg">If you would like to speak to or collaborate with our PSUGD grads,
+                                <br>please register through <a target="_blank" href="https://www.eventbrite.com/e/fresh-portland-state-senior-portfolio-show-tickets-46379530424?aff=efbeventtix">Eventbrite</a> to attend Fresh.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!--FOOTER -->
+            <?php include 'footer.php'; ?>
+                <!--end FOOTER-->
+                <?php include 'scripts.php'; ?>
+</body>
 
-        var stripesVideo = document.getElementById('stripesvideo');
-	      var videoButton = document.getElementById('video-button');
-
-	      videoButton.addEventListener('click', function () {
-	 
-		    if (stripesVideo.paused) {
-
-			    stripesVideo.play();
-		    }
-		    else {
-			    stripesVideo.pause();
-	      }
-      }, false);	
- 
-      </script>	
-           
-					<!--end STATEMENT-->
-					<?php include 'students/winter18/grad-tiles.php'; ?>
-					<!--end THUMBNAIL GRID-->
-					<!--FOOTER -->
-					<?php include 'footer.php'; ?>
-					<!--end FOOTER-->
-				</section><!--end FBSECTION3-->
-			</div>
-		</div>
-		<?php include 'scripts.php'; ?>
-	</body>
 </html>
