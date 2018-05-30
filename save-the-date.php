@@ -3,12 +3,12 @@
 
 <head>
     <title>FRESH - PSU.GD Senior Showcase - SPRING 2018</title>
-    <?php include '../header.php' ?>
+    <?php include 'header.php' ?>
 </head>
 
 <body>
-    <?php include '../sidebar-location.php' ?>
-        <?php include '../sidebar-grads.php' ?>
+    <?php include 'sidebar-location.php' ?>
+        <?php include 'sidebar-grads.php' ?>
             <div class="container">
                 <div id="cbp-fbscroller" class="cbp-fbscroller">
                     <nav> <a href="#fbsection1" class="cbp-fbcurrent">Section 1</a> <a href="#fbsection2">Section 2</a> <a href="#fbsection3">Section 3</a> </nav>
@@ -50,9 +50,9 @@
                 </div>
             </div>
             <!--FOOTER -->
-            <?php include '../footer.php'; ?>
+            <?php include 'footer.php'; ?>
                 <!--end FOOTER-->
-                <?php include '../scripts.php'; ?>
+                <?php include 'scripts.php'; ?>
 </body>
 
 </html>
