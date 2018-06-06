@@ -20,10 +20,9 @@
 
 <!-- Social Media Post Info -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://psu.gd/fresh/" />
 <meta property="og:title" content="FRESH | PSUGD Senior Portfolio Showcase" />
-<meta property="og:description" content="You are invited to our senior portfolio show! On March 20th, please join us at Kamp Grizzy for drinks from Deschutes, pizza from Baby Doll and lots of PSUGD work!" />
-<meta property="og:image" content="https://psu.gd/fresh/src/img/winter2018/Fresh-18-logo_Event-bright.jpeg" />
+<meta property="og:description" content="You are invited to our senior portfolio show! On June 12th, please join us at Custom Blocks for drinks from Rogue, pizza from Sizzlepie and lots of PSUGD work!" />
+<meta property="og:image" content="https://psu.gd/fresh/src/img/spring2018/banner.jpg" />
 <meta property="og:site_name" content="Portland State University Graphic Design">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -31,9 +30,9 @@
 <!-- <meta name="twitter:creator" content="!!!@individual_account"> -->
 <meta name="twitter:url" content="https://psu.gd/fresh/">
 <meta name="twitter:title" content="FRESH | PSUGD Senior Portfolio Showcase">
-<meta name="twitter:description" content="You are invited to our senior portfolio show! On March 20th, please join us at Kamp Grizzy for drinks from Deschutes, pizza from Baby Doll and lots of PSUGD work!">
-<meta name="twitter:image" content="https://psu.gd/fresh/src/img/winter2018/Fresh-18-logo_Event-bright.jpeg">
-<link rel="image_src" href="https://psu.gd/fresh/src/img/winter2018/Fresh-18-logo_Event-bright.jpeg">
+<meta name="twitter:description" content="You are invited to our senior portfolio show! On June 12th, please join us at Custom Blocks for drinks from Rogue, pizza from Sizzlepie and lots of PSUGD work!">
+<meta name="twitter:image" content="https://psu.gd/fresh/src/img/spring2018/eventbanner.jpg">
+<link rel="image_src" href="https://psu.gd/fresh/src/img/spring2018/eventbanner.jpg">
 
 
 
@@ -47,6 +46,4 @@
      Click "Publish" to render fonts on (online) browsers
      You will NOT see fonts on your local server browser address: localhost:8888
      Only see on desktop or mobile browers (online) -->
-<script src="https://use.typekit.net/jwf2ata.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
 <!-- END TYPEKIT FONTS -->

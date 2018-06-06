@@ -41,18 +41,20 @@
                             </div>
                             <!-- end of FRESH logo -->
                             <div class="info">
-                                <h4 class="header-container-text">PSUGD SENIOR PORTFOLIO SHOWCASE<br>JUNE 12th//5:30–8:30PM</h4>
-                                <p class="reg">If you would like to speak to or collaborate with our PSUGD grads,
-                                <br>please register through <a target="_blank" href="https://www.eventbrite.com/e/fresh-portland-state-senior-portfolio-show-tickets-46379530424?aff=efbeventtix">Eventbrite</a> to attend Fresh.</p>
+                                <h4 class="header-container-text">PSUGD SENIOR PORTFOLIO SHOWCASE<br>JUNE 12TH / 5:30–8:30PM / CUSTOM BLOCKS</h4>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
+            
+            <!--THUMBNAIL GRID-->
+            <?php include 'students/spring18/grad-tiles.php'; ?>
+
             <!--FOOTER -->
             <?php include 'footer.php'; ?>
                 <!--end FOOTER-->
-                <?php include 'scripts.php'; ?>
+            <?php include 'scripts.php'; ?>
 </body>
 
 </html>

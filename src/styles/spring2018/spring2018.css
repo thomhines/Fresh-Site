@@ -16,7 +16,7 @@ Spring 2018 COLORS & FONTS
      
      @font-face {
          font-family: 'roobert_bold';
-         src: url('RoobertTRIAL-Bold.woff2');
+         src: url('Roobert-SemiBold.otf');
      }
      
      @font-face {
@@ -78,9 +78,10 @@ Main Body Styles
      
      body {
          font-size: 15px;
-         background-image: url("../../img/spring2018/a-xromatik-230597-unsplash_cropped.jpg");
+         background-image: url("../../img/spring2018/DSCF1619.jpg");
          background-size: cover;
          background-repeat: no-repeat;
+         height: 110vh;
      }
      
      canvas {
@@ -170,7 +171,7 @@ Main Body Styles
      .header {
          background-color: white;
          opacity: .7;
-         height: 100vh !important;
+         height: 114vh !important;
          /* border-bottom: 10px solid #db202a; */
          display: -webkit-box;
          display: -ms-flexbox;
@@ -211,7 +212,7 @@ Main Body Styles
          width: 60%;
          max-width: 800px;
          position: relative;
-         top: 10%;
+         top: 4%;
      }
      
      .header-container svg {
@@ -256,6 +257,7 @@ Main Body Styles
          right: -2px;
          width: 20%;
          min-width: 100px;
+         display: none;
      }
      
      .design-bio-left {
@@ -263,6 +265,7 @@ Main Body Styles
          top: -20px;
          left: 0px;
          width: 75px;
+         display: none;
      }
      /* - - - - - - - - - - - - - - - - - - - - - - - - - STATEMENT */
      /* This is the intro text on the index page */
@@ -466,7 +469,6 @@ Main Body Styles
      .eventSpace h1 {
          font-size: 1.7em;
          float: left;
-         display: inline-block;
          margin: 0px 0px 0 0;
          line-height: 2;
          color: #191e64;
@@ -487,7 +489,6 @@ Main Body Styles
      
      .revinfo {
          float: right;
-         display: inline;
          position: absolute;
          padding-left: 8px;
      }
@@ -546,6 +547,7 @@ Main Body Styles
          text-transform: uppercase;
          line-height: 1.1em;
          color: black;
+         margin-bottom: 2%;
      }
      
      .eventData h2 a {
@@ -557,11 +559,18 @@ Main Body Styles
          text-align: center;
          margin: auto;
          width: 100%;
+         padding: 0 15%;
+         margin-bottom: 5%;
      }
+     
+     .eventData .how h2{
+         text-align: center;
+     }
+     
      
      .eventData p,
      .previous_grads p {
-         margin-bottom: 1em;
+         margin-bottom: .6em;
          text-align: left;
          font-size: 1em;
          color: black;
@@ -638,7 +647,6 @@ Main Body Styles
      
      .faceblock {
          float: left;
-         display: inline-block;
          text-align: center;
      }
      
@@ -797,6 +805,8 @@ flexslider
      .thumbnailGrid {
          margin: 90px;
          position: relative;
+         padding-bottom: 5%;
+         border-bottom: 3px solid #FF3322;
      }
      
      .photoGrid {
@@ -827,6 +837,10 @@ flexslider
          overflow: hidden;
          position: relative;
      }
+
+     .photoGrid li a{
+         border: none;
+     }
      
      .photoGrid li:hover {
          cursor: pointer;
@@ -855,7 +869,7 @@ flexslider
      .photoGrid li a:before {
          content: '';
          display: block;
-         background-color: #f89a2e;
+         background-color: #9D9D93;
          opacity: 0;
          width: 100%;
          height: 100%;
@@ -907,8 +921,8 @@ flexslider
          width: 100%;
          height: 100%;
          color: white;
-         font-size: 1.6em;
-         letter-spacing: 1px;
+         font-size: 1.8em;
+         letter-spacing: 1.5px;
          position: relative;
          top: calc(50% - .8em);
          /* subtracts half of font size so it is centered */
@@ -924,9 +938,10 @@ flexslider
          .photoGrid li a:before {
              content: '';
              display: block;
-             background-color: #f89a2e;
+             background-color: #9D9D93;
              opacity: .7;
              width: 100%;
+             height: 100%;
              height: 3.5em;
              position: relative;
              top: calc((100% - 3.5em) / 2);
@@ -943,13 +958,25 @@ flexslider
      
      @media (max-width: 768px) {
          .photoGrid li {
-             width: 100%;
+             width: 50%;
              margin: 0;
              padding: 10px 0;
          }
          .thumbnailGrid {
              margin: 20px;
          }
+
+         .photoGrid .photo {
+             /* width: 100% !important; */
+             width: calc((100vw - 90px) / 2);
+             height: 100%;
+             -webkit-transition: all 1s ease;
+             transition: all 1s ease;
+             margin: 1%;
+         }
+
+
+
      }
      
      .color {
@@ -966,8 +993,9 @@ flexslider
      /* - - - - - - - - - - - - - - - - - - - - - - - - - PROFILE PAGE */
      
      .biobg {
-         /* this is applied to body of profile page */
-         background-color: white;
+         /* this is applied to  of profile page */
+         background-color: #CCFD3C7;
+         background-attachment: fixed;
      }
      /* - - - - - - - - - - - - - - - - - - - header of profile pages */
      
@@ -975,10 +1003,15 @@ flexslider
          position: absolute;
          top: 35px;
          left: 60px;
+         z-index: 2;
      }
      
      .logo-grad svg {
-         height: 55px;
+         height: 70px;
+     }
+
+     .logo-grad a{
+         border:none;
      }
      /*
 .logo-grad svg path {
@@ -990,8 +1023,16 @@ flexslider
 */
      
      .biosection {
-         margin: 140px 0 0 0;
+         margin: 0px 0 0 0;
+         padding-top: 50px;
          position: relative;
+         background: rgba(255, 255, 255, 0.85);
+         width: 94vw;
+         margin: auto;
+     }
+
+     .biosection a{
+         border: none;
      }
      /* - - - - - - - - - - - - - - - - - - - left side/photo profile pages */
      
@@ -1023,10 +1064,11 @@ flexslider
          display: block;
          margin: 2em auto;
          text-align: center;
-         border: 6px solid black;
+         border: 3px solid black;
+         background: white;
          font-family: "din-2014", sans-serif;
          font-style: normal;
-         font-weight: 700;
+         font-size: .8em;
          cursor: pointer;
          -webkit-transition: all 200ms ease 0s;
          transition: all 200ms ease 0s;
@@ -1046,7 +1088,7 @@ flexslider
      }
      
      .website_btn:hover {
-         background: #9ad2ac;
+         background: #9D9D93;
      }
      
      .website_btn:hover a {
@@ -1067,7 +1109,7 @@ flexslider
      .bio h1,
      .bioleft h1 {
          /* student name */
-         color: #f89a2e;
+         color: black;
          padding-bottom: 15px;
          font-size: 2.5em;
          line-height: 1.2;
@@ -1077,14 +1119,11 @@ flexslider
          text-align: center;
      }
      
-     .bio h1 span {
-         /* not using fall 2017 */
-         /* this styles the last name on bio page */
-     }
+
      
      .bio h2 {
          /* project title */
-         color: #f89a2e;
+         color: black;
          font-size: 1.75em;
          padding-bottom: .2em;
      }
@@ -1102,16 +1141,27 @@ flexslider
          font-family: "din-2014", sans-serif;
          font-style: normal;
          font-weight: 600;
-         color: #9ad2ac;
+         color:black;
          font-size: 1.2em;
          line-height: 1.5;
          letter-spacing: .03em;
      }
      
      .bio p {
-         text-shadow: 0 0 10px white;
+         border-bottom: #FF3322 solid 3px;
+         padding-bottom: 6%;
      }
      
+     .bio .p_noborder{
+         border-bottom:none;
+         padding-bottom: 3%;
+     }
+
+     .bio .p_border{
+         border-bottom: #FF3322 solid 3px;
+     }
+
+
      .bio img {
          /* adds space between projects in bio */
          margin-top: 1em;
@@ -1158,7 +1208,7 @@ flexslider
      }
      
      .c6.bio a:hover {
-         color: #f89a2e;
+         color: white;
      }
      /* - - - - - - - - - - - - - - - - - - - - - - - - - ARCHIVE PAGE */
      
@@ -1208,7 +1258,6 @@ flexslider
      
      footer {
          position: relative;
-         display: none;
      }
      
      .archive-link {
@@ -1239,7 +1288,7 @@ flexslider
          padding: 25px 0;
          padding-bottom: 250px;
          margin-bottom: 0;
-         background-color: #CFD3C7;
+         background-color:rgba(255, 255, 255, 0.75);
      }
      
      .footer p {
@@ -1354,11 +1403,12 @@ flexslider
      
      .credits a {
          border-bottom: 0px;
+         transition: color .6s ease;
          /* undo for style for regular links */
      }
      
      .credits a:hover {
-         color: #9ad2ac;
+         color:black;
      }
      
      .whiteText {
@@ -1812,6 +1862,12 @@ flexslider
              font-size: 1.5em;
              line-height: 1.2;
          }
+
+        .biosection{
+            padding-top: 120px;
+        }
+
+
          /* =Media query for 800px wide
 -------------------------------------------------------------- */
          @media (max-width: 1000px) {
@@ -1904,6 +1960,10 @@ flexslider
                  
                  .info{
                      padding: 3%;
+                 }
+
+                 .biosection{
+                     width: 100vw;
                  }
              }
              /* =Media query for iPad and tablets
@@ -2058,14 +2118,31 @@ flexslider
                      height: 70px;
                      margin-top: 3%;
                  }
-             }
-             .logo-grad {
+            
+                 .logo-grad {
                  width: 100%;
                  left: 0px;
-             }
-             .logo-grad svg {
-                 display: block;
-                 margin: auto;
-                 height: 45px;
-             }
-             /* END @480px */
+                }
+                
+                .logo-grad svg {
+                    display: block;
+                    margin: auto;
+                    height: 45px;
+                }
+
+                .eventData .how h2 {
+                    text-align: left;
+
+                }
+
+                .how p{
+                    display: none;
+                }
+
+                .photoGrid li a div h3{
+                    font-size: 1.2em;
+                    letter-spacing: 2px;
+                }
+
+            
+             } /* END @480px */

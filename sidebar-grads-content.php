@@ -13,5 +13,7 @@
         <a href="https://www.halfcourtstudio.com/"><img id="halfcourt" src="src/img/spring2018/halfcourt_logo-01.svg"></a>
         <a href="http://www.customblocksportland.com/"><img src="src/img/spring2018/CapstonePartnersLogo_2015_Bluegrey.svg"></a>
         <a href="https://www.sizzlepie.com/"><img src="src/img/spring2018/sizzle_pie_logo.svg"></a>
+        <a href="https://www.rogue.com/"><img src="src/img/spring2018/rogue-ales-logo.svg"></a>
+
     </div>
 </div>
