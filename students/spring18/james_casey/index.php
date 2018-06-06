@@ -10,7 +10,14 @@
 <div class="c6 bio">
 
     <h1>James<span class="last-name"> Casey</span></h1>
-    <ul class="interests"><
+    <ul class="interests">
+    <li>Typography</li>
+    <li>Publications</li>
+    <li>Branding</li>
+    <li>Motion</li>
+    <li>UI/UX</li>
+    
+    </ul>
 
     <p>James is a designer from Waialua, HI living in Portland, OR and enjoys all things type, branding, experimentation, and collaboration. He values clarity and equity in design, and strives to create work that integrates itself into the lives of others to create positive experiences.</p>
 

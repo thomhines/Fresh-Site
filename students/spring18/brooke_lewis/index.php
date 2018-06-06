@@ -10,7 +10,15 @@
 <div class="c6 bio">
 
     <h1>Brooke<span class="last-name"> Lewis</span></h1>
-    <ul class="interests"><li>Editorial Design</li><li>Photo Collage</li><li>Illustration</li><li>Branding</li><li>Art Direction</li></ul>
+    <ul class="interests">
+    <ul>
+        <li>Tenacity</li>
+        <li>Crafting</li>
+        <li>Costume Fabrication</li>
+        <li>Painting</li>
+        <li>Illustration</li>
+    </ul>
+</ul>
 
     <p>Brooke is whiz kid specializing in illustration and page layout, with an interest in learning more about animation and HTML. If Brooke needs something, they are more likely to make it than to buy it–there's a lot one can do with a hot glue gun.</p>
 

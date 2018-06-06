@@ -10,7 +10,11 @@
 <div class="c6 bio">
 
     <h1>Stephanie<span class="last-name"> Gao</span></h1>
-    <ul class="interests"><</ul>
+    <ul class="interests"><li>Experimental Type</li>
+    <li>Vector Illustration</li>
+    <li>Color Exploration</li>
+    <li>Layout</li>
+    </ul>
 
     <p>Stephanie Gao is highly influenced by the worlds of fashion and design. Her work is driven by curiosity and her interest in pop culture. She has a particular passion for the modern and contemporary.</p>
 

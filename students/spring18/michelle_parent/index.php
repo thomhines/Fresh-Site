@@ -10,7 +10,8 @@
 <div class="c6 bio">
 
     <h1>Michelle<span class="last-name"> Parent</span></h1>
-    <ul class="interests"><
+    <ul class="interests">
+    </ul>
 
     <p>Mimi's specialties lie in heavily conceptual design that promotes feeling and thoughtfulness while still being anchored in meaning. She is inspired by minimalism, experimental typography/text based compositions, and layout design.</p>
 

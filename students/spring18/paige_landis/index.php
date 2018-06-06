@@ -10,7 +10,11 @@
 <div class="c6 bio">
 
     <h1>Paige<span class="last-name"> Landis</span></h1>
-    <ul class="interests"><</ul>
+    <ul class="interests"><li>Illustration</li>
+    <li>Typography</li>
+    <li>Research</li>
+    <li>Branding</li>
+    </ul>
 
     <p>Paige is a graphic designer and illustrator who believes design is meant to create connections between people. She is fascinated by learning the story behind what she's designing for, and finding ways to let her work pay tribute to it. When she isn't making things she's, usually drinking more coffee than anyone ever should.</p>
 

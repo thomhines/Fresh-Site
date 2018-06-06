@@ -11,7 +11,15 @@
 <div class="c6 bio">
 
     <h1>Chloe<span class="last-name"> Kendall</span></h1>
-    <ul class="interests"><li>Editorial Design</li><li>Photo Collage</li><li>Illustration</li><li>Branding</li><li>Art Direction</li></ul>
+    <ul class="interests">
+    <ul>
+        <li>Animation</li>
+        <li>Experimentation</li>
+        <li>Layout + Illustration + Interaction</li>
+        <li>Screenprinting and Painting</li>
+        <li>Low-Brow Everything</li>
+    </ul>
+    </ul>
 
     <p>Chloe is a thoughtful designer and illustrator who loves to work in motion, interaction and layout. There is a special place in her heart for the ridiculous and the experimental. When not clicking around cyberspace, she's dreaming about moving to the Mediterranean.</p>
 

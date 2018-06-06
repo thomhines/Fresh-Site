@@ -10,7 +10,13 @@
 <div class="c6 bio">
 
     <h1>Brenda<span class="last-name"> Madrigal</span></h1>
-    <ul class="interests"><li>Editorial Design</li><li>Photo Collage</li><li>Illustration</li><li>Branding</li><li>Art Direction</li></ul>
+    <ul class="interests">
+            <li>Research</li>
+            <li>Photography</li>
+            <li>Layout</li>
+            <li>Branding</li>
+            <li>Typography</li>
+        </ul>
 
     <p>Brenda specializes in publication design, motion graphics, branding and art direction. Curiosity and love of colors is what drives and fuels her passion as a designer. When not sitting in front of an iMac you can find her drinking lemonade,  binge watching Netflix, and trying to find the best pizza.</p>
 

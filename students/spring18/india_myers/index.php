@@ -10,7 +10,13 @@
 <div class="c6 bio">
 
     <h1>India<span class="last-name"> Myers</span></h1>
-    <ul class="interests"><
+    <ul class="interests">
+    <li>Editorial Design</li>
+    <li>Color Design</li>
+    <li>Art History</li>
+    <li>Branding</li>
+    <li>Art Direction</li>
+</ul>
 
     <p>India is an Aquarius sun and Virgo moon who often looks to nature for inspiration. She values clean, peaceful design that engages the viewer through meaningful connections to the layout, type, and color scheme. When she’s not busy designing, she’s expressing her creativity through fashion and laughing way too hard at The Office reruns.</p>
 

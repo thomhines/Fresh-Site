@@ -10,7 +10,15 @@
 <div class="c6 bio">
 
     <h1>Ciera<span class="last-name"> Tague</span></h1>
-    <ul class="interests"><li>Editorial Design</li><li>Photo Collage</li><li>Illustration</li><li>Branding</li><li>Art Direction</li></ul>
+    <ul class="interests">
+    
+    <li>Typography</li>
+    <li>Layout</li>
+    <li>Community engagement</li>
+    <li>Design strategy</li>
+    <li>Creative problem solving</li>
+
+    </ul>
 
     <p>Believing that design can do good things, Ciera works to create experiences, platforms and systems that benefit our everyday lives. She cares way too much about everything and is learning to channel that into being a force for change and support.</p>
 

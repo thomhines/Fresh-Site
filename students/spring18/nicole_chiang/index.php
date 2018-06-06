@@ -10,7 +10,11 @@
 <div class="c6 bio">
 
     <h1>Nicole<span class="last-name"> Chiang</span></h1>
-    <ul class="interests"><</ul>
+    <ul class="interests"><li>Page Design</li>
+    <li>Typography</li>
+    <li>Research</li>
+    <li>Branding</li>
+</ul>
 
     <p>Nicole is an independent individual whose work is heavily inspired by her connections with people and traveling. She loves clean and elegant designs, but also likes to incorporate colorful palettes. She loves branding, packaging and layout design. Her philosophy is to tackle every challenge in life with accountability and optimism.</p>
 
