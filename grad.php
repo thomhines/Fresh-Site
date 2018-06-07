@@ -42,7 +42,7 @@
         // Include the correct index file
         include 'students/spring18/'.$name . '/index.php';
       }  
-	else if ( $name && file_exists('students/spring18/'.$_GET["name"]) ) {
+	else if ( $name && file_exists('students/winter18/'.$_GET["name"]) ) {
         // Include the correct index file
         include 'students/spring18/'.$name . '/index.php';
       }

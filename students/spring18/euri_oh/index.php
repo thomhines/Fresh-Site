@@ -13,9 +13,9 @@
     <h1>Euri<span class="last-name"> Oh</span></h1>
     <ul class="interests">
     <li>Branding</li>
-    <li>Art direction</li>
-    <li>Research and concepting</li>
-    <li>Textile/apparel design</li>
+    <li>Art Direction</li>
+    <li>Retail Space</li>
+    <li>Research and Ideation</li>
     </ul>
 
     <p>Euri (Yoo-Di) is a Korean-American designer based in Portland, Oregon. She’s currently working at Uniqlo/Fast Retailing as a design intern. Through investigation and intuition, she considers cultural backgrounds and personal stories to ideate thoughtful solutions that last. She’s constantly thinking about ideas that relate to time & space, futurity, the occult, and equality.</p>

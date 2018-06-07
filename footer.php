@@ -2,43 +2,7 @@
 
 <img class="design-footer-right" src="src/img/winter2018/stripes-bottom-right.png" alt="page design">
 
-<div class="footerLogos"> <!-- start footerLogos -->
 
-  <a href="http://psu.gd/" target="_blank">
-  <img class="schoolLogos psugd" src="src/img/logos/black/psugdlogo.svg" alt="psugdlogo">
-  </a>
-
-  <!--
-  <a href="https://www.instagram.com/fogd/" target="_blank">
-  <img class="schoolLogos fogd" src="src/img/logos/fogdlogo.png" alt="fogdlogo">
-  </a>
-
-  <a href="http://www.pdx.edu/the-arts/art-design" target="_blank">
-  <img class="schoolLogos ad" src="src/img/logos/adschoollogo.png" alt="adschoollogo">
-  </a>
-  -->  
-
-  <a href="http://www.pdx.edu" target="_blank">
-  <img class="schoolLogos psu" src="src/img/logos/black/psulogo.svg" alt="psulogo">
-  </a>
-
-  <a href="https://www.halfcourtstudio.com/" target="_blank">
-  <img class="schoolLogos footerSponsor" src="src/img/spring2018/halfcourt_logo-01.svg" alt="Baby Doll Pizza">
-  </a>
-  
-  <a href="https://www.sizzlepie.com/" target="_blank">
-  <img class="schoolLogos footerSponsor" src="src/img/spring2018/sizzle_pie_logo.svg" alt="Deschutes Brewery">
-  </a>
-
-  <a href="https://www.rogue.com/" target="_blank">
-  <img class="schoolLogos footerSponsor" src="src/img/spring2018/rogue-ales-logo.svg" alt="Deschutes Brewery">
-  </a>
-  
-  <a href="http://www.customblocksportland.com/" target="_blank">
-  <img class="schoolLogos footerSponsor" src="src/img/spring2018/CapstonePartnersLogo_2015_Bluegrey.svg" alt="Kamp Grizzly">
-  </a>
-  
-</div> <!-- end footerLogos -->
 
 <div class="row footer clear">
 
@@ -90,8 +54,58 @@
     </div> <!-- end credits-container -->
     
   </div> <!-- end c5 -->
+
+
+  
   
 </div> <!-- end row footer clear -->
+
+<div class="footerLogos clearfix"> <!-- start footerLogos -->
+
+  <a href="http://psu.gd/" target="_blank">
+  <img class="schoolLogos psugd" src="src/img/logos/black/psugdlogo.svg" alt="psugdlogo">
+  </a>
+
+  <!--
+  <a href="https://www.instagram.com/fogd/" target="_blank">
+  <img class="schoolLogos fogd" src="src/img/logos/fogdlogo.png" alt="fogdlogo">
+  </a>
+
+  <a href="http://www.pdx.edu/the-arts/art-design" target="_blank">
+  <img class="schoolLogos ad" src="src/img/logos/adschoollogo.png" alt="adschoollogo">
+  </a>
+  -->  
+
+  <a href="http://www.pdx.edu" target="_blank">
+  <img class="schoolLogos psu" src="src/img/logos/black/psulogo.svg" alt="psulogo">
+  </a>
+
+  <a href="https://www.halfcourtstudio.com/" target="_blank">
+  <img class="schoolLogos footerSponsor" src="src/img/spring2018/halfcourt_logo-01.svg" alt="Baby Doll Pizza">
+  </a>
+  
+  <a href="https://www.sizzlepie.com/" target="_blank">
+  <img class="schoolLogos footerSponsor" src="src/img/spring2018/sizzle_pie_logo.svg" alt="Deschutes Brewery">
+  </a>
+
+  <a href="https://www.rogue.com/" target="_blank">
+  <img class="schoolLogos footerSponsor" src="src/img/spring2018/rogue-ales-logo.svg" alt="Deschutes Brewery">
+  </a>
+  
+  <a href="http://www.customblocksportland.com/" target="_blank">
+  <img class="schoolLogos footerSponsor" src="src/img/spring2018/CapstonePartnersLogo_2015_Bluegrey.svg" alt="Kamp Grizzly">
+  </a>
+
+  <a href="https://www.newseasonsmarket.com/" target="_blank">
+  <img class="schoolLogos footerSponsor" src="src/img/spring2018/newseasons_logo.svg" alt="Deschutes Brewery">
+  </a>
+  
+  <a href="https://www.coffeebeer.me/" target="_blank">
+  <img class="schoolLogos footerSponsor" src="src/img/spring2018/coffee_beer_logo.svg" alt="Kamp Grizzly">
+  </a>
+  
+</div> <!-- end footerLogos -->
+
 
 <script></script>
 

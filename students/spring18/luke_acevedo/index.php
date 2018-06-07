@@ -3,7 +3,7 @@
 
 
     <div class="website_btn">
-        <a target="_blank" href="">VIEW WEBSITE</a>
+        <a target="_blank" href="https://www.lukeacevedo.com/">VIEW WEBSITE</a>
     </div>
 </div>
 

@@ -13,9 +13,10 @@
     <ul class="interests">
     <li>VR/AR</li>
     <li>Coding</li>
-    <li>Sci-fi / Fantasy</li>
+    <li>UX/UI</li>
     <li>Documentation</li>
     <li>Storytelling</li>
+    <li>Craft Construction</li>
     </ul>
 
     <p>Damaris is a designer who started out on a pirated Photoshop CS2 version and self-taught HTML/CSS tutorial sites. Growing up, she fell in love with print design and would shove her face in books (literally). Today, she still shoves her face in books, and loves to experiment between digital and physical mediums with her work.</p>

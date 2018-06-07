@@ -1,5 +1,5 @@
 <div class="s2 c2 bioleft">
-<div class="bio_pic"><img src="students/spring18/aaron_secrist/Aaron2.jpg" alt="Photo of Student"></div>
+<div class="bio_pic"><img src="students/spring18/aaron_secrist/aaron2.jpg" alt="Photo of Student"></div>
 
 
     <div class="website_btn">

@@ -150,6 +150,13 @@ Main Body Styles
      
      .reg {
          text-align: center;
+         font-family: 'roobert_bold';
+     }
+
+     .reg p {
+         text-align: center;
+         font-family: 'roobert_bold';
+         line-height: 1.4;
      }
      
      iframe {
@@ -1286,7 +1293,7 @@ flexslider
      
      .footer {
          padding: 25px 0;
-         padding-bottom: 250px;
+         padding-bottom: 5%;
          margin-bottom: 0;
          background-color:rgba(255, 255, 255, 0.75);
      }
@@ -1343,16 +1350,24 @@ flexslider
      }
      
      .footerLogos {
-         position: absolute;
-         bottom: 0;
-         left: 20px;
-         width: calc(100% - 20px);
-         max-width: 100%;
+         max-width: 80%;
+         margin: auto;
+          display:flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          justify-content: space-between;
+          align-content: flex-end;
+          align-items: center;
+              padding-bottom: 50px;
      }
      
      .footerLogos img {
          display: inline;
      }
+
+      .footerLogos a{
+          border: none;
+      }
      
      .accordion-buttons {
          margin-bottom: 35px;
@@ -1458,6 +1473,9 @@ flexslider
          justify-content: center;
          align-content: flex-end;
          align-items: center;
+         margin: auto;
+         max-width: 90%;
+         margin-top: 3%;
      }
      
      .sponsors img {
