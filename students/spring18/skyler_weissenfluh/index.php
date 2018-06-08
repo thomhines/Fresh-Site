@@ -17,7 +17,7 @@
     <li>Typography</li>
     </ul>
 
-    <p>Skylar strives to create fun, bold, and unique experiences through design and collaboration. She's always ready to dive into any challenge that comes her way. When she's not designing, she likes to spend time petting dogs, road tripping, talking with GIFs, and trying not to burn her kitchen down.</p>
+    <p>Skyler is a nerd at heart. As an avid artist and gamer, he is always looking for something exciting to do. His passions in graphic design include page design, branding, illustration, logo design, UI design and typography. Skyler lives with his cat/platonic life partner Paul and enjoys drawing, reading science-fiction books and gaming in his free time.</p>
 
     <!--
     <h4 class="bio_question">What is your favorite plant?</h4>
