@@ -14,6 +14,7 @@
         <a href="http://www.customblocksportland.com/"><img src="src/img/spring2018/CapstonePartnersLogo_2015_Bluegrey.svg"></a>
         <a href="https://www.sizzlepie.com/"><img src="src/img/spring2018/sizzle_pie_logo.svg"></a>
         <a href="https://www.rogue.com/"><img src="src/img/spring2018/rogue-ales-logo.svg"></a>
-
+        <a href="https://www.newseasonsmarket.com/"><img src="src/img/spring2018/newseasons_logo.svg"></a>
+        <a href="https://www.coffeebeer.me/"><img src="src/img/spring2018/coffee_beer_logo.svg"></a>
     </div>
 </div>

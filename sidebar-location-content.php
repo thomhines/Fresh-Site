@@ -31,7 +31,7 @@ Portland, OR 97214<br><a target="_blank" href="https://www.google.com/maps/place
     
     <div class="section where">
         <h2><a target="_blank" href="http://www.customblocksportland.com/">Custom Blocks</a></h2>
-        <p>920 SE Main St<br>Portland, OR 97214</p>
+        <p>950 SE Main St<br>Portland, OR 97214</p>
         <a target="_blank" href="https://www.google.com/maps/place/Custom+Blocks/@45.5135241,-122.6586718,17z/data=!3m1!4b1!4m5!3m4!1s0x5495a0a004bacfef:0x4df13bbbfd244f38!8m2!3d45.5135204!4d-122.6564778">(map)</a>
     </div>
     
