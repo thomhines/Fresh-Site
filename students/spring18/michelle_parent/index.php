@@ -12,8 +12,8 @@
     <h1>Michelle<span class="last-name"> Parent</span></h1>
     <ul class="interests">
     <li>Illustration</li>
-    <li>Music</li>
-    <li>Rainbows</li>
+    <li>Motion</li>
+    <li>Layout</li>
     </ul>
 
     <p>Michelle Parent is a graphic designer and illustrator living it up in Portland OR. In her free time you can catch her re-watching Game of Thrones with her munchkin cat, or drawing trees in Washington Park. One of her greatest accomplishments was being born on Beyonce’s birthday which ultimately informs her fun and fresh approach to art and design.</p>
