@@ -29,7 +29,7 @@
     <h2> Lil' Devil Enamel Pin</h2>
     <p class="p_noborder">This lapel pin is based on an old photo of me on my first Halloween. The design on the backing card is inspired by antique French poster art, and is printed in fluorescent orange Risograph ink.</p>
     <div class="website_btn">
-        <a target="_blank" href="https://www.etsy.com/shop/violetmaereed">VIEW IT ON ESTY</a>
+        <a target="_blank" href="https://www.etsy.com/shop/violetmaereed">VIEW IT ON ETSY</a>
     </div>
     <p class="p_border"></p>
 

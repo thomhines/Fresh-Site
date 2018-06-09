@@ -26,15 +26,15 @@
     -->
 
     <img class="artwork" src="students/spring18/india_myers/i_myers_image1.png" alt="Photo of Project 1">
-    <h2>Golden is a Wellness</h2>
+    <h2>Golden</h2>
     <p>Golden is a wellness magazine designed for black women to help guide them on their journeys to cultivate richer understandings of themselves and their community. My goal was to create a design that felt peaceful and harmonious to the reader by using soft, muted colors and serene imagery.</p>
 
-    <img class="artwork" src="students/spring18/india_myers/i_myers_image2.jpg" alt="Photo of Project 2">
+    <img class="artwork" src="students/spring18/india_myers/i_myers_image2.png" alt="Photo of Project 2">
     <h2>French For Nut</h2>
     <p>French For Nut is a chocolate company that walks the line between traditional and playful. To highlights this, I designed a logotype by contrasting the classical typeface, Bodoni, with hand lettering. There is no logomark for this brand instead I designed an illustrative style, loose and quick in appearance, to highlight the easygoing nature of the brand to the audience.</p>
 
     <img class="artwork" src="students/spring18/india_myers/i_myers_image3.gif" alt="Photo of Project 3">
-    <h2>Expressive Type Essay</h2>
+    <h2>It's Not What You Say It's How You Say It</h2>
     <p>I wrote and illustrated an essay on how expressive type has been used to solve misunderstandings in digital conversations. The overall aesthetic of the piece was inspired by Memphis design, acknowledging the creation of emoticons in 1982.</p>
 
     <img class="artwork" src="students/spring18/india_myers/i_myers_image4.png" alt="Photo of Project 4">

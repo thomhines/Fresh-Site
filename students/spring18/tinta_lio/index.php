@@ -3,7 +3,7 @@
 
 
     <div class="website_btn">
-        <a target="_blank" href="">VIEW WEBSITE</a>
+        <a target="_blank" href="https://www.tintadesign.com/">VIEW WEBSITE</a>
     </div>
 </div>
 
@@ -12,10 +12,9 @@
     <h1>Tinta<span class="last-name"> Lio</span></h1>
     <ul class="interests">
     <li>Branding</li>
-    <li>Web Design</li>
     <li>Handlettering & Illustration</li>
     <li>Editorial Design</li>
-    <li>Art Direction</li></ul>
+    </ul>
 
     <p>Tinta is a Portland resident who loves clean and thoughtful design. She believes that design should be meaningful and easily digestible. Her skills are illustration, page layout, print and branding. The majority of her work reflects on her interests, such as her adored Scottish Terrier Kodi, aquatic life, food and sociology/psychology. </p>
 
