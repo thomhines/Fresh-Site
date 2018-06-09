@@ -17,7 +17,7 @@
     <li>Energetic Presentation Giving</li>
     </ul>
 
-    <p>Laken creates digital and print experiences that promote experimentation and playfulness. She filters illustrative and tactile art through a designer's lens to create meaningful solutions for an increasingly online world. She is excited to make collaborative work with good people who have new podcast recommendations and can appreciate her cherished rock collection.</p>
+    <p>Lauren Klinkhammer is a Portland, Oregon native and graphic designer. Her focuses are brand identities, packaging, illustration, and giving high energy keynote presentations. When she isn’t getting a computer tan she enjoys light shenanigans, quoting movies, and doing high kicks.</p>
 
     <!--
     <h4 class="bio_question">What is your favorite plant?</h4>

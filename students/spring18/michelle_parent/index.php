@@ -11,9 +11,12 @@
 
     <h1>Michelle<span class="last-name"> Parent</span></h1>
     <ul class="interests">
+    <li>Illustration</li>
+    <li>Music</li>
+    <li>Rainbows</li>
     </ul>
 
-    <p>Mimi's specialties lie in heavily conceptual design that promotes feeling and thoughtfulness while still being anchored in meaning. She is inspired by minimalism, experimental typography/text based compositions, and layout design.</p>
+    <p>Michelle Parent is a graphic designer and illustrator living it up in Portland OR. In her free time you can catch her re-watching Game of Thrones with her munchkin cat, or drawing trees in Washington Park. One of her greatest accomplishments was being born on Beyonce’s birthday which ultimately informs her fun and fresh approach to art and design.</p>
 
     <!--
     <h4 class="bio_question">What is your favorite plant?</h4>
