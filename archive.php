@@ -51,6 +51,17 @@
 		<!--end THUMBNAIL GRID-->
 
 	 <!--STATEMENT-->
+	 <div class="row statement">
+			<div class="s3 c6" style="text-align:center;">
+				<h1 class="archive-header">WINTER 2018 GRADUATE PORTFOLIOS</h1>
+				<img class="arrow_dn" src="src/img/arrow.svg">
+			</div>
+		</div>
+		<!--end STATEMENT-->
+		<?php include 'students/winter18/grad-tiles.php'; ?>
+		<!--end THUMBNAIL GRID-->
+
+	 <!--STATEMENT-->
 		<div class="row statement">
 			<div class="s3 c6" style="text-align:center;">
 				<h1 class="archive-header">FALL 2017 GRADUATE PORTFOLIOS</h1>
