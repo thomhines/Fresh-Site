@@ -21,8 +21,8 @@
 <!-- Social Media Post Info -->
 <meta property="og:type" content="website" />
 <meta property="og:title" content="FRESH | PSUGD Senior Portfolio Showcase" />
-<meta property="og:description" content="You are invited to our senior portfolio show! On June 12th, please join us at Custom Blocks for drinks from Rogue, pizza from Sizzlepie and lots of PSUGD work!" />
-<meta property="og:image" content="https://psu.gd/fresh/src/img/spring2018/banner.jpg" />
+<meta property="og:description" content="You are invited to our senior portfolio show! On August 29th, Come mingle with the Portland State Graphic Design summer grads at Owen Jones while enjoying 80’s jams and free alcoholic beverages. This speed dating sesh will spark some connections and you might even leave with a few phone numbers." />
+<meta property="og:image" content="https://psu.gd/fresh/src/img/summer2018/banner.jpg" />
 <meta property="og:site_name" content="Portland State University Graphic Design">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -30,8 +30,8 @@
 <!-- <meta name="twitter:creator" content="!!!@individual_account"> -->
 <meta name="twitter:url" content="https://psu.gd/fresh/">
 <meta name="twitter:title" content="FRESH | PSUGD Senior Portfolio Showcase">
-<meta name="twitter:description" content="You are invited to our senior portfolio show! On June 12th, please join us at Custom Blocks for drinks from Rogue, pizza from Sizzlepie and lots of PSUGD work!">
-<meta name="twitter:image" content="https://psu.gd/fresh/src/img/spring2018/eventbanner.jpg">
+<meta name="twitter:description" content="You are invited to our senior portfolio show! On August 29th, Come mingle with the Portland State Graphic Design summer grads at Owen Jones while enjoying 80’s jams and free alcoholic beverages. This speed dating sesh will spark some connections and you might even leave with a few phone numbers.">
+<meta name="twitter:image" content="https://psu.gd/fresh/src/img/summer2018/banner.jpg">
 <link rel="image_src" href="https://psu.gd/fresh/src/img/spring2018/eventbanner.jpg">
 
 
