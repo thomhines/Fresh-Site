@@ -14,7 +14,7 @@
 <link href="src/styles/framework/reset.css" rel="stylesheet">
 <!-- <link href="src/styles/framework/fonts.css" rel="stylesheet"> -->
 <!-- CSS FRAMEWORK--> <!-- change every term -->
-<link href="src/styles/spring2018/spring2018.css" rel="stylesheet">
+<link href="src/styles/summer2018/summer2018.css" rel="stylesheet">
 <!-- END CSS -->
 
 

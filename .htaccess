@@ -1,0 +1,7 @@
+# Save The Date redirect
+#RewriteCond %{REQUEST_URI} !save-the-date
+#RewriteRule ^(.*)$ https://psu.gd/fresh/save-the-date/ [R=302,L]
+
+# RewriteRule ^$ /fresh/save-the-date.php [L]
+
+# RewriteRule ^$ /Fresh-Site/save-the-date/ [L]
