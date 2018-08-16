@@ -10,9 +10,11 @@
 <div class="sponsors">
     <h2>Thanks to our Sponsors!</h2>
     <div class="logos">
-     
-        <a id="roots" href="http://www.wildrootsspirits.com"><img src="src/img/summer2018/wrlogo.png"></a>
-        <a href="https://decadentcreations.com/"><img src="src/img/summer2018/dclogo.png"></a>
+        <a href="https://www.halfcourtstudio.com/"><img id="halfcourt" src="src/img/spring2018/halfcourt_logo-01.svg"></a>
+        <a href="http://www.customblocksportland.com/"><img src="src/img/spring2018/CapstonePartnersLogo_2015_Bluegrey.svg"></a>
+        <a href="https://www.sizzlepie.com/"><img src="src/img/spring2018/sizzle_pie_logo.svg"></a>
         <a href="https://www.rogue.com/"><img src="src/img/spring2018/rogue-ales-logo.svg"></a>
+        <a href="https://www.newseasonsmarket.com/"><img src="src/img/spring2018/newseasons_logo.svg"></a>
+        <a href="https://www.coffeebeer.me/"><img src="src/img/spring2018/coffee_beer_logo.svg"></a>
     </div>
 </div>
